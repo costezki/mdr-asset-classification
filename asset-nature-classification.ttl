@@ -1,0 +1,125 @@
+# baseURI: http://publications.europa.eu/ontology/euvoc/unnamed
+# imports: http://purl.org/dc/elements/1.1/
+# imports: http://purl.org/dc/terms/
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://www.w3.org/2008/05/skos-xl
+
+@prefix : <http://publications.europa.eu/ontology/euvoc/unnamed#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://publications.europa.eu/ontology/euvoc/unnamed>
+  rdf:type owl:Ontology ;
+  owl:imports <http://purl.org/dc/elements/1.1/> ;
+  owl:imports dct: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:imports <http://www.w3.org/2008/05/skos-xl> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+:Assets
+  rdf:type skos:ConceptScheme ;
+  rdfs:comment "Assets" ;
+  rdfs:label "Assets" ;
+  owl:versionInfo "1" ;
+.
+:Resource_1
+  rdf:type rdfs:Resource ;
+  rdfs:comment "Resource 1" ;
+  rdfs:label "Resource 1" ;
+  owl:versionInfo "1" ;
+.
+:application_model
+  rdf:type skos:Concept ;
+  rdfs:comment "application model" ;
+  rdfs:label "application model" ;
+  owl:versionInfo "1" ;
+  skos:broader :logical_model ;
+.
+:application_profile
+  rdf:type skos:Concept ;
+  rdfs:comment "application profile" ;
+  rdfs:label "application profile" ;
+  owl:versionInfo "1" ;
+  skos:broader :application_model ;
+  skos:definition [
+      rdf:type skosxl:Label ;
+      dct:references "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+      dct:source "Dublin Core" ;
+      dct:source "NISO TR-06-2017" ;
+      skosxl:literalForm "In the computer information sciences, an application profile consists of a set of metadata elements, policies, and guidelines defined for a particular application."@en ;
+    ] ;
+  skos:definition [
+      rdf:type skosxl:Label ;
+      dct:source "Danish gov digital data strategy 2016-2020" ;
+      skosxl:literalForm "application profile : application model that by means profiling reuses selected elements from one or more vocabularies based on the RDF description framework"@en ;
+    ] ;
+.
+:concept_diagram
+  rdf:type skos:Concept ;
+  rdfs:comment "concept diagram" ;
+  rdfs:label "concept diagram" ;
+  owl:versionInfo "1" ;
+  skos:broader :conceptual_model ;
+.
+:concept_list
+  rdf:type skos:Concept ;
+  rdfs:comment "concept list" ;
+  rdfs:label "concept list" ;
+  owl:versionInfo "1" ;
+  skos:broader :conceptual_model ;
+  skos:definition "concept list : representation of a concept model in list form [Danish gov digital data strategy 2016-2020][https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf]"@en ;
+.
+:conceptual_model
+  rdf:type skos:Concept ;
+  rdfs:comment "conceptual model" ;
+  rdfs:label "conceptual model" ;
+  owl:versionInfo "1" ;
+  skos:broader :model ;
+.
+:core_model
+  rdf:type skos:Concept ;
+  rdfs:comment "core model" ;
+  rdfs:label "core model" ;
+  owl:versionInfo "1" ;
+  skos:altLabel "core vocabulary"@en ;
+  skos:broader :logical_model ;
+  skos:definition """core model : reusable logical model of a domain focussing on a central business object that does not define model elements defined in other core models [Danish gov digital data strategy 2016-2020][https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf
+]"""@en ;
+.
+:logical_model
+  rdf:type skos:Concept ;
+  rdfs:comment "logical model" ;
+  rdfs:label "logical model" ;
+  owl:versionInfo "1" ;
+  skos:broader :model ;
+.
+:model
+  rdf:type skos:Concept ;
+  rdfs:comment "model" ;
+  rdfs:label "model" ;
+  owl:versionInfo "1" ;
+  skos:inScheme :Assets ;
+.
+:ontology
+  rdf:type skos:Concept ;
+  rdfs:comment "ontology" ;
+  rdfs:label "ontology" ;
+  owl:versionInfo "1" ;
+  skos:broader :logical_model ;
+  skos:definition [
+      rdf:type rdfs:Resource ;
+    ] ;
+.
+:value_vocabulary
+  rdf:type skos:ConceptScheme ;
+  rdfs:comment "value vocabulary" ;
+  rdfs:label "value vocabulary" ;
+  owl:versionInfo "1" ;
+  skos:inScheme :Assets ;
+.

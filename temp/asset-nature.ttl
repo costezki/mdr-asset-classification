@@ -1,0 +1,3567 @@
+@prefix : <http://publications.europa.eu/resource/authority/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix expr: <http://publications.europa.eu/resource/authority/spectrum/> .
+@prefix asset: <http://publications.europa.eu/resource/authority/asset-nature/> .
+
+:asset-nature a owl:Ontology , skos:ConceptScheme ;
+	owl:imports <http://publications.europa.eu/ontology/euvoc> , <http://purl.org/dc/elements/1.1/> , <http://purl.org/dc/terms/> , <http://www.w3.org/2004/02/skos/core> , <http://www.w3.org/2008/05/skos-xl> ;
+	owl:versionInfo "Created by Eugeniu Costetchi" ;
+	skos:prefLabel "Asset Nature"@en .
+
+:spectrum a skos:ConceptScheme ;
+	skos:prefLabel "Semantic Spectrum"@en .
+
+expr:1 a skos:Concept ;
+	skos:prefLabel "eliminating ambiguity or controling synonyms"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "eliminating ambiguity or controling synonyms"@en .
+
+expr:10 a skos:Concept ;
+	skos:prefLabel "formal description (frames with slots and values/ class-property, structural constraints)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "formal description (frames with slots and values/ class-property, structural constraints)"@en .
+
+expr:11 a skos:Concept ;
+	skos:prefLabel "formal association (arbitrary relations between classes)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "formal association (arbitrary relations between classes)"@en .
+
+expr:12 a skos:Concept ;
+	skos:prefLabel "instantiation (formal isA type ascription)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "instantiation (formal isA type ascription)"@en .
+
+expr:13 a skos:Concept ;
+	skos:prefLabel "range and value restrictions"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "range and value restrictions"@en .
+
+expr:14 a skos:Concept ;
+	skos:prefLabel "limited logical constraints (disjointness, inverse, transitivity, part-of)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "limited logical constraints (disjointness, inverse, transitivity, part-of)"@en .
+
+expr:15 a skos:Concept ;
+	skos:prefLabel "very expressive constraints (general logical rules and constraints)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "very expressive constraints (general logical rules and constraints)"@en .
+
+expr:2 a skos:Concept ;
+	skos:prefLabel "informal description (definitions)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "informal description (definitions)"@en .
+
+expr:3 a skos:Concept ;
+	skos:prefLabel "informal association (relatedness, unlabelled relation)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "informal association (relatedness, unlabelled relation)"@en .
+
+expr:4 a skos:Concept ;
+	skos:prefLabel "categorization (loose groupping)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "categorization (loose groupping)"@en .
+
+expr:5 a skos:Concept ;
+	skos:prefLabel "classification (faceted: by a propoerty/characteristics)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "classification (faceted: by a propoerty/characteristics)"@en .
+
+expr:6 a skos:Concept ;
+	skos:prefLabel "informal classification (hierarchy of kindOf/isA/broader/partOf)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "informal classification (hierarchy of kindOf/isA/broader/partOf)"@en .
+
+expr:7 a skos:Concept ;
+	skos:prefLabel "informal named association (labelled relations)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "informal named association (labelled relations)"@en .
+
+expr:8 a skos:Concept ;
+	skos:prefLabel "formal element and format definition (expressed using a formal language)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "formal element and format definition (expressed using a formal language)"@en .
+
+expr:9 a skos:Concept ;
+	skos:prefLabel "formal classification/taxonomy (class definition and subClassOf/subPropoerty relationships)"@en ;
+	skos:inScheme :spectrum ;
+	rdfs:label "formal classification/taxonomy (class definition and subClassOf/subPropoerty relationships)"@en .
+
+asset:t1 a skos:Concept ;
+	skos:prefLabel "application profile"@en ;
+	skos:altLabel "ap"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "application profile"@en ;
+	skosxl:altLabel asset:t1-label-565a8a16bf1a70901090f7828e0a0320 ;
+	skosxl:prefLabel asset:t1-label-4fa54eefd2529893c177ba581c24688a .
+
+asset:t10 a skos:Concept ;
+	skos:prefLabel "knowledge organization systems (kos)"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "knowledge organization systems (kos)"@en ;
+	skosxl:prefLabel asset:t10-label-a1d109386696d9b1c6c73b396502c6ea .
+
+asset:t100 a skos:Concept ;
+	skos:prefLabel "data element"@en ;
+	skos:altLabel "element"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "data element"@en ;
+	skosxl:altLabel asset:t100-label-5bc4cdbe4c3ce1752350097bca3175ae ;
+	skosxl:prefLabel asset:t100-label-db4da06c7bf4d507ec32470af3cbc83e .
+
+asset:t101 a skos:Concept ;
+	skos:prefLabel "conceptual model"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "conceptual model"@en ;
+	skosxl:prefLabel asset:t101-label-81b3df625498a497730e7e2bc255e9c8 .
+
+asset:t102 a skos:Concept ;
+	skos:prefLabel "concept system"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "concept system"@en ;
+	skosxl:prefLabel asset:t102-label-9a6705b5b68d4764f942dd9e905f7d6f .
+
+asset:t103 a skos:Concept ;
+	skos:prefLabel "data model"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "data model"@en ;
+	skosxl:prefLabel asset:t103-label-37ab17902f5a798817be7ca1840fb1f2 .
+
+asset:t104 a skos:Concept ;
+	skos:prefLabel "terminological system"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "terminological system"@en ;
+	skosxl:prefLabel asset:t104-label-770a12332498dd3182e908643c9392a5 .
+
+asset:t105 a skos:Concept ;
+	skos:prefLabel "classification scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification scheme"@en ;
+	skosxl:prefLabel asset:t105-label-9f996418ae598123c873e0be8f3fa2e7 .
+
+asset:t106 a skos:Concept ;
+	skos:prefLabel "named authority list"@en ;
+	skos:altLabel " authority list "@en , " name authority file"@en , "name authority list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "named authority list"@en ;
+	skosxl:altLabel asset:t106-label-56c9394719e3e642f5f75796408b6e39 , asset:t106-label-742f9cc1204a5cb2913bb588834a5d92 , asset:t106-label-a159720acabf9028322ef11ff8a7eff8 ;
+	skosxl:prefLabel asset:t106-label-2352f022895fce95f23ed12e5848272b .
+
+asset:t107 a skos:Concept ;
+	skos:prefLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabulary"@en ;
+	skosxl:prefLabel asset:t107-label-12dd04eaa3989860fa7476c9e0ca6fec .
+
+asset:t108 a skos:Concept ;
+	skos:prefLabel "mapping"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "mapping"@en ;
+	skosxl:prefLabel asset:t108-label-c4727b614e0d131048667356720b93f8 .
+
+asset:t109 a skos:Concept ;
+	skos:prefLabel "reference asset"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "reference asset"@en ;
+	skosxl:prefLabel asset:t109-label-585eac8f2b22aaf116eb67f46080bb85 .
+
+asset:t11 a skos:Concept ;
+	skos:prefLabel "linked open data"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "linked open data"@en ;
+	skosxl:prefLabel asset:t11-label-15c2ce6f3b39d216214d65755f088515 .
+
+asset:t110 a skos:Concept ;
+	skos:prefLabel "code list"@en ;
+	skos:altLabel "harmonised (common) code lists "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code list"@en ;
+	skosxl:altLabel asset:t110-label-e0cdfc54ee80fcf5fccd497820da37b0 ;
+	skosxl:prefLabel asset:t110-label-3d7d35dc4b144c26b4b686389d810c3f .
+
+asset:t111 a skos:Concept ;
+	skos:prefLabel "classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification"@en ;
+	skosxl:prefLabel asset:t111-label-29539d6373493b5b61d4e87f51522719 .
+
+asset:t112 a skos:Concept ;
+	skos:prefLabel "taxonomy"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "taxonomy"@en ;
+	skosxl:prefLabel asset:t112-label-a712ba5cc5b46d2cc09d9aabd450016f .
+
+asset:t113 a skos:Concept ;
+	skos:prefLabel "code list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code list"@en ;
+	skosxl:prefLabel asset:t113-label-4d6611db1f644445fd323f7c579d7c2d .
+
+asset:t114 a skos:Concept ;
+	skos:prefLabel "structured vocabulary"@en ;
+	skos:altLabel " element set"@en , " metadata element set"@en , " propoerty vocabulary"@en , " schema vocabulary"@en , "element vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "structured vocabulary"@en ;
+	skosxl:altLabel asset:t114-label-2dbda2aa43a1335114935ec352501982 , asset:t114-label-4bdb71e5fb38c20106259a9974c7c633 , asset:t114-label-c06e782dc6144e09c9f5379eac9af964 , asset:t114-label-d1b175ed64d7aa5f13300b41052fd86c , asset:t114-label-e82a8e1dc6432173988c04edc5ee7f64 ;
+	skosxl:prefLabel asset:t114-label-9a713a4e506451c7233710bc4df73aed .
+
+asset:t115 a skos:Concept ;
+	skos:prefLabel "code list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code list"@en ;
+	skosxl:prefLabel asset:t115-label-61a86830f775bccc2bbbbd1a8b4abfeb .
+
+asset:t116 a skos:Concept ;
+	skos:prefLabel "data dictionary"@en ;
+	skos:altLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "data dictionary"@en ;
+	skosxl:altLabel asset:t116-label-c2ac26ebb6d9ddc0e6897e8940a7f098 ;
+	skosxl:prefLabel asset:t116-label-e012fa441c09bdb44c9537b8538ef441 .
+
+asset:t117 a skos:Concept ;
+	skos:prefLabel "value domain"@en ;
+	skos:altLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "value domain"@en ;
+	skosxl:altLabel asset:t117-label-807a09dfc0d5842ecc80be4f4af2fb5a ;
+	skosxl:prefLabel asset:t117-label-8cebac9acfd6e78358d0773153cc340d .
+
+asset:t118 a skos:Concept ;
+	skos:prefLabel "data element dictionary"@en ;
+	skos:altLabel "element set"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "data element dictionary"@en ;
+	skosxl:altLabel asset:t118-label-8121ac87a8ebedadbd7f772513e7b4e2 ;
+	skosxl:prefLabel asset:t118-label-6dc449ed428f40a9816ded90e9202b94 .
+
+asset:t119 a skos:Concept ;
+	skos:prefLabel "code space"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code space"@en ;
+	skosxl:prefLabel asset:t119-label-22934906845576a64cbe76092381b703 .
+
+asset:t12 a skos:Concept ;
+	skos:prefLabel "mapping"@en ;
+	skos:altLabel "alignment"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "mapping"@en ;
+	skosxl:altLabel asset:t12-label-fd8d0ad8f7f44e363de84d757a98c2fd ;
+	skosxl:prefLabel asset:t12-label-3deb80d7dc8d682e7a23be205024b6e4 .
+
+asset:t120 a skos:Concept ;
+	skos:prefLabel "concept model"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "concept model"@en ;
+	skosxl:prefLabel asset:t120-label-d52dd287ce453d164cb5948df0871544 .
+
+asset:t121 a skos:Concept ;
+	skos:prefLabel "concept list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "concept list"@en ;
+	skosxl:prefLabel asset:t121-label-17110c0452a43207997a790e8dccabb9 .
+
+asset:t122 a skos:Concept ;
+	skos:prefLabel "concept model"@en ;
+	skos:altLabel "concept diagram"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "concept model"@en ;
+	skosxl:altLabel asset:t122-label-0151ab5d533c4713477c508d7508dcbd ;
+	skosxl:prefLabel asset:t122-label-4741ae9b1cef193da6bf35dd76b6a642 .
+
+asset:t123 a skos:Concept ;
+	skos:prefLabel "logical model"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "logical model"@en ;
+	skosxl:prefLabel asset:t123-label-8185fc115fb97c32d7a3dd5503d7b60f .
+
+asset:t124 a skos:Concept ;
+	skos:prefLabel "core model"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "core model"@en ;
+	skosxl:prefLabel asset:t124-label-ae4f0af9530796cd53cf39ec2c3e822d .
+
+asset:t125 a skos:Concept ;
+	skos:prefLabel "application model"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "application model"@en ;
+	skosxl:prefLabel asset:t125-label-f7f92c54173f97c6cf24b3859b3d873f .
+
+asset:t126 a skos:Concept ;
+	skos:prefLabel "logical model in rdf"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "logical model in rdf"@en ;
+	skosxl:prefLabel asset:t126-label-444c147f9a681090300de36f04bb3858 .
+
+asset:t127 a skos:Concept ;
+	skos:prefLabel "structured vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "structured vocabulary"@en ;
+	skosxl:prefLabel asset:t127-label-45753ffe428665ab4dba0917c8d4c529 .
+
+asset:t128 a skos:Concept ;
+	skos:prefLabel "application profile"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "application profile"@en ;
+	skosxl:prefLabel asset:t128-label-81fdba3ddb53b781a60e338af2c9fdc3 .
+
+asset:t129 a skos:Concept ;
+	skos:prefLabel "code list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code list"@en ;
+	skosxl:prefLabel asset:t129-label-385a07b4a3b19ca4e92b9e45e38324e2 .
+
+asset:t13 a skos:Concept ;
+	skos:prefLabel "metadata"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "metadata"@en ;
+	skosxl:prefLabel asset:t13-label-cb3f934813effd124c6c3aa01f0d99a7 .
+
+asset:t130 a skos:Concept ;
+	skos:prefLabel "application shema"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "application shema"@en ;
+	skosxl:prefLabel asset:t130-label-60c2fc4b2329a77a79a09ea909250879 .
+
+asset:t131 a skos:Concept ;
+	skos:prefLabel "feature concept dictionary "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "feature concept dictionary "@en ;
+	skosxl:prefLabel asset:t131-label-b96d1824571c4bfa1c6ef665e33159a9 .
+
+asset:t132 a skos:Concept ;
+	skos:prefLabel "glossary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "glossary"@en ;
+	skosxl:prefLabel asset:t132-label-63c78e5ea245646d739180410fec3ef4 .
+
+asset:t133 a skos:Concept ;
+	skos:prefLabel "theme register"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "theme register"@en ;
+	skosxl:prefLabel asset:t133-label-bf98bf237c8d581af917d8093c7487df .
+
+asset:t134 a skos:Concept ;
+	skos:prefLabel "reference document register"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "reference document register"@en ;
+	skosxl:prefLabel asset:t134-label-db7e4435367d44c26cdae9dc728e116f .
+
+asset:t135 a skos:Concept ;
+	skos:prefLabel "code list register "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code list register "@en ;
+	skosxl:prefLabel asset:t135-label-868536e77930729254f47c36c14d0d99 .
+
+asset:t136 a skos:Concept ;
+	skos:prefLabel "metadata code list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "metadata code list"@en ;
+	skosxl:prefLabel asset:t136-label-7f5220d6ba7453a5c0ac012adf21c761 .
+
+asset:t137 a skos:Concept ;
+	skos:prefLabel "register"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "register"@en ;
+	skosxl:prefLabel asset:t137-label-a15c54803bf4421d8fc49a83cea6dcb7 .
+
+asset:t138 a skos:Concept ;
+	skos:prefLabel "metadata element "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "metadata element "@en ;
+	skosxl:prefLabel asset:t138-label-4350e78fd661f6bc87ac5fb890abf411 .
+
+asset:t139 a skos:Concept ;
+	skos:prefLabel "value domain"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "value domain"@en ;
+	skosxl:prefLabel asset:t139-label-e2acffe38ea767c7ce1333410bca9507 .
+
+asset:t14 a skos:Concept ;
+	skos:prefLabel "name authority list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "name authority list"@en ;
+	skosxl:prefLabel asset:t14-label-1e36a6906a219df551a46437b9ae7e2f .
+
+asset:t140 a skos:Concept ;
+	skos:prefLabel "classification"@en ;
+	skos:altLabel "nomenclature"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification"@en ;
+	skosxl:altLabel asset:t140-label-8b49d6f0fcd1bc9677302ea622e59beb ;
+	skosxl:prefLabel asset:t140-label-17120b7769c0fffff70bbeafa967b1ce .
+
+asset:t141 a skos:Concept ;
+	skos:prefLabel "code"@en ;
+	skos:altLabel "code letters and numbers"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code"@en ;
+	skosxl:altLabel asset:t141-label-98e0202524ef0fd3626ce42da3c13f71 ;
+	skosxl:prefLabel asset:t141-label-5c3e28c2fd97b260da1ddcecb2e87bf4 .
+
+asset:t142 a skos:Concept ;
+	skos:prefLabel "coding structure"@en ;
+	skos:altLabel "coding system"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "coding structure"@en ;
+	skosxl:altLabel asset:t142-label-405b23c6bb9478eb27b2391071783fdd ;
+	skosxl:prefLabel asset:t142-label-1d1a26e5b0435a8edcd5015dd11e6e52 .
+
+asset:t143 a skos:Concept ;
+	skos:prefLabel "concept"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "concept"@en ;
+	skosxl:prefLabel asset:t143-label-5c1424f7a80712deadb6d3164f9f0449 .
+
+asset:t144 a skos:Concept ;
+	skos:prefLabel "structured vocabulary "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "structured vocabulary "@en ;
+	skosxl:prefLabel asset:t144-label-3928cd9dc255b08ec38ed6116748da6c .
+
+asset:t145 a skos:Concept ;
+	skos:prefLabel "correspondance table"@en ;
+	skos:altLabel "mapping"@en , " alignment"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "correspondance table"@en ;
+	skosxl:altLabel asset:t145-label-32d373174b34af013afef04ef36e8978 , asset:t145-label-5d654f6a99f69160d13d0d043198ee73 ;
+	skosxl:prefLabel asset:t145-label-abd79b2076af7b7e41362f9428cb5472 .
+
+asset:t146 a skos:Concept ;
+	skos:prefLabel "category"@en ;
+	skos:altLabel "element"@en , " "@en , " item"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "category"@en ;
+	skosxl:altLabel asset:t146-label-4addefdd8f34a722c5cc66138d113050 , asset:t146-label-78e5916181209ce64a8abb5666922878 , asset:t146-label-a4b2af0c51d1c70e93f191217c15ffb4 ;
+	skosxl:prefLabel asset:t146-label-897ce77309a16876c93caddb63575cee .
+
+asset:t147 a skos:Concept ;
+	skos:prefLabel "format"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "format"@en ;
+	skosxl:prefLabel asset:t147-label-238bfb873cec235216d9d3c6df526592 .
+
+asset:t148 a skos:Concept ;
+	skos:prefLabel "framework"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "framework"@en ;
+	skosxl:prefLabel asset:t148-label-a2fbdc7056e69de1e3000cc16791c00b .
+
+asset:t149 a skos:Concept ;
+	skos:prefLabel "hierarchy"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "hierarchy"@en ;
+	skosxl:prefLabel asset:t149-label-1f147446d1ac60440b6c0cb5cdcdac69 .
+
+asset:t15 a skos:Concept ;
+	skos:prefLabel "ontology"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "ontology"@en ;
+	skosxl:prefLabel asset:t15-label-04c93a3a11acabc821895166372cf64d .
+
+asset:t150 a skos:Concept ;
+	skos:prefLabel "nomemclature"@en ;
+	skos:altLabel "classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "nomemclature"@en ;
+	skosxl:altLabel asset:t150-label-46a58559543a27f794b6dbb4f0acd46d ;
+	skosxl:prefLabel asset:t150-label-cc72d3f673c20d81448d80d800fa460d .
+
+asset:t151 a skos:Concept ;
+	skos:prefLabel "reference classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "reference classification"@en ;
+	skosxl:prefLabel asset:t151-label-2581ccf2171445b693d973885f69ba70 .
+
+asset:t152 a skos:Concept ;
+	skos:prefLabel "standard classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "standard classification"@en ;
+	skosxl:prefLabel asset:t152-label-39ce911975990503c899c34b6bf6a849 .
+
+asset:t153 a skos:Concept ;
+	skos:prefLabel "statistical classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "statistical classification"@en ;
+	skosxl:prefLabel asset:t153-label-d45cc60e4d08f3a922613afff0b41098 .
+
+asset:t154 a skos:Concept ;
+	skos:prefLabel "structural links"@en ;
+	skos:altLabel "mapping"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "structural links"@en ;
+	skosxl:altLabel asset:t154-label-b50e37d018b65ccfee3304bd2c6f2f06 ;
+	skosxl:prefLabel asset:t154-label-bcb1c3f61f0a35bb049e829f10365607 .
+
+asset:t155 a skos:Concept ;
+	skos:prefLabel "term"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "term"@en ;
+	skosxl:prefLabel asset:t155-label-f19fe53289265a165c7d60b70bd7fb67 .
+
+asset:t156 a skos:Concept ;
+	skos:prefLabel "terminology"@en ;
+	skos:altLabel "classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "terminology"@en ;
+	skosxl:altLabel asset:t156-label-a40929267465cbd90ebe0d6f95bfc097 ;
+	skosxl:prefLabel asset:t156-label-4c62ebecce4b35c426861051cd881fe1 .
+
+asset:t157 a skos:Concept ;
+	skos:prefLabel "hierarchical code list"@en ;
+	skos:altLabel "code list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "hierarchical code list"@en ;
+	skosxl:altLabel asset:t157-label-372fd6195f41b4d96bbd861f5e778340 ;
+	skosxl:prefLabel asset:t157-label-7aa503ce3615c9248806ab1e7ac698e4 .
+
+asset:t158 a skos:Concept ;
+	skos:prefLabel "thesaurus"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesaurus"@en ;
+	skosxl:prefLabel asset:t158-label-90e5d53176bc46a8aa0a15009100632d .
+
+asset:t159 a skos:Concept ;
+	skos:prefLabel "subject headings"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "subject headings"@en ;
+	skosxl:prefLabel asset:t159-label-8b24a1a690fff837905c9d80fbac4071 .
+
+asset:t16 a skos:Concept ;
+	skos:prefLabel "properties"@en ;
+	skos:altLabel " element set"@en , "elements"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "properties"@en ;
+	skosxl:altLabel asset:t16-label-275d2979d33393e667afec708209617b , asset:t16-label-a2b3bc8d9dcf1458f9be636187b73e15 ;
+	skosxl:prefLabel asset:t16-label-802f1194d5505466dd9c5ef5faaa42c5 .
+
+asset:t160 a skos:Concept ;
+	skos:prefLabel "name authority file"@en ;
+	skos:altLabel "name authority list"@en , " "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "name authority file"@en ;
+	skosxl:altLabel asset:t160-label-807729a5f075ee6c04782fb36783b070 , asset:t160-label-f750043bd2c90ca4953403e45c46dfc5 ;
+	skosxl:prefLabel asset:t160-label-0780aa6b5040979ac4b41ebcdbf2c5ed .
+
+asset:t161 a skos:Concept ;
+	skos:prefLabel "classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification"@en ;
+	skosxl:prefLabel asset:t161-label-90363692be858b121bb5cd86a688e3fe .
+
+asset:t162 a skos:Concept ;
+	skos:prefLabel "classification scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification scheme"@en ;
+	skosxl:prefLabel asset:t162-label-a9226c74615e7824b634d29fe50b18e7 .
+
+asset:t163 a skos:Concept ;
+	skos:prefLabel "linked data service"@en ;
+	skos:altLabel "metadata registry"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "linked data service"@en ;
+	skosxl:altLabel asset:t163-label-221abaa5ffcd55f59798300db7dc0eb5 ;
+	skosxl:prefLabel asset:t163-label-14fd6753e19639598dabe6024081c085 .
+
+asset:t164 a skos:Concept ;
+	skos:prefLabel "authority headings"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "authority headings"@en ;
+	skosxl:prefLabel asset:t164-label-98dce24dc9e60bdba76c17968ab57886 .
+
+asset:t165 a skos:Concept ;
+	skos:prefLabel "heading list type"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "heading list type"@en ;
+	skosxl:prefLabel asset:t165-label-82aead303f7cbc5bfaeefd0866dbe111 .
+
+asset:t166 a skos:Concept ;
+	skos:prefLabel "code list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code list"@en ;
+	skosxl:prefLabel asset:t166-label-e949e65504aff4308c40c0d3e85ef1dc .
+
+asset:t167 a skos:Concept ;
+	skos:prefLabel "code list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code list"@en ;
+	skosxl:prefLabel asset:t167-label-6f7a17ac2ec8285af66507afeb7d3ad1 .
+
+asset:t168 a skos:Concept ;
+	skos:prefLabel "subject-matter domains"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "subject-matter domains"@en ;
+	skosxl:prefLabel asset:t168-label-40c6d98db9ef3a5995aee7c0c1ea3b1f .
+
+asset:t169 a skos:Concept ;
+	skos:prefLabel "structural metadata"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "structural metadata"@en ;
+	skosxl:prefLabel asset:t169-label-f13e9788a0df0de79cc00442eab7d422 .
+
+asset:t17 a skos:Concept ;
+	skos:prefLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabulary"@en ;
+	skosxl:prefLabel asset:t17-label-66af6030d6a7800a044979d4cb96e49e .
+
+asset:t170 a skos:Concept ;
+	skos:prefLabel "code list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code list"@en ;
+	skosxl:prefLabel asset:t170-label-99a49c85ce4c1ace3e29981035005aa9 .
+
+asset:t171 a skos:Concept ;
+	skos:prefLabel "organisation scheme"@en ;
+	skos:altLabel "organigram"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "organisation scheme"@en ;
+	skosxl:altLabel asset:t171-label-be76df8933fbbe26ea80852a182ad68d ;
+	skosxl:prefLabel asset:t171-label-e89023f9be66600c079b26b8618cd5ca .
+
+asset:t172 a skos:Concept ;
+	skos:prefLabel "category scheme and categorisation"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "category scheme and categorisation"@en ;
+	skosxl:prefLabel asset:t172-label-c1c0e1a1e9ddd7c25f58e5c3fd04f6b4 .
+
+asset:t173 a skos:Concept ;
+	skos:prefLabel "concept scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "concept scheme"@en ;
+	skosxl:prefLabel asset:t173-label-9f3adeae84b4c877633811ba75f4f3ef .
+
+asset:t174 a skos:Concept ;
+	skos:prefLabel "metadata set"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "metadata set"@en ;
+	skosxl:prefLabel asset:t174-label-710587bc7579a720425041f117babf9d .
+
+asset:t175 a skos:Concept ;
+	skos:prefLabel "metadata structure definition"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "metadata structure definition"@en ;
+	skosxl:prefLabel asset:t175-label-b411770153d0802bfa0aa1e2a26cc346 .
+
+asset:t176 a skos:Concept ;
+	skos:prefLabel "structure set"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "structure set"@en ;
+	skosxl:prefLabel asset:t176-label-24186a3c3f11cbb2f25f0925e27744e5 .
+
+asset:t177 a skos:Concept ;
+	skos:prefLabel "hierarchical code list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "hierarchical code list"@en ;
+	skosxl:prefLabel asset:t177-label-81bf520f70b135b927ba13e9f7b487f1 .
+
+asset:t178 a skos:Concept ;
+	skos:prefLabel "code lists "@en ;
+	skos:altLabel " controlled vocabulary"@en , "codelist"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "code lists "@en ;
+	skosxl:altLabel asset:t178-label-06bd48043345b64a328c70508ad9e7c2 , asset:t178-label-b3b891e9592c541a71a60b2ed4cac5ae ;
+	skosxl:prefLabel asset:t178-label-661bb248812dcaa2c9ffc8c68bdc2d3b .
+
+asset:t179 a skos:Concept ;
+	skos:prefLabel "value vocabulary"@en ;
+	skos:altLabel " controlled vocabulary"@en , " concept vocabulary"@en , "content vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "value vocabulary"@en ;
+	skosxl:altLabel asset:t179-label-1b8d132a2855e9d9b4c6008a28d444b3 , asset:t179-label-87ed520d0d903319e2b194156213eee3 , asset:t179-label-f1f42897a6a221df620cf34643946474 ;
+	skosxl:prefLabel asset:t179-label-3f7400f57cbcc06f8febae5390cedbfc .
+
+asset:t18 a skos:Concept ;
+	skos:prefLabel "schedule"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "schedule"@en ;
+	skosxl:prefLabel asset:t18-label-c5f10ae4f2f6ab551096a5ea3ffa7de9 .
+
+asset:t180 a skos:Concept ;
+	skos:prefLabel "term list"@en ;
+	skos:altLabel "pick list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "term list"@en ;
+	skosxl:altLabel asset:t180-label-3b08519ec8e37750ecb793cd895a09f4 ;
+	skosxl:prefLabel asset:t180-label-9387f40390a187ff85a1cc11e4f9901d .
+
+asset:t181 a skos:Concept ;
+	skos:prefLabel "authority files"@en ;
+	skos:altLabel " controlled vocabulary"@en , "named authority files"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "authority files"@en ;
+	skosxl:altLabel asset:t181-label-0d515b818d2a34cf6dd2a1942a55d1d0 , asset:t181-label-75ae6dcf90ee6dae4d91965a57f8bbea ;
+	skosxl:prefLabel asset:t181-label-b75a5c236de42c472f6a9c0a8f5d7d03 .
+
+asset:t182 a skos:Concept ;
+	skos:prefLabel "taxonomy"@en ;
+	skos:altLabel "tree"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "taxonomy"@en ;
+	skosxl:altLabel asset:t182-label-4e0ecfa080356f512ed43c8ae9c5f36c ;
+	skosxl:prefLabel asset:t182-label-8fd9395dac2ba5df9cadd6195cf225c8 .
+
+asset:t183 a skos:Concept ;
+	skos:prefLabel "thesaurus"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesaurus"@en ;
+	skosxl:prefLabel asset:t183-label-8f12a2d7147865b11d53e081950e774c .
+
+asset:t184 a skos:Concept ;
+	skos:prefLabel "thesaurus"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesaurus"@en ;
+	skosxl:prefLabel asset:t184-label-26640285dcddfa2503609c50742d0372 .
+
+asset:t185 a skos:Concept ;
+	skos:prefLabel "taxonomy "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "taxonomy "@en ;
+	skosxl:prefLabel asset:t185-label-978d78a400b99280ce318edca1095337 .
+
+asset:t186 a skos:Concept ;
+	skos:prefLabel "value vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "value vocabulary"@en ;
+	skosxl:prefLabel asset:t186-label-1f0105c91e2762987c9f8c120c74ffbe .
+
+asset:t187 a skos:Concept ;
+	skos:prefLabel "controlled format"@en ;
+	skos:altLabel " format encoding scheme"@en , "grammar"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled format"@en ;
+	skosxl:altLabel asset:t187-label-16782935f3bb04fbb25d0d91da660c54 , asset:t187-label-3b52e8ddf3c8338705481b5286c0d69c ;
+	skosxl:prefLabel asset:t187-label-06202c8839e2626358c7b8d04d4b733c .
+
+asset:t188 a skos:Concept ;
+	skos:prefLabel "vocabulary"@en ;
+	skos:altLabel " core model"@en , "domain ontology"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "vocabulary"@en ;
+	skosxl:altLabel asset:t188-label-01d2816a0cb798ea897b566b6b56363d , asset:t188-label-e8cd0ed248b04fa6510b37f7b7b22f98 ;
+	skosxl:prefLabel asset:t188-label-140d9a9526eed1cc8bc09625ece511d3 .
+
+asset:t189 a skos:Concept ;
+	skos:prefLabel "subject heading lists"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "subject heading lists"@en ;
+	skosxl:prefLabel asset:t189-label-227929591d1787f857246192e1dcd227 .
+
+asset:t19 a skos:Concept ;
+	skos:prefLabel "search thesaurus"@en ;
+	skos:altLabel "thesaurus"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "search thesaurus"@en ;
+	skosxl:altLabel asset:t19-label-913a8001b7fc4c12adeef772d6d05d89 ;
+	skosxl:prefLabel asset:t19-label-7080569caf453cf4f60b00065083cb68 .
+
+asset:t190 a skos:Concept ;
+	skos:prefLabel "controlled list"@en ;
+	skos:altLabel " pick list"@en , "flat term list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled list"@en ;
+	skosxl:altLabel asset:t190-label-577476c2c956749f7b8e583519d3bf88 , asset:t190-label-e27d490fcc3c10b5367dbf3ab7bb942d ;
+	skosxl:prefLabel asset:t190-label-72bc90a0015f4d39e3d86b2030ce588b .
+
+asset:t191 a skos:Concept ;
+	skos:prefLabel "synonym ring lists"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "synonym ring lists"@en ;
+	skosxl:prefLabel asset:t191-label-95bddbe5095a3b7f288baaf579f8c45d .
+
+asset:t192 a skos:Concept ;
+	skos:prefLabel "authority file"@en ;
+	skos:altLabel "authority list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "authority file"@en ;
+	skosxl:altLabel asset:t192-label-4667311256d8a51d57a01981ad6635e2 ;
+	skosxl:prefLabel asset:t192-label-33800896ca5385f8fe99e7abf80107de .
+
+asset:t193 a skos:Concept ;
+	skos:prefLabel "taxonomy"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "taxonomy"@en ;
+	skosxl:prefLabel asset:t193-label-55086a9a081bccf1f469c3b0857bbc66 .
+
+asset:t194 a skos:Concept ;
+	skos:prefLabel "alphanumeric classification schemes"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "alphanumeric classification schemes"@en ;
+	skosxl:prefLabel asset:t194-label-653ede8f7a21a2b1b3efe863ac7a5b9b .
+
+asset:t195 a skos:Concept ;
+	skos:prefLabel "thesauri"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesauri"@en ;
+	skosxl:prefLabel asset:t195-label-64087d11d183ba277cd1f0b5a682bbe5 .
+
+asset:t196 a skos:Concept ;
+	skos:prefLabel "ontology"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "ontology"@en ;
+	skosxl:prefLabel asset:t196-label-ef7cc8be9c0f8d6f8b9ca76b06ea5bf6 .
+
+asset:t197 a skos:Concept ;
+	skos:prefLabel "folksonomy"@en ;
+	skos:altLabel " folk categorisation"@en , " mob indexing"@en , " social indexing"@en , " social tagging"@en , "social classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "folksonomy"@en ;
+	skosxl:altLabel asset:t197-label-1f79e1640d540a532d4923a9a35dd7fc , asset:t197-label-292d25dcbf48beb3f73e6dc19ae0bd46 , asset:t197-label-5a74327f30dee8f01272fd12c5c90036 , asset:t197-label-d73e7b93c174b97f3e55cfa1d18cdd8e , asset:t197-label-e04f0d5778cce40e51662c759e62650d ;
+	skosxl:prefLabel asset:t197-label-7296130eb60103a0eb2fbbf004872e90 .
+
+asset:t198 a skos:Concept ;
+	skos:prefLabel "flat term list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "flat term list"@en ;
+	skosxl:prefLabel asset:t198-label-4ba4f9bfb7b7f86ebb762a03ac951d1d .
+
+asset:t199 a skos:Concept ;
+	skos:prefLabel "hierarchal term list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "hierarchal term list"@en ;
+	skosxl:prefLabel asset:t199-label-f805df9716496a395e59e315dffa588c .
+
+asset:t2 a skos:Concept ;
+	skos:prefLabel "application programming interface"@en ;
+	skos:altLabel "api"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "application programming interface"@en ;
+	skosxl:altLabel asset:t2-label-b20c2a6ccc902cb053d988478a9de58c ;
+	skosxl:prefLabel asset:t2-label-16e8b5c3513747e8665fbfe40eaf051b .
+
+asset:t20 a skos:Concept ;
+	skos:prefLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabulary"@en ;
+	skosxl:prefLabel asset:t20-label-502eca3906bd5b588028fa3fab41f4ce .
+
+asset:t200 a skos:Concept ;
+	skos:prefLabel "synonym ring "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "synonym ring "@en ;
+	skosxl:prefLabel asset:t200-label-a1d455003a583ef2891b8a928a79b43c .
+
+asset:t201 a skos:Concept ;
+	skos:prefLabel "authority file"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "authority file"@en ;
+	skosxl:prefLabel asset:t201-label-3e3f0bdc77b8994ceed9ec336fb0b16c .
+
+asset:t202 a skos:Concept ;
+	skos:prefLabel "classification schemes"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification schemes"@en ;
+	skosxl:prefLabel asset:t202-label-4af18b6ec8a1a69f734304c9999cc3a6 .
+
+asset:t203 a skos:Concept ;
+	skos:prefLabel "faceted controlled vocabularies"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "faceted controlled vocabularies"@en ;
+	skosxl:prefLabel asset:t203-label-c4dd6738fef31d74078dd239f7b64c10 .
+
+asset:t204 a skos:Concept ;
+	skos:prefLabel "thesauri"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesauri"@en ;
+	skosxl:prefLabel asset:t204-label-3f22d7eb016b053980a2b86e3bd91588 .
+
+asset:t205 a skos:Concept ;
+	skos:prefLabel "ontology"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "ontology"@en ;
+	skosxl:prefLabel asset:t205-label-f1ac361e1c9205a191d0a80d08afec06 .
+
+asset:t206 a skos:Concept ;
+	skos:prefLabel "vocabulary encoding scheme"@en ;
+	skos:altLabel " "@en , "concept scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "vocabulary encoding scheme"@en ;
+	skosxl:altLabel asset:t206-label-0e3fcbb20135ed36c3fb57a520e5e6cf , asset:t206-label-293fab7be96313364381f6137ac3b8cc ;
+	skosxl:prefLabel asset:t206-label-17ffd830fd01a13fc0ad7365163063d3 .
+
+asset:t207 a skos:Concept ;
+	skos:prefLabel "authority file"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "authority file"@en ;
+	skosxl:prefLabel asset:t207-label-db875dc2930b050ecc51a5a521278c60 .
+
+asset:t208 a skos:Concept ;
+	skos:prefLabel "hierarchical classification"@en ;
+	skos:altLabel "analytic classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "hierarchical classification"@en ;
+	skosxl:altLabel asset:t208-label-319fd076eb9bd0586f89fea94d8d7b6d ;
+	skosxl:prefLabel asset:t208-label-2e317ab12d323a4301f098c0c0cb30ff .
+
+asset:t209 a skos:Concept ;
+	skos:prefLabel "enumerative classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "enumerative classification"@en ;
+	skosxl:prefLabel asset:t209-label-4a7b89a599b59a3d437cb180e0766c34 .
+
+asset:t21 a skos:Concept ;
+	skos:prefLabel "metadata element sets"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "metadata element sets"@en ;
+	skosxl:prefLabel asset:t21-label-75754f8ce9c9c78cd86e274cba7d2260 .
+
+asset:t210 a skos:Concept ;
+	skos:prefLabel "synthetic classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "synthetic classification"@en ;
+	skosxl:prefLabel asset:t210-label-dd07bc5e128caf86c20c35fc625daf36 .
+
+asset:t211 a skos:Concept ;
+	skos:prefLabel "hierarchy "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "hierarchy "@en ;
+	skosxl:prefLabel asset:t211-label-476db6ac199a59100ccfb4bbd42a24aa .
+
+asset:t212 a skos:Concept ;
+	skos:prefLabel "taxonomy"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "taxonomy"@en ;
+	skosxl:prefLabel asset:t212-label-335e85bd56a37f9179060dad38c1ac02 .
+
+asset:t213 a skos:Concept ;
+	skos:prefLabel "vocabulary encoding scheme (ves)"@en ;
+	skos:altLabel " "@en , "concept scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "vocabulary encoding scheme (ves)"@en ;
+	skosxl:altLabel asset:t213-label-786cc60114bd230b4fa882b46a063659 , asset:t213-label-ab28a2f4216b1da02f64a08d8d866438 ;
+	skosxl:prefLabel asset:t213-label-a55acd9063e10ed71f1affce2fe861ca .
+
+asset:t214 a skos:Concept ;
+	skos:prefLabel "controlled-list data element"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled-list data element"@en ;
+	skosxl:prefLabel asset:t214-label-beb41f48b55c9a2cf2348dd6c39621d1 .
+
+asset:t215 a skos:Concept ;
+	skos:prefLabel "vocabulary mapping"@en ;
+	skos:altLabel "mapping"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "vocabulary mapping"@en ;
+	skosxl:altLabel asset:t215-label-860afcf5df656dbde661991c282e2c05 ;
+	skosxl:prefLabel asset:t215-label-7f0af318cc701529049d0f8671ad14af .
+
+asset:t216 a skos:Concept ;
+	skos:prefLabel "thesaurus"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesaurus"@en ;
+	skosxl:prefLabel asset:t216-label-465b1a11bee0352b94037b20721eefc5 .
+
+asset:t217 a skos:Concept ;
+	skos:prefLabel " flat list of preferred terms"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label " flat list of preferred terms"@en ;
+	skosxl:prefLabel asset:t217-label-4758de673fb2874431a1c7ddaefa358b .
+
+asset:t218 a skos:Concept ;
+	skos:prefLabel "model"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "model"@en ;
+	skosxl:prefLabel asset:t218-label-554b6f2545e53600d763045688a3c382 .
+
+asset:t22 a skos:Concept ;
+	skos:prefLabel "subject heading scheme"@en ;
+	skos:altLabel "subject heading list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "subject heading scheme"@en ;
+	skosxl:altLabel asset:t22-label-c044efd6ac9d1159aa4944aedc4ee8bb ;
+	skosxl:prefLabel asset:t22-label-8b2e7ba7bed2303621db586830986fb4 .
+
+asset:t23 a skos:Concept ;
+	skos:prefLabel "subject headings"@en ;
+	skos:altLabel "subject authority files"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "subject headings"@en ;
+	skosxl:altLabel asset:t23-label-7bfff04c83ac843b66cf84263335a65e ;
+	skosxl:prefLabel asset:t23-label-8cf4f18b5a5408dec13f0c6b5c3eb11d .
+
+asset:t24 a skos:Concept ;
+	skos:prefLabel "synonym ring"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "synonym ring"@en ;
+	skosxl:prefLabel asset:t24-label-7883e9f3118ce9e8818830e5598b2a59 .
+
+asset:t25 a skos:Concept ;
+	skos:prefLabel "taxonomy"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "taxonomy"@en ;
+	skosxl:prefLabel asset:t25-label-1b31534bb0750a698341ef3ee9b87cb6 .
+
+asset:t26 a skos:Concept ;
+	skos:prefLabel "terminology"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "terminology"@en ;
+	skosxl:prefLabel asset:t26-label-49208a1184a0caa48b9033b22a7b7d18 .
+
+asset:t27 a skos:Concept ;
+	skos:prefLabel "thesaurus"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesaurus"@en ;
+	skosxl:prefLabel asset:t27-label-921bdec03cdfafd1a463e97a4b7d2795 .
+
+asset:t28 a skos:Concept ;
+	skos:prefLabel "thesaurus"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesaurus"@en ;
+	skosxl:prefLabel asset:t28-label-8724cf253115c0f3729a0d1140e9e02d .
+
+asset:t29 a skos:Concept ;
+	skos:prefLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabulary"@en ;
+	skosxl:prefLabel asset:t29-label-a49bc303bed1a758352c19361990c977 .
+
+asset:t3 a skos:Concept ;
+	skos:prefLabel "authority file"@en ;
+	skos:altLabel "value vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "authority file"@en ;
+	skosxl:altLabel asset:t3-label-ec65e7e133ecc01edd57fc3e92504496 ;
+	skosxl:prefLabel asset:t3-label-6c31ed24a5543e2b0f8254b563a8018d .
+
+asset:t30 a skos:Concept ;
+	skos:prefLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabulary"@en ;
+	skosxl:prefLabel asset:t30-label-259d88258a3378ece62f816d1fea006b .
+
+asset:t31 a skos:Concept ;
+	skos:prefLabel "core vocabularies"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "core vocabularies"@en ;
+	skosxl:prefLabel asset:t31-label-904bcc46b340fcb1ab55998d56975054 .
+
+asset:t32 a skos:Concept ;
+	skos:prefLabel "ontology"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "ontology"@en ;
+	skosxl:prefLabel asset:t32-label-07566c0433c548207d02ed8381493e64 .
+
+asset:t33 a skos:Concept ;
+	skos:prefLabel "classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification"@en ;
+	skosxl:prefLabel asset:t33-label-0eee8013d9b8482f856f35ef3fb9105f .
+
+asset:t34 a skos:Concept ;
+	skos:prefLabel "authority file"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "authority file"@en ;
+	skosxl:prefLabel asset:t34-label-f5bb60b57a812cd0b1d40168880efeba .
+
+asset:t35 a skos:Concept ;
+	skos:prefLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabulary"@en ;
+	skosxl:prefLabel asset:t35-label-0535ddd4d8e625b0dcc9d9d68eeb8aa1 .
+
+asset:t36 a skos:Concept ;
+	skos:prefLabel "crosswalk "@en ;
+	skos:altLabel "mapping"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "crosswalk "@en ;
+	skosxl:altLabel asset:t36-label-ad0d985e8a481fe9f24a19cbf36f64d7 ;
+	skosxl:prefLabel asset:t36-label-4dc1474c6fad5097c254727ad612d3a3 .
+
+asset:t37 a skos:Concept ;
+	skos:prefLabel "element"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "element"@en ;
+	skosxl:prefLabel asset:t37-label-430e62d12bb209e5eb1da32389ebd0d4 .
+
+asset:t38 a skos:Concept ;
+	skos:prefLabel "encoding scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "encoding scheme"@en ;
+	skosxl:prefLabel asset:t38-label-c8f9949c042a56f8674f4dabd54807a7 .
+
+asset:t39 a skos:Concept ;
+	skos:prefLabel "format"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "format"@en ;
+	skosxl:prefLabel asset:t39-label-fb95a4fc254dafb0785f07f53dc7361b .
+
+asset:t4 a skos:Concept ;
+	skos:prefLabel "classification scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification scheme"@en ;
+	skosxl:prefLabel asset:t4-label-6ded7ae3d87e42b33e3a277994a8cdd8 .
+
+asset:t40 a skos:Concept ;
+	skos:prefLabel "glossary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "glossary"@en ;
+	skosxl:prefLabel asset:t40-label-1c7b4cf2a0e58e5f2500d7527fa48968 .
+
+asset:t41 a skos:Concept ;
+	skos:prefLabel "information resource"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "information resource"@en ;
+	skosxl:prefLabel asset:t41-label-13ad1cebed43734c980b769eebfedd0d .
+
+asset:t42 a skos:Concept ;
+	skos:prefLabel "metadata"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "metadata"@en ;
+	skosxl:prefLabel asset:t42-label-2ff02c8fb5b6ae4725873b9b2cd8bc16 .
+
+asset:t43 a skos:Concept ;
+	skos:prefLabel "metadata registry"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "metadata registry"@en ;
+	skosxl:prefLabel asset:t43-label-f0be5f800d6671cb90fdcfd3d1816c7d .
+
+asset:t44 a skos:Concept ;
+	skos:prefLabel "property"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "property"@en ;
+	skosxl:prefLabel asset:t44-label-0ed22f4ce7c76d29ee2e10e87c1b63c7 .
+
+asset:t45 a skos:Concept ;
+	skos:prefLabel "record"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "record"@en ;
+	skosxl:prefLabel asset:t45-label-d6ae2733475d4dbd4b5b48a1f891d8fe .
+
+asset:t46 a skos:Concept ;
+	skos:prefLabel "registry"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "registry"@en ;
+	skosxl:prefLabel asset:t46-label-c979c1f1e744a8442e008a67bfe1b662 .
+
+asset:t47 a skos:Concept ;
+	skos:prefLabel "relation"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "relation"@en ;
+	skosxl:prefLabel asset:t47-label-fccaf028fd93dc1209e88012db88a376 .
+
+asset:t48 a skos:Concept ;
+	skos:prefLabel "resource"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "resource"@en ;
+	skosxl:prefLabel asset:t48-label-7f53bcd6c1457480b5672652b3585b90 .
+
+asset:t49 a skos:Concept ;
+	skos:prefLabel "resource description framework (rdf)"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "resource description framework (rdf)"@en ;
+	skosxl:prefLabel asset:t49-label-7e59dc4fa7841cce46abf73843ca52ec .
+
+asset:t5 a skos:Concept ;
+	skos:prefLabel "classification system"@en ;
+	skos:altLabel "alphanumeric classification scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification system"@en ;
+	skosxl:altLabel asset:t5-label-59f69d8f6fa53d77cdcd28b887293f46 ;
+	skosxl:prefLabel asset:t5-label-29f497a3e63068488552928b78930e90 .
+
+asset:t50 a skos:Concept ;
+	skos:prefLabel "scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "scheme"@en ;
+	skosxl:prefLabel asset:t50-label-f178c958860fc6b112286770a71d0004 .
+
+asset:t51 a skos:Concept ;
+	skos:prefLabel "structured values"@en ;
+	skos:altLabel "dublin core structured values"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "structured values"@en ;
+	skosxl:altLabel asset:t51-label-02b0783c1d6f5c497aa25b720cc71b80 ;
+	skosxl:prefLabel asset:t51-label-9797e2e50086215dd999c2ff3e3ec078 .
+
+asset:t52 a skos:Concept ;
+	skos:prefLabel "structural metadata"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "structural metadata"@en ;
+	skosxl:prefLabel asset:t52-label-54ab15cba5b73ffdf1a8e21922b46ff8 .
+
+asset:t53 a skos:Concept ;
+	skos:prefLabel "subject"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "subject"@en ;
+	skosxl:prefLabel asset:t53-label-40c97937e7600aab9a93bfb43b407d33 .
+
+asset:t54 a skos:Concept ;
+	skos:prefLabel "subject headings"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "subject headings"@en ;
+	skosxl:prefLabel asset:t54-label-57ed272d126fd8ca0fde1f4fd670df14 .
+
+asset:t55 a skos:Concept ;
+	skos:prefLabel "syntax"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "syntax"@en ;
+	skosxl:prefLabel asset:t55-label-539ce8d36dcbac8fd7d2625eeb010f0c .
+
+asset:t56 a skos:Concept ;
+	skos:prefLabel "thesaurus"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesaurus"@en ;
+	skosxl:prefLabel asset:t56-label-256c43efb066485f550561fccd773944 .
+
+asset:t57 a skos:Concept ;
+	skos:prefLabel "term list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "term list"@en ;
+	skosxl:prefLabel asset:t57-label-496a3d2d2d12e3030b1ed653df4e29d8 .
+
+asset:t58 a skos:Concept ;
+	skos:prefLabel "term list"@en ;
+	skos:altLabel "pick list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "term list"@en ;
+	skosxl:altLabel asset:t58-label-98a8035673bdf1227565a0dd5faa085d ;
+	skosxl:prefLabel asset:t58-label-d2578cf0aa102385d4efe34f6031e0d9 .
+
+asset:t59 a skos:Concept ;
+	skos:prefLabel "dictionary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "dictionary"@en ;
+	skosxl:prefLabel asset:t59-label-6b374be65e087edbf9c6f8684f938b73 .
+
+asset:t6 a skos:Concept ;
+	skos:prefLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabulary"@en ;
+	skosxl:prefLabel asset:t6-label-724da10887bf64acf567c73260ab4d50 .
+
+asset:t60 a skos:Concept ;
+	skos:prefLabel "glosary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "glosary"@en ;
+	skosxl:prefLabel asset:t60-label-a63f88a2b0029bfebeec201565898ec7 .
+
+asset:t61 a skos:Concept ;
+	skos:prefLabel "synonym ring"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "synonym ring"@en ;
+	skosxl:prefLabel asset:t61-label-2f693f33b997c37a95ca5ee9686461aa .
+
+asset:t62 a skos:Concept ;
+	skos:prefLabel "metadata-like models"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "metadata-like models"@en ;
+	skosxl:prefLabel asset:t62-label-1d77736c44932b8ad3a5e9b618b152d3 .
+
+asset:t63 a skos:Concept ;
+	skos:prefLabel "authority files"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "authority files"@en ;
+	skosxl:prefLabel asset:t63-label-2a1fafa1cc1059d16677be24e9299a9b .
+
+asset:t64 a skos:Concept ;
+	skos:prefLabel "directories"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "directories"@en ;
+	skosxl:prefLabel asset:t64-label-48ec7695a0ffc4404f2a6ec346549194 .
+
+asset:t65 a skos:Concept ;
+	skos:prefLabel "gazetteers"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "gazetteers"@en ;
+	skosxl:prefLabel asset:t65-label-044e569f5f9f3fd8cac15a226c3dfc1d .
+
+asset:t66 a skos:Concept ;
+	skos:prefLabel "classification and categorization"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification and categorization"@en ;
+	skosxl:prefLabel asset:t66-label-8f7c15657e942426a8d7868a1136d877 .
+
+asset:t67 a skos:Concept ;
+	skos:prefLabel "subject headings"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "subject headings"@en ;
+	skosxl:prefLabel asset:t67-label-daab61a369ec565bdd0a96add4c980e6 .
+
+asset:t68 a skos:Concept ;
+	skos:prefLabel "categorization schemes"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "categorization schemes"@en ;
+	skosxl:prefLabel asset:t68-label-b86d61f07f714db1e0cb18bb109da0ed .
+
+asset:t69 a skos:Concept ;
+	skos:prefLabel "taxonomies"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "taxonomies"@en ;
+	skosxl:prefLabel asset:t69-label-4932c97a9a050df251d712f743ceb16b .
+
+asset:t7 a skos:Concept ;
+	skos:prefLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabulary"@en ;
+	skosxl:prefLabel asset:t7-label-fd8f548ff37c105cc9a419c13d5d2d13 .
+
+asset:t70 a skos:Concept ;
+	skos:prefLabel "classification schemes"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification schemes"@en ;
+	skosxl:prefLabel asset:t70-label-934383041121d9007db33a55ca04cd1b .
+
+asset:t71 a skos:Concept ;
+	skos:prefLabel "relationship models"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "relationship models"@en ;
+	skosxl:prefLabel asset:t71-label-5d53c7e366b2fe074c2034f144d467a1 .
+
+asset:t72 a skos:Concept ;
+	skos:prefLabel "thesauri"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesauri"@en ;
+	skosxl:prefLabel asset:t72-label-72d83ecc47005334a590caaad5aa2a52 .
+
+asset:t73 a skos:Concept ;
+	skos:prefLabel "semantic networks"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "semantic networks"@en ;
+	skosxl:prefLabel asset:t73-label-a644187bb1c57ede1537ed8fa1712b04 .
+
+asset:t74 a skos:Concept ;
+	skos:prefLabel "ontologies"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "ontologies"@en ;
+	skosxl:prefLabel asset:t74-label-0c9deb7fdbe544b66e891c3e348ab18e .
+
+asset:t75 a skos:Concept ;
+	skos:prefLabel "subject-based classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "subject-based classification"@en ;
+	skosxl:prefLabel asset:t75-label-1502b1608491799bcc4dd0fa229f5d72 .
+
+asset:t76 a skos:Concept ;
+	skos:prefLabel "controlled vocabularies"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabularies"@en ;
+	skosxl:prefLabel asset:t76-label-a5d5703d3aa2f91382cd72a844e08efd .
+
+asset:t77 a skos:Concept ;
+	skos:prefLabel "taxonomy "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "taxonomy "@en ;
+	skosxl:prefLabel asset:t77-label-5ee0a74fd0b384b9a1e0e5c23d7888c5 .
+
+asset:t78 a skos:Concept ;
+	skos:prefLabel "thesauri "@en ;
+	skos:altLabel "thesaurus"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesauri "@en ;
+	skosxl:altLabel asset:t78-label-a2cb36d79f81e2e0f1787b721437efd7 ;
+	skosxl:prefLabel asset:t78-label-a754e1ee45edf86489f2959e6918cca4 .
+
+asset:t79 a skos:Concept ;
+	skos:prefLabel "faceted classification"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "faceted classification"@en ;
+	skosxl:prefLabel asset:t79-label-3a88daa7d7778977d78b3fc9ca4267ae .
+
+asset:t8 a skos:Concept ;
+	skos:prefLabel "element set"@en ;
+	skos:altLabel " metadata element set"@en , "properties"@en , " elements"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "element set"@en ;
+	skosxl:altLabel asset:t8-label-37e4b93d31b6303f828c3c1b0cb018bb , asset:t8-label-c2855c76b15304a5064c215954a3c55a , asset:t8-label-ebbc6fd4e3dd8dc88bb98a733ebab133 ;
+	skosxl:prefLabel asset:t8-label-a48d8d689e6e16cd9bdedee1fa37ce0b .
+
+asset:t80 a skos:Concept ;
+	skos:prefLabel "ontology"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "ontology"@en ;
+	skosxl:prefLabel asset:t80-label-060a0bd986c6b28ece0f41ea71129cd4 .
+
+asset:t81 a skos:Concept ;
+	skos:prefLabel "synonym ring"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "synonym ring"@en ;
+	skosxl:prefLabel asset:t81-label-5096a2c1cd4965c746d4572acc8009c6 .
+
+asset:t82 a skos:Concept ;
+	skos:prefLabel "authority file"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "authority file"@en ;
+	skosxl:prefLabel asset:t82-label-d589682fd12b62903c8d54632c9639ca .
+
+asset:t83 a skos:Concept ;
+	skos:prefLabel "topic maps"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "topic maps"@en ;
+	skosxl:prefLabel asset:t83-label-9846ef7d40306ab60d5009bb56ef53c8 .
+
+asset:t84 a skos:Concept ;
+	skos:prefLabel "element set "@en ;
+	skos:altLabel "metadata element sets"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "element set "@en ;
+	skosxl:altLabel asset:t84-label-b7b2c8c2a41d6383e7933995ee15b206 ;
+	skosxl:prefLabel asset:t84-label-e7a8547b2ce21af89bff748e388ab7f9 .
+
+asset:t85 a skos:Concept ;
+	skos:prefLabel "dataset"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "dataset"@en ;
+	skosxl:prefLabel asset:t85-label-ef3bd692b6867db8d263c01b19585183 .
+
+asset:t86 a skos:Concept ;
+	skos:prefLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabulary"@en ;
+	skosxl:prefLabel asset:t86-label-6e6ed33296dc14dd3f97b0730820e6aa .
+
+asset:t87 a skos:Concept ;
+	skos:prefLabel "classification system"@en ;
+	skos:altLabel "classification scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification system"@en ;
+	skosxl:altLabel asset:t87-label-857d02332c93ddefa21cabe70b880b93 ;
+	skosxl:prefLabel asset:t87-label-a68b9781fbe465d33b76f40f0c0a7231 .
+
+asset:t88 a skos:Concept ;
+	skos:prefLabel "classification scheme"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "classification scheme"@en ;
+	skosxl:prefLabel asset:t88-label-f6f5d0a6abc209f838aa5b9924cae2c3 .
+
+asset:t89 a skos:Concept ;
+	skos:prefLabel "named authority list"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "named authority list"@en ;
+	skosxl:prefLabel asset:t89-label-b88c640bc59ac968fc5aa3cc22ad966c .
+
+asset:t9 a skos:Concept ;
+	skos:prefLabel "exchange format"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "exchange format"@en ;
+	skosxl:prefLabel asset:t9-label-1a6514e16741dab677c36e7100a9feb1 .
+
+asset:t90 a skos:Concept ;
+	skos:prefLabel "subject headings"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "subject headings"@en ;
+	skosxl:prefLabel asset:t90-label-0a59783783041a0293ed97081c5a4d0c .
+
+asset:t91 a skos:Concept ;
+	skos:prefLabel "thesaurus"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "thesaurus"@en ;
+	skosxl:prefLabel asset:t91-label-9363922a6d87cc73050a887b74da3224 .
+
+asset:t92 a skos:Concept ;
+	skos:prefLabel "taxonomy "@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "taxonomy "@en ;
+	skosxl:prefLabel asset:t92-label-bf9afcc71a011fb4859ffa478f6c30ad .
+
+asset:t93 a skos:Concept ;
+	skos:prefLabel "semantic spectrum"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "semantic spectrum"@en ;
+	skosxl:prefLabel asset:t93-label-9e18f56e19c4d5b9399591edc51c74a7 .
+
+asset:t94 a skos:Concept ;
+	skos:prefLabel "glossary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "glossary"@en ;
+	skosxl:prefLabel asset:t94-label-5f79996fabc6c08694fa98b7e0b4b4e7 .
+
+asset:t95 a skos:Concept ;
+	skos:prefLabel "controlled vocabulary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "controlled vocabulary"@en ;
+	skosxl:prefLabel asset:t95-label-1875c6e106e2cf263c91fcb71552b594 .
+
+asset:t96 a skos:Concept ;
+	skos:prefLabel "data dictionary"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "data dictionary"@en ;
+	skosxl:prefLabel asset:t96-label-99fb6bf381f7059200db57d7922291cf .
+
+asset:t97 a skos:Concept ;
+	skos:prefLabel "data model"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "data model"@en ;
+	skosxl:prefLabel asset:t97-label-e4828ccd9aa0ae13dad5488fb141449a .
+
+asset:t98 a skos:Concept ;
+	skos:prefLabel "taxonomy"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "taxonomy"@en ;
+	skosxl:prefLabel asset:t98-label-ff6e43a617954d81d5f1670f6c3702a3 .
+
+asset:t99 a skos:Concept ;
+	skos:prefLabel "ontology"@en ;
+	skos:inScheme :asset-nature ;
+	rdfs:label "ontology"@en ;
+	skosxl:prefLabel asset:t99-label-c8b20df2a9b306450fa119eca1447bae .
+
+asset:t1-label-565a8a16bf1a70901090f7828e0a0320 a skosxl:Label ;
+	dct:source "Dublin Core" ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skos:literalForm "ap"@en .
+
+asset:t100-label-5bc4cdbe4c3ce1752350097bca3175ae a skosxl:Label ;
+	dct:source "wikipedia" ;
+	foaf:page "https://en.wikipedia.org/wiki/Data_element" ;
+	skos:literalForm "element"@en .
+
+asset:t106-label-56c9394719e3e642f5f75796408b6e39 a skosxl:Label ;
+	dct:source "Timea's email" ;
+	skos:literalForm " authority list "@en .
+
+asset:t106-label-742f9cc1204a5cb2913bb588834a5d92 a skosxl:Label ;
+	dct:source "Timea's email" ;
+	skos:literalForm " name authority file"@en .
+
+asset:t106-label-a159720acabf9028322ef11ff8a7eff8 a skosxl:Label ;
+	dct:source "Timea's email" ;
+	skos:literalForm "name authority list"@en .
+
+asset:t110-label-e0cdfc54ee80fcf5fccd497820da37b0 a skosxl:Label ;
+	dct:source "eurostat - ramon" ;
+	foaf:page "http://ec.europa.eu/eurostat/ramon/index.cfm?TargetUrl=DSP_PUB_WELC" ;
+	skos:literalForm "harmonised (common) code lists "@en .
+
+asset:t114-label-2dbda2aa43a1335114935ec352501982 a skosxl:Label ;
+	dct:source "ISO 25964-2:2013" ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skos:literalForm " propoerty vocabulary"@en .
+
+asset:t114-label-4bdb71e5fb38c20106259a9974c7c633 a skosxl:Label ;
+	dct:source "ISO 25964-2:2013" ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skos:literalForm " element set"@en .
+
+asset:t114-label-c06e782dc6144e09c9f5379eac9af964 a skosxl:Label ;
+	dct:source "ISO 25964-2:2013" ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skos:literalForm " schema vocabulary"@en .
+
+asset:t114-label-d1b175ed64d7aa5f13300b41052fd86c a skosxl:Label ;
+	dct:source "ISO 25964-2:2013" ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skos:literalForm "element vocabulary"@en .
+
+asset:t114-label-e82a8e1dc6432173988c04edc5ee7f64 a skosxl:Label ;
+	dct:source "ISO 25964-2:2013" ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skos:literalForm " metadata element set"@en .
+
+asset:t116-label-c2ac26ebb6d9ddc0e6897e8940a7f098 a skosxl:Label ;
+	dct:source "OECD" ;
+	foaf:page "https://stats.oecd.org/glossary/detail.asp?ID=536" ;
+	skos:literalForm "controlled vocabulary"@en .
+
+asset:t117-label-807a09dfc0d5842ecc80be4f4af2fb5a a skosxl:Label ;
+	dct:source "OECD" ;
+	foaf:page "https://stats.oecd.org/glossary/detail.asp?ID=2849" ;
+	skos:literalForm "controlled vocabulary"@en .
+
+asset:t118-label-8121ac87a8ebedadbd7f772513e7b4e2 a skosxl:Label ;
+	dct:source "OECD" ;
+	foaf:page "https://stats.oecd.org/glossary/detail.asp?ID=3002" ;
+	skos:literalForm "element set"@en .
+
+asset:t12-label-fd8d0ad8f7f44e363de84d757a98c2fd a skosxl:Label ;
+	dct:source "ISO 25964-2:2013" ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skos:literalForm "alignment"@en .
+
+asset:t122-label-0151ab5d533c4713477c508d7508dcbd a skosxl:Label ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skos:literalForm "concept diagram"@en .
+
+asset:t140-label-8b49d6f0fcd1bc9677302ea622e59beb a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm "nomenclature"@en .
+
+asset:t141-label-98e0202524ef0fd3626ce42da3c13f71 a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm "code letters and numbers"@en .
+
+asset:t142-label-405b23c6bb9478eb27b2391071783fdd a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm "coding system"@en .
+
+asset:t145-label-32d373174b34af013afef04ef36e8978 a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm "mapping"@en .
+
+asset:t145-label-5d654f6a99f69160d13d0d043198ee73 a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm " alignment"@en .
+
+asset:t146-label-4addefdd8f34a722c5cc66138d113050 a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm " item"@en .
+
+asset:t146-label-78e5916181209ce64a8abb5666922878 a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm " "@en .
+
+asset:t146-label-a4b2af0c51d1c70e93f191217c15ffb4 a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm "element"@en .
+
+asset:t150-label-46a58559543a27f794b6dbb4f0acd46d a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm "classification"@en .
+
+asset:t154-label-b50e37d018b65ccfee3304bd2c6f2f06 a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm "mapping"@en .
+
+asset:t156-label-a40929267465cbd90ebe0d6f95bfc097 a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skos:literalForm "classification"@en .
+
+asset:t157-label-372fd6195f41b4d96bbd861f5e778340 a skosxl:Label ;
+	dct:source "unce - sdmx " ;
+	foaf:page "https://statswiki.unece.org/display/ClickSDMX/Hierarchical+Code+List" ;
+	skos:literalForm "code list"@en .
+
+asset:t16-label-275d2979d33393e667afec708209617b a skosxl:Label ;
+	dct:source "Dublin Core" ;
+	foaf:page "https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide.md" ;
+	skos:literalForm "elements"@en .
+
+asset:t16-label-a2b3bc8d9dcf1458f9be636187b73e15 a skosxl:Label ;
+	dct:source "Dublin Core" ;
+	foaf:page "https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide.md" ;
+	skos:literalForm " element set"@en .
+
+asset:t160-label-807729a5f075ee6c04782fb36783b070 a skosxl:Label ;
+	dct:source "LOC" ;
+	foaf:page "http://id.loc.gov/authorities/names.html" ;
+	skos:literalForm " "@en .
+
+asset:t160-label-f750043bd2c90ca4953403e45c46dfc5 a skosxl:Label ;
+	dct:source "LOC" ;
+	foaf:page "http://id.loc.gov/authorities/names.html" ;
+	skos:literalForm "name authority list"@en .
+
+asset:t163-label-221abaa5ffcd55f59798300db7dc0eb5 a skosxl:Label ;
+	dct:source "LOC" ;
+	foaf:page "http://id.loc.gov/" ;
+	skos:literalForm "metadata registry"@en .
+
+asset:t171-label-be76df8933fbbe26ea80852a182ad68d a skosxl:Label ;
+	dct:source "sdmx " ;
+	foaf:page "https://sdmx.org/wp-content/uploads/SDMX_2-1_SECTION_1_Framework.pdf" ;
+	skos:literalForm "organigram"@en .
+
+asset:t178-label-06bd48043345b64a328c70508ad9e7c2 a skosxl:Label ;
+	dct:source "EDItEUR - ONIX" ;
+	foaf:page "https://www.editeur.org/14/Code-Lists/ " ;
+	skos:literalForm " controlled vocabulary"@en .
+
+asset:t178-label-b3b891e9592c541a71a60b2ed4cac5ae a skosxl:Label ;
+	dct:source "EDItEUR - ONIX" ;
+	foaf:page "https://www.editeur.org/14/Code-Lists/ " ;
+	skos:literalForm "codelist"@en .
+
+asset:t179-label-1b8d132a2855e9d9b4c6008a28d444b3 a skosxl:Label ;
+	dct:source "w3c" ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025/#Value_vocabularies" ;
+	skos:literalForm " concept vocabulary"@en .
+
+asset:t179-label-87ed520d0d903319e2b194156213eee3 a skosxl:Label ;
+	dct:source "w3c" ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025/#Value_vocabularies" ;
+	skos:literalForm " controlled vocabulary"@en .
+
+asset:t179-label-f1f42897a6a221df620cf34643946474 a skosxl:Label ;
+	dct:source "w3c" ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025/#Value_vocabularies" ;
+	skos:literalForm "content vocabulary"@en .
+
+asset:t180-label-3b08519ec8e37750ecb793cd895a09f4 a skosxl:Label ;
+	dct:source "Hedden 2010" ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skos:literalForm "pick list"@en .
+
+asset:t181-label-0d515b818d2a34cf6dd2a1942a55d1d0 a skosxl:Label ;
+	dct:source "Hedden 2010" ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skos:literalForm "named authority files"@en .
+
+asset:t181-label-75ae6dcf90ee6dae4d91965a57f8bbea a skosxl:Label ;
+	dct:source "Hedden 2010" ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skos:literalForm " controlled vocabulary"@en .
+
+asset:t182-label-4e0ecfa080356f512ed43c8ae9c5f36c a skosxl:Label ;
+	dct:source "Hedden 2010" ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skos:literalForm "tree"@en .
+
+asset:t187-label-16782935f3bb04fbb25d0d91da660c54 a skosxl:Label ;
+	dct:source "Harpring 2010" ;
+	skos:literalForm " format encoding scheme"@en .
+
+asset:t187-label-3b52e8ddf3c8338705481b5286c0d69c a skosxl:Label ;
+	dct:source "Harpring 2010" ;
+	skos:literalForm "grammar"@en .
+
+asset:t188-label-01d2816a0cb798ea897b566b6b56363d a skosxl:Label ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skos:literalForm " core model"@en .
+
+asset:t188-label-e8cd0ed248b04fa6510b37f7b7b22f98 a skosxl:Label ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skos:literalForm "domain ontology"@en .
+
+asset:t19-label-913a8001b7fc4c12adeef772d6d05d89 a skosxl:Label ;
+	dct:source "ISO 25964-2:2013" ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skos:literalForm "thesaurus"@en .
+
+asset:t190-label-577476c2c956749f7b8e583519d3bf88 a skosxl:Label ;
+	dct:source "Harpring 2010" ;
+	skos:literalForm "flat term list"@en .
+
+asset:t190-label-e27d490fcc3c10b5367dbf3ab7bb942d a skosxl:Label ;
+	dct:source "Harpring 2010" ;
+	skos:literalForm " pick list"@en .
+
+asset:t192-label-4667311256d8a51d57a01981ad6635e2 a skosxl:Label ;
+	dct:source "Harpring 2012" ;
+	skos:literalForm "authority list"@en .
+
+asset:t197-label-1f79e1640d540a532d4923a9a35dd7fc a skosxl:Label ;
+	dct:source "Harpring 2017" ;
+	skos:literalForm " mob indexing"@en .
+
+asset:t197-label-292d25dcbf48beb3f73e6dc19ae0bd46 a skosxl:Label ;
+	dct:source "Harpring 2017" ;
+	skos:literalForm " social indexing"@en .
+
+asset:t197-label-5a74327f30dee8f01272fd12c5c90036 a skosxl:Label ;
+	dct:source "Harpring 2017" ;
+	skos:literalForm " social tagging"@en .
+
+asset:t197-label-d73e7b93c174b97f3e55cfa1d18cdd8e a skosxl:Label ;
+	dct:source "Harpring 2017" ;
+	skos:literalForm " folk categorisation"@en .
+
+asset:t197-label-e04f0d5778cce40e51662c759e62650d a skosxl:Label ;
+	dct:source "Harpring 2017" ;
+	skos:literalForm "social classification"@en .
+
+asset:t2-label-b20c2a6ccc902cb053d988478a9de58c a skosxl:Label ;
+	dct:source "wikipedia" ;
+	foaf:page "https://en.wikipedia.org/wiki/Application_programming_interface" ;
+	skos:literalForm "api"@en .
+
+asset:t206-label-0e3fcbb20135ed36c3fb57a520e5e6cf a skosxl:Label ;
+	dct:source "Dublin Core" ;
+	skos:literalForm " "@en .
+
+asset:t206-label-293fab7be96313364381f6137ac3b8cc a skosxl:Label ;
+	dct:source "Dublin Core" ;
+	skos:literalForm "concept scheme"@en .
+
+asset:t208-label-319fd076eb9bd0586f89fea94d8d7b6d a skosxl:Label ;
+	dct:source "odlis" ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skos:literalForm "analytic classification"@en .
+
+asset:t213-label-786cc60114bd230b4fa882b46a063659 a skosxl:Label ;
+	dct:source "Dublin Core" ;
+	foaf:page "https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide.md" ;
+	skos:literalForm " "@en .
+
+asset:t213-label-ab28a2f4216b1da02f64a08d8d866438 a skosxl:Label ;
+	dct:source "Dublin Core" ;
+	foaf:page "https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide.md" ;
+	skos:literalForm "concept scheme"@en .
+
+asset:t215-label-860afcf5df656dbde661991c282e2c05 a skosxl:Label ;
+	dct:source "odlis" ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skos:literalForm "mapping"@en .
+
+asset:t22-label-c044efd6ac9d1159aa4944aedc4ee8bb a skosxl:Label ;
+	dct:source "ISO 25964-2:2013" ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skos:literalForm "subject heading list"@en .
+
+asset:t23-label-7bfff04c83ac843b66cf84263335a65e a skosxl:Label ;
+	dct:source "w3c" ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025/#Classification_systems" ;
+	skos:literalForm "subject authority files"@en .
+
+asset:t3-label-ec65e7e133ecc01edd57fc3e92504496 a skosxl:Label ;
+	dct:source "ANSI/NISO Z39 R2010" ;
+	foaf:page "https://groups.niso.org/apps/group_public/download.php/12591/z39-19-2005r2010.pdf" ;
+	skos:literalForm "value vocabulary"@en .
+
+asset:t36-label-ad0d985e8a481fe9f24a19cbf36f64d7 a skosxl:Label ;
+	dct:source "Dublin Core" ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skos:literalForm "mapping"@en .
+
+asset:t5-label-59f69d8f6fa53d77cdcd28b887293f46 a skosxl:Label ;
+	skos:literalForm "alphanumeric classification scheme"@en .
+
+asset:t51-label-02b0783c1d6f5c497aa25b720cc71b80 a skosxl:Label ;
+	dct:source "Dublin Core" ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skos:literalForm "dublin core structured values"@en .
+
+asset:t58-label-98a8035673bdf1227565a0dd5faa085d a skosxl:Label ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skos:literalForm "pick list"@en .
+
+asset:t78-label-a2cb36d79f81e2e0f1787b721437efd7 a skosxl:Label ;
+	foaf:page "https://web.archive.org/web/20081017174807/http://www.ontopia.net/topicmaps/materials/tm-vs-thesauri.html" ;
+	skos:literalForm "thesaurus"@en .
+
+asset:t8-label-37e4b93d31b6303f828c3c1b0cb018bb a skosxl:Label ;
+	dct:source "dublin core" ;
+	foaf:page "https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide.md" ;
+	skos:literalForm " metadata element set"@en .
+
+asset:t8-label-c2855c76b15304a5064c215954a3c55a a skosxl:Label ;
+	dct:source "dublin core" ;
+	foaf:page "https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide.md" ;
+	skos:literalForm "properties"@en .
+
+asset:t8-label-ebbc6fd4e3dd8dc88bb98a733ebab133 a skosxl:Label ;
+	dct:source "dublin core" ;
+	foaf:page "https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide.md" ;
+	skos:literalForm " elements"@en .
+
+asset:t84-label-b7b2c8c2a41d6383e7933995ee15b206 a skosxl:Label ;
+	dct:source "w3c" ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025" ;
+	skos:literalForm "metadata element sets"@en .
+
+asset:t87-label-857d02332c93ddefa21cabe70b880b93 a skosxl:Label ;
+	dct:source "wikipedia" ;
+	foaf:page "https://en.wikipedia.org/wiki/Comparison_and_contrast_of_classification_schemes_in_linguistics_and_metadata" ;
+	skos:literalForm "classification scheme"@en .
+
+asset:t1-label-4fa54eefd2529893c177ba581c24688a a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:10 ;
+	dct:source "Dublin Core" ;
+	skos:altLabel "ap"@en ;
+	skos:definition "In the computer information sciences, an application profile consists of a set of metadata elements, policies, and guidelines defined for a particular application."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "application profile"@en .
+
+asset:t10-label-a1d109386696d9b1c6c73b396502c6ea a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:14 ;
+	dct:source "wikipedia" ;
+	skos:definition "Knowledge Organization Systems (KOS) is a generic term used in knowledge organization about authority files, classification schemes, thesauri, topic maps, ontologies etc."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Knowledge_organization_system" ;
+	skosxl:literalForm "knowledge organization systems (kos)"@en .
+
+asset:t100-label-db4da06c7bf4d507ec32470af3cbc83e a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "wikipedia" ;
+	skos:altLabel "element"@en ;
+	skos:definition "In metadata, the term data element is an atomic unit of data that has precise meaning or precise semantics. A data element has:  An identification such as a data element name A clear data element definition One or more representation terms Optional enumerated values Code (metadata) A list of synonyms to data elements in other metadata registries Synonym ring"@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Data_element" ;
+	skosxl:literalForm "data element"@en .
+
+asset:t101-label-81b3df625498a497730e7e2bc255e9c8 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "ISO_IEC_11179-1_2004" ;
+	skos:definition "A conceptual model represents the human understanding of a system."@en ;
+	foaf:page "http://standards.iso.org/ittf/PubliclyAvailableStandards/c035343_ISO_IEC_11179-1_2004(E).zip" ;
+	skosxl:literalForm "conceptual model"@en .
+
+asset:t102-label-9a6705b5b68d4764f942dd9e905f7d6f a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "ISO_IEC_11179-1_2004" ;
+	skos:definition "set of concepts structured according to the relations among them"@en ;
+	foaf:page "http://standards.iso.org/ittf/PubliclyAvailableStandards/c035343_ISO_IEC_11179-1_2004(E).zip" ;
+	skosxl:literalForm "concept system"@en .
+
+asset:t103-label-37ab17902f5a798817be7ca1840fb1f2 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:11 ;
+	dct:source "ISO_IEC_11179-1_2004" ;
+	skos:definition "graphical and/or lexical representation of data, specifying their properties, structure and inter-relationships"@en ;
+	foaf:page "http://standards.iso.org/ittf/PubliclyAvailableStandards/c035343_ISO_IEC_11179-1_2004(E).zip" ;
+	skosxl:literalForm "data model"@en .
+
+asset:t104-label-770a12332498dd3182e908643c9392a5 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "ISO_IEC_11179-1_2004" ;
+	skos:definition "concept system with designations for each concept"@en ;
+	foaf:page "http://standards.iso.org/ittf/PubliclyAvailableStandards/c035343_ISO_IEC_11179-1_2004(E).zip" ;
+	skosxl:literalForm "terminological system"@en .
+
+asset:t105-label-9f996418ae598123c873e0be8f3fa2e7 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "ISO_IEC_11179-1_2004" ;
+	skos:definition "descriptive information for an arrangement or division of objects into groups based on characteristics, which the objects have in common"@en ;
+	foaf:page "http://standards.iso.org/ittf/PubliclyAvailableStandards/c035343_ISO_IEC_11179-1_2004(E).zip" ;
+	skosxl:literalForm "classification scheme"@en .
+
+asset:t106-label-2352f022895fce95f23ed12e5848272b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "Timea's email" ;
+	skos:altLabel " authority list "@en , " name authority file"@en , "name authority list"@en ;
+	skos:definition """lists of propoer names; Name authority list, name authority file, authority list are identified as lists of proper names, not classes so this term would cover only a minority of our authority tables. (Yes, I know that we use named instead of name but we are practically the only one to do so; this term version is not a big step in the direction of harmonisation and/or unequivocal understanding.)
+"""@en ;
+	skosxl:literalForm "named authority list"@en .
+
+asset:t107-label-12dd04eaa3989860fa7476c9e0ca6fec a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "canadian gov" ;
+	skos:definition "\"Controlled vocabulary\" is a general term for a list of standardized terms used for indexing and information retrieval usually in a defined information domain. It is characterized by consistent format, syntax and may include synonyms and cross-references. In a controlled vocabulary, one of a set of possible terms representing a concept is chosen as the representative term for that concept (preferred term). Consequently, all resources about that particular concept, within a body of information resources, can be indexed using the representative term."@en ;
+	foaf:page "http://www.bac-lac.gc.ca/eng/services/government-information-resources/controlled-vocabularies/Pages/how-to-register-controlled-vocabulary.aspx" ;
+	skosxl:literalForm "controlled vocabulary"@en .
+
+asset:t108-label-c4727b614e0d131048667356720b93f8 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "Timea's email" ;
+	skos:definition "Mappings are relationships between a concept in one vocabulary and one or more concepts in another [vocabulary] by the definition which makes reference to ISO. We should take this into consideration in the editorial content."@en ;
+	skosxl:literalForm "mapping"@en .
+
+asset:t109-label-585eac8f2b22aaf116eb67f46080bb85 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "from Inventory of controlled vocabularies" ;
+	skosxl:literalForm "reference asset"@en .
+
+asset:t11-label-15c2ce6f3b39d216214d65755f088515 a skosxl:Label ;
+	dct:source "wikipedia" ;
+	skos:definition "Linked Open Data (LOD) is Linked Data which is released under an open license, which does not impede its reuse for free."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Linked_data#Linked_open_data" ;
+	skosxl:literalForm "linked open data"@en .
+
+asset:t110-label-3d7d35dc4b144c26b4b686389d810c3f a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "eurostat - ramon" ;
+	skos:altLabel "harmonised (common) code lists "@en ;
+	skos:definition "Code lists are structural metadata. They provide the coding for the dimensions used in a table, e.g. UNIT, AGE, SEX, etc. All code lists currently used in Eurobase are available in the code list (see 'dic'), in EN, FR and DE. Code lists are very relevant when writing table titles: the terminology used in table titles should be coherent with code lists where applicable."@en ;
+	foaf:page "http://ec.europa.eu/eurostat/ramon/index.cfm?TargetUrl=DSP_PUB_WELC" ;
+	skosxl:literalForm "code list"@en .
+
+asset:t111-label-29539d6373493b5b61d4e87f51522719 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	dct:source "eurostat - ramon " ;
+	skos:definition "Set of discrete, exhaustive and mutually exclusive observations, which can be assigned to one or more variables to be measured in the collation and/or presentation of data."@en ;
+	foaf:page "http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=DSP_GLOSSARY_NOM_DTL_VIEW&StrNom=CODED2&StrLanguageCode=EN&IntKey=21224603&RdoSearch=BEGIN&TxtSearch=&CboTheme=36940327&IsTer=&IntCurrentPage=2&ter_valid=0" ;
+	skosxl:literalForm "classification"@en .
+
+asset:t112-label-a712ba5cc5b46d2cc09d9aabd450016f a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "eurostat - ramon" ;
+	skos:definition "Classification of things according to a presumed relationship among types and subtypes."@en ;
+	foaf:page "http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=DSP_GLOSSARY_NOM_DTL_VIEW&StrNom=CODED2&StrLanguageCode=EN&IntKey=21236603&RdoSearch=BEGIN&TxtSearch=&CboTheme=36940327&IsTer=&ter_valid=0&IntCurrentPage=2" ;
+	skosxl:literalForm "taxonomy"@en .
+
+asset:t113-label-4d6611db1f644445fd323f7c579d7c2d a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:5 ;
+	dct:source "eurostat - ramon" ;
+	skos:definition "Ordered list of assigned codes and their meanings in the given identification and/or classification scheme."@en ;
+	foaf:page "http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=DSP_GLOSSARY_NOM_DTL_VIEW&StrNom=CODED2&StrLanguageCode=EN&IntKey=24526316&RdoSearch=BEGIN&TxtSearch=&CboTheme=36940327&IsTer=&IntCurrentPage=2&ter_valid=0" ;
+	skosxl:literalForm "code list"@en .
+
+asset:t114-label-9a713a4e506451c7233710bc4df73aed a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:7 ;
+	dct:source "ISO 25964-2:2013" ;
+	skos:altLabel " element set"@en , " metadata element set"@en , " propoerty vocabulary"@en , " schema vocabulary"@en , "element vocabulary"@en ;
+	skos:definition "An organized set of terms, headings or codes representing concepts and their interrelationships,which can be used to support information retrieval."@en ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skosxl:literalForm "structured vocabulary"@en .
+
+asset:t115-label-61a86830f775bccc2bbbbd1a8b4abfeb a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	dct:source "OECD" ;
+	skos:definition "A code list is a predefined list from which some statistical coded concepts take their values."@en ;
+	foaf:page "https://stats.oecd.org/glossary/detail.asp?ID=3371" ;
+	skosxl:literalForm "code list"@en .
+
+asset:t116-label-e012fa441c09bdb44c9537b8538ef441 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "OECD" ;
+	skos:altLabel "controlled vocabulary"@en ;
+	skos:definition "A data dictionary is a database used for data that refers to the use and structure of other data; that is, a database for the storage of metadata."@en ;
+	foaf:page "https://stats.oecd.org/glossary/detail.asp?ID=536" ;
+	skosxl:literalForm "data dictionary"@en .
+
+asset:t117-label-8cebac9acfd6e78358d0773153cc340d a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "OECD" ;
+	skos:altLabel "controlled vocabulary"@en ;
+	skos:definition "A value domain is a set of permissible values."@en ;
+	foaf:page "https://stats.oecd.org/glossary/detail.asp?ID=2849" ;
+	skosxl:literalForm "value domain"@en .
+
+asset:t118-label-6dc449ed428f40a9816ded90e9202b94 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "OECD" ;
+	skos:altLabel "element set"@en ;
+	skos:definition "A data element dictionary is an information resource that lists and defines all relevant data elements"@en ;
+	foaf:page "https://stats.oecd.org/glossary/detail.asp?ID=3002" ;
+	skosxl:literalForm "data element dictionary"@en .
+
+asset:t119-label-22934906845576a64cbe76092381b703 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "OECD" ;
+	skos:definition "A code space is a set of all combinations of admissible values of a particular record of data. Cartesian product of the code word lists of individual data in a record."@en ;
+	foaf:page "https://stats.oecd.org/glossary/detail.asp?ID=3374" ;
+	skosxl:literalForm "code space"@en .
+
+asset:t12-label-3deb80d7dc8d682e7a23be205024b6e4 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "ISO 25964-2:2013" ;
+	skos:altLabel "alignment"@en ;
+	skos:definition "Product of mapping process. Relationship between a concept in one vocabulary and one or more concepts in another. NOTE 1: A mapping generally has a direction. NOTE 2: Exceptionally, a mapping may involve a combination of two or more target vocabularies, where one or more of them act(s) as qualifier to the other."@en ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skosxl:literalForm "mapping"@en .
+
+asset:t120-label-d52dd287ce453d164cb5948df0871544 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	skos:definition "concept model : model that describes the concepts of a specific domain and their relationships. Broad sense"@en ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skosxl:literalForm "concept model"@en .
+
+asset:t121-label-17110c0452a43207997a790e8dccabb9 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	skos:definition "concept list : representation of a concept model in list form"@en ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skosxl:literalForm "concept list"@en .
+
+asset:t122-label-4741ae9b1cef193da6bf35dd76b6a642 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	skos:altLabel "concept diagram"@en ;
+	skos:definition "concept diagram : representation of a concept model expressed as a diagram; narrow sense"@en ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skosxl:literalForm "concept model"@en .
+
+asset:t123-label-8185fc115fb97c32d7a3dd5503d7b60f a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:11 ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	skos:definition "logical model: model that describes what information is part of a defined context and how it is logically linked; includes core and applucation model"@en ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skosxl:literalForm "logical model"@en .
+
+asset:t124-label-ae4f0af9530796cd53cf39ec2c3e822d a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:11 ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	skos:definition "core model : reusable logical model of a domain focussing on a central business object that does not define model elements defined in other core models"@en ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skosxl:literalForm "core model"@en .
+
+asset:t125-label-f7f92c54173f97c6cf24b3859b3d873f a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:11 ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	skos:definition "application model : logical model aimed at a specific application situation in a defined context"@en ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skosxl:literalForm "application model"@en .
+
+asset:t126-label-444c147f9a681090300de36f04bb3858 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:11 ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	skos:definition "logical model in RDF: logical model based on the RDF description framework:"@en ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skosxl:literalForm "logical model in rdf"@en .
+
+asset:t127-label-45753ffe428665ab4dba0917c8d4c529 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "Harpring 2011" ;
+	skos:definition "Most controlled vocabularies discussed in this book are structured vocabularies. A structured vocabulary emphasizes relationships between and among the concepts represented by the terms or names in a vocabulary."@en ;
+	skosxl:literalForm "structured vocabulary"@en .
+
+asset:t128-label-81fdba3ddb53b781a60e338af2c9fdc3 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:14 ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	skos:definition "application profile : application model that by means profiling reuses selected elements from one or more vocabularies based on the RDF description framework"@en ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skosxl:literalForm "application profile"@en .
+
+asset:t129-label-385a07b4a3b19ca4e92b9e45e38324e2 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skos:definition "‘code list’ means an open enumeration that can be extended,"@en ;
+	foaf:page "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L:2010:323:FULL&from=EN" ;
+	skosxl:literalForm "code list"@en .
+
+asset:t13-label-cb3f934813effd124c6c3aa01f0d99a7 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:7 ;
+	dct:source "ISO 25964-2:2013" ;
+	skos:definition "Data that identify attributes of a document; typically used to support functions such as location, discovery, documentation, evaluation, and/or selection. NOTE: Preferred terms or notations selected during the indexing process are commonly applied as metadata values."@en ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skosxl:literalForm "metadata"@en .
+
+asset:t130-label-60c2fc4b2329a77a79a09ea909250879 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "inspire metadata" ;
+	skosxl:literalForm "application shema"@en .
+
+asset:t131-label-b96d1824571c4bfa1c6ef665e33159a9 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "inspire metadata" ;
+	skos:definition "–The common feature concept dictionary contains terms and definitions required for specifying thematic spatial object types and it is main role is in particular to support the harmonisation effort and to identify conflicts between the specifications of the spatial object types in the different themes"@en ;
+	skosxl:literalForm "feature concept dictionary "@en .
+
+asset:t132-label-63c78e5ea245646d739180410fec3ef4 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "inspire metadata" ;
+	skos:definition "–contains general terms and definitions that specify the common terminology used in the INSPIRE Directive and in the INSPIRE Implementing Rules documents. The glossary supports the use of a consistent language in different documents when referring to the terms."@en ;
+	skosxl:literalForm "glossary"@en .
+
+asset:t133-label-bf98bf237c8d581af917d8093c7487df a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "inspire metadata" ;
+	skosxl:literalForm "theme register"@en .
+
+asset:t134-label-db7e4435367d44c26cdae9dc728e116f a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "inspire metadata" ;
+	skosxl:literalForm "reference document register"@en .
+
+asset:t135-label-868536e77930729254f47c36c14d0d99 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "inspire metadata" ;
+	skosxl:literalForm "code list register "@en .
+
+asset:t136-label-7f5220d6ba7453a5c0ac012adf21c761 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skosxl:literalForm "metadata code list"@en .
+
+asset:t137-label-a15c54803bf4421d8fc49a83cea6dcb7 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skos:definition "‘register’ means a set of files containing identifiers assigned to items with descriptions of the associated items, in accordance with EN ISO 19135"@en ;
+	skosxl:literalForm "register"@en .
+
+asset:t138-label-4350e78fd661f6bc87ac5fb890abf411 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	skos:definition "‘metadata element’ means a discrete unit of metadata, in accordance with EN ISO 19115"@en ;
+	foaf:page "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:326:0012:0030:EN:PDF" ;
+	skosxl:literalForm "metadata element "@en .
+
+asset:t139-label-e2acffe38ea767c7ce1333410bca9507 a skosxl:Label ;
+	dct:abstract "0" ;
+	skos:definition "The value domain of each metadata element is necessary to ensure interoperability of metadata in a multilingual context and that value domain should be able to take the form of free text, dates, codes derived from international standards, such as language codes, keywords derived from controlled lists or thesauri, or character strings"@en ;
+	foaf:page "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:326:0012:0030:EN:PDF" ;
+	skosxl:literalForm "value domain"@en .
+
+asset:t14-label-1e36a6906a219df551a46437b9ae7e2f a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:1 ;
+	dct:source "ISO 25964-2:2013" ;
+	skos:definition "Controlled vocabulary for use in naming particular entities consistently. NOTE: The entities in question are unique individuals, such as Benjamin Disraeli, Kilimanjaro, or the Bayeux Tapestry, rather than classes such as politicians, mountains, or embroideries. A name authority list may also be known as a name authority file. A name authority list is sometimes referred to simply as an authority list."@en ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skosxl:literalForm "name authority list"@en .
+
+asset:t140-label-17120b7769c0fffff70bbeafa967b1ce a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:6 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:altLabel "nomenclature"@en ;
+	skos:definition """Is a set of discrete, exhaustive and mutually exclusive observations which can be assigned to one or more variables to be measured in the collation and/or presentation of data. The terms 'classification' and 'nomenclature' are often used interchangeably, despite the definition of a 'nomenclature' being narrower than that of a 'classification'. The structure of a classification can be either hierarchical or flat. Hierarchical classifications range from
+the broadest level (e.g. division) to the detailed level (e.g. class). Flat classifications (e.g. sex
+classification) are not hierarchical.  """@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "classification"@en .
+
+asset:t141-label-5c3e28c2fd97b260da1ddcecb2e87bf4 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:altLabel "code letters and numbers"@en ;
+	skos:definition "Normally consists of one or more alphabetic, numeric or alpha/numeric characters assigned to a descriptor in a classification. Each code is unique to a property within a classification. If the property changes, then the code should also be changed."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "code"@en .
+
+asset:t142-label-1d1a26e5b0435a8edcd5015dd11e6e52 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:altLabel "coding system"@en ;
+	skos:definition "Refers to the systematic numbering/lettering of all the categories in a classification. The use of standardised conventions when creating coding structures helps in using and comparing classifications."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "coding structure"@en .
+
+asset:t143-label-5c1424f7a80712deadb6d3164f9f0449 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:definition """Are abstract summaries, general notions, knowledge etc. of a whole set of behaviours, attitudes or characteristics which are seen as having something in common. Concepts are used to assist in presenting/conveying precise meaning, categorising, interpreting,
+structuring and making sense of classifications. """@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "concept"@en .
+
+asset:t144-label-3928cd9dc255b08ec38ed6116748da6c a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:7 ;
+	dct:source "Timea's email" ;
+	skos:definition "I think structured vocabulary term could also be interesting (\"An organized set of terms, headings or codes representing concepts and their interrelationships, which can be used to support information retrieval.\") but it would not be ideal to differentiate authority tables from thesauri – thesauri also have a structure – and the parallel use of structured vocabulary contra controlled vocabulary terms could not help unambiguity."@en ;
+	skosxl:literalForm "structured vocabulary "@en .
+
+asset:t145-label-abd79b2076af7b7e41362f9428cb5472 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:altLabel "mapping"@en , " alignment"@en ;
+	skos:definition "Is a tool for the linking of classifications. A correspondence table systematically explains where, and to what extent, the categories in one classification may be found in other classifications, or in earlier versions of the same classification. Methodologically, correspondence tables (also referred to as tables) describe the way in which the value sets of classifications are related, by describing how the units classified to the groups defined for a classification would be classified in other classifications."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "correspondance table"@en .
+
+asset:t146-label-897ce77309a16876c93caddb63575cee a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:altLabel "element"@en , " "@en , " item"@en ;
+	skos:definition "Is the generic term for items at any level within a classification, typically tabulation categories, sections, subsections, divisions, subdivisions, groups, subgroups, classes and subclasses. Classification categories are usually identified by codes (alphabetical or numerical) which provide both a unique identifier for each category and denote their place within the hierarchy. They contain elements which are subsets of the classification to which they belong, such as activities, products, types of occupations, types of education, etc."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "category"@en .
+
+asset:t147-label-238bfb873cec235216d9d3c6df526592 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:definition "Format(s) refers to the style or manner of arrangement or procedure used for the presentation of the content and structure of a classification, and may also refer to hard copy or electronic storage, software used, and text font, size and attributes."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "format"@en .
+
+asset:t148-label-a2fbdc7056e69de1e3000cc16791c00b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:definition "A framework is a multi dimensional classification system that seeks to bring in a range of elements. A framework could include a combination of classifications, code lists and/or data items modules, and generally metadata. The term framework can also be used to describe the skeleton of classification from which a detailed classification is developed. Such a framework encompasses the concepts to be embedded in a classification (e.g. product and activity) and provides the structure for the classification."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "framework"@en .
+
+asset:t149-label-1f147446d1ac60440b6c0cb5cdcdac69 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:definition "Refers to the classification structure where a classification is arranged in levels of detail from the broadest to the most detailed level. Each level of the classification is defined in terms of the categories at the next lower level of the classification."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "hierarchy"@en .
+
+asset:t15-label-04c93a3a11acabc821895166372cf64d a skosxl:Label ;
+	dct:coverage expr:14 ;
+	dct:source "wikipedia" ;
+	skos:definition "In computer science and information science, an ontology is a formal naming and definition of the types, properties, and interrelationships of the entities that really or fundamentally exist for a particular domain of discourse. It is thus a practical application of philosophical ontology, with a taxonomy."@en ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skosxl:literalForm "ontology"@en .
+
+asset:t150-label-cc72d3f673c20d81448d80d800fa460d a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:4 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:altLabel "classification"@en ;
+	skos:definition "Systematic naming of things or a system of names or terms for things. In classifications, nomenclature involves a systematic naming of categories or items."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "nomemclature"@en .
+
+asset:t151-label-2581ccf2171445b693d973885f69ba70 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:definition "Are those economic and social classifications that are a product of international agreements approved by the United Nations Statistical Commission or another competent inter-government board; Are those economic and social classifications that are a product of international agreements approved by the United Nations Statistical Commission or another competent inter-government board, such as that of the International Labour Organisation (ILO), the International Monetary Fund (IMF), the United Nations Educational, Scientific and Cultural Organisation (UNESCO), World Health Organisation (WHO), or the World Customs Organisation (WCO) depending upon the subject matter area. Thus reference classifications have achieved broad acceptance and official agreement and are approved and recommended as guidelines for the preparation of classifications. They may be used as models for the development or revision of other classifications, both with respect to the structure and with respect to the character and definition of the categories."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "reference classification"@en .
+
+asset:t152-label-39ce911975990503c899c34b6bf6a849 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:definition "Are those that follow prescribed rules and are generally recommended and accepted. They aim to ensure that information is classified consistently regardless of the collection, source, point of time etc."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "standard classification"@en .
+
+asset:t153-label-d45cc60e4d08f3a922613afff0b41098 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:definition "Refers to a classification constructed for the collection and presentation of numerical facts systematically collected (i.e. statistics). The usefulness of a statistical classification is enhanced if based on or representing a standard classification."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "statistical classification"@en .
+
+asset:t154-label-bcb1c3f61f0a35bb049e829f10365607 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:altLabel "mapping"@en ;
+	skos:definition "Are correspondence links where opportunities for (direct) correspondence between the categories of different classifications are difficult or not possible to establish, owing to significant structural differences in the defined value sets that do not allow for common correspondence at a similar hierarchical level in the structure. In some circumstances, an approximate or truncated correspondence may be made by aggregating subclasses of one classification to different structural levels of the other classification."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "structural links"@en .
+
+asset:t155-label-f19fe53289265a165c7d60b70bd7fb67 a skosxl:Label ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:definition "Refers to the specific meaning of a word used to define/express a concept. The definitions of terms for a particular classification should be precise, accompanied by explanatory definitions which will make them readily understood by non-experts, and agreed upon by the classification experts and main users of the resulting statistics."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "term"@en .
+
+asset:t156-label-4c62ebecce4b35c426861051cd881fe1 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:altLabel "classification"@en ;
+	skos:definition "Refers to the system of terms commonly used or adapted for use in a classification. Wording or terminology, which may have broader meanings within the wider community, may have specific meaning within the context of given classifications. For example, 'industry' and 'homogeneity ratios' have unique definitions in the context of industry classifications."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "terminology"@en .
+
+asset:t157-label-7aa503ce3615c9248806ab1e7ac698e4 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "unce - sdmx " ;
+	skos:altLabel "code list"@en ;
+	skos:definition "Codelist described in the section on structural definitions supports a simple hierarchy of Codes, and restricts any child Code to having just one parent Code. Whilst this structure is useful for supporting the needs of the DataStructureDefinition and the MetadataStructureDefinition, it may not sufficient for supporting the more complex associations between codes that are often found in coding schemes such as a classification scheme. Often, the Codelist used in a DataStructureDefinition is derived from a more complex coding scheme."@en ;
+	foaf:page "https://statswiki.unece.org/display/ClickSDMX/Hierarchical+Code+List" ;
+	skosxl:literalForm "hierarchical code list"@en .
+
+asset:t158-label-90e5d53176bc46a8aa0a15009100632d a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "unesco" ;
+	skos:definition "The UNESCO Thesaurus is a controlled and structured list of terms used in subject analysis and retrieval of documents and publications in the fields of education, culture, natural sciences, social and human sciences, communication and information. Continuously enriched and updated, its multidisciplinary terminology reflects the evolution of UNESCO's programmes and activities."@en ;
+	skosxl:literalForm "thesaurus"@en .
+
+asset:t159-label-8b24a1a690fff837905c9d80fbac4071 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:4 ;
+	dct:source "LOC" ;
+	skos:definition "LCSH in this service includes all Library of Congress Subject Headings, free-floating subdivisions (topical and form), Genre/Form headings, Children's (AC) headings, and validation strings* for which authority records have been created. The content includes a few name headings (personal and corporate), such as William Shakespeare, Jesus Christ, and Harvard University, and geographic headings that are added to LCSH as they are needed to establish subdivisions, provide a pattern for subdivision practice, or provide reference structure for other terms. This content is expanded beyond the print issue of LCSH (the \"red books\") with inclusion of validation strings."@en ;
+	foaf:page "http://id.loc.gov/authorities/subjects.html" ;
+	skosxl:literalForm "subject headings"@en .
+
+asset:t16-label-802f1194d5505466dd9c5ef5faaa42c5 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "Dublin Core" ;
+	skos:altLabel " element set"@en , "elements"@en ;
+	skos:definition "Elements are the \"core\" attributes of resources, used for the uniform structured resource description. Properties like dc:title, dc:creator, etc. are defined in the Dublin Core Metadata Element Set (DCMES), which is the Set of the fifteen generic elements created in the 1990s. And properties like dcterms:title, dcterms:alternative, etc. are defined as DCMI Metadata Terms - also known as subproperties or refinements of the DCMES. In record based metadata systems properties are usually called metadata fields."@en ;
+	foaf:page "https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide.md" ;
+	skosxl:literalForm "properties"@en .
+
+asset:t160-label-0780aa6b5040979ac4b41ebcdbf2c5ed a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "LOC" ;
+	skos:altLabel "name authority list"@en , " "@en ;
+	skos:definition "The Library of Congress Name Authority File (NAF) file provides authoritative data for names of persons, organizations, events, places, and titles. Its purpose is the identification of these entities and, through the use of such controlled vocabulary, to provide uniform access to bibliographic resources. Names descriptions also provide access to a controlled form of name through references from unused forms, e.g. a search under: Snodgrass, Quintus Curtius, 1835-1910 will lead users to the authoritative name for Mark Twain, which is, \"Twain, Mark, 1835-1910.\" Names may also be used as subjects in bibliographic descriptions, so they may be combined with controlled values from subject heading schemes, such as LCSH."@en ;
+	foaf:page "http://id.loc.gov/authorities/names.html" ;
+	skosxl:literalForm "name authority file"@en .
+
+asset:t161-label-90363692be858b121bb5cd86a688e3fe a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "LOC" ;
+	skos:definition "The system divides all knowledge into twenty-one basic classes, each identified by a single letter of the alphabet. Most of these alphabetical classes are further divided into more specific subclasses, identified by two-letter, or occasionally three-letter, combinations. For example, class N, Arti>, has subclasses NA, Architecturei>; NB, Sculpturei>, ND, Paintingi>; as well as several other subclasses. Each subclass includes a loosely hierarchical arrangement of the topics pertinent to the subclass, going from the general to the more specific. Individual topics are often broken down by specific places, time periods, or bibliographic forms (such as periodicals, biographies, etc.). Each topic (often referred to as a caption) is assigned a single number or a span of numbers. Whole numbers used in LCC may range from one to four digits in length, and may be further extended by the use of decimal numbers. Some subtopics appear in alphabetical, rather than hierarchical, lists and are represented by decimal numbers that combine a letter of the alphabet with a numeral , e.g. .B72 or .K535. Relationships among topics in LCC are shown not by the numbers that are assigned to them, but by indenting subtopics under the larger topics that they are a part of, much like an outline. In this respect, it is different from more strictly hierarchical classification systems, such as the Dewey Decimal Classificationi>, where hierarchical relationships among topics are shown by numbers that can be continuously subdivided."@en ;
+	foaf:page "http://id.loc.gov/authorities/classification.html" ;
+	skosxl:literalForm "classification"@en .
+
+asset:t162-label-a9226c74615e7824b634d29fe50b18e7 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	dct:source "LOC" ;
+	skos:definition "Classification Schemes contains a list of classification schemes and assigns a URI to each scheme. The purpose of these properties is to permit users to associate classification numbers with the appropriate classification scheme."@en ;
+	foaf:page "http://id.loc.gov/vocabulary/classSchemes.html" ;
+	skosxl:literalForm "classification scheme"@en .
+
+asset:t163-label-14fd6753e19639598dabe6024081c085 a skosxl:Label ;
+	dct:source "LOC" ;
+	skos:altLabel "metadata registry"@en ;
+	skos:definition "The Linked Data Service provides access to commonly found standards and vocabularies promulgated by the Library of Congress. This includes data values and the controlled vocabularies that house them."@en ;
+	foaf:page "http://id.loc.gov/" ;
+	skosxl:literalForm "linked data service"@en .
+
+asset:t164-label-98dce24dc9e60bdba76c17968ab57886 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "LOC" ;
+	skos:definition "you can browse and view authority headings for Subject, Name, Title and Name/Title combinations; and download authority records in MARC format for use in a local library system.  Subject Authorities , Name Authorities, Title Authorities, Keywords Authorities"@en ;
+	foaf:page "http://id.loc.gov/" ;
+	skosxl:literalForm "authority headings"@en .
+
+asset:t165-label-82aead303f7cbc5bfaeefd0866dbe111 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:4 ;
+	dct:source "LOC" ;
+	skos:definition "Headings List Types The Headings List Types reflect the various controlled vocabularies and thesauri that appear in Library of Congress authorities. This information is derived from several authoritative lists or thesauri whose short titles appear in the far right column of the Headings List display"@en ;
+	foaf:page "http://id.loc.gov/" ;
+	skosxl:literalForm "heading list type"@en .
+
+asset:t166-label-e949e65504aff4308c40c0d3e85ef1dc a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "loc" ;
+	skos:definition "MARC Code List for Relators The MARC Code Lists for Relators, Sources, Description Conventions have been reorganized. Relator terms and codes can be accessed on this page (below). The source code list parts can now be accessed at Source Codes for Vocabularies, Rules, and Schemes."@en ;
+	foaf:page "http://id.loc.gov/" ;
+	skosxl:literalForm "code list"@en .
+
+asset:t167-label-6f7a17ac2ec8285af66507afeb7d3ad1 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:4 ;
+	dct:source "sdmx " ;
+	skos:definition "Code lists are predefined sets of terms from which some statistical coded concepts take their values. SDMX cross-domain code lists are used to support cross-domain concepts. The use of common code lists will help users to work even more efficiently, easing the maintenance of and reducing the need for mapping systems and interfaces delivering data and metadata to them. "@en ;
+	foaf:page "https://sdmx.org/?page_id=4345 " ;
+	skosxl:literalForm "code list"@en .
+
+asset:t168-label-40c6d98db9ef3a5995aee7c0c1ea3b1f a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:4 ;
+	dct:source "sdmx " ;
+	skos:definition "A statistical subject-matter domain refers to a statistical activity that has common characteristics with respect to variables, concepts and methodologies for data collection and the whole statistical data compilation process. "@en ;
+	foaf:page "https://sdmx.org/?page_id=4345 " ;
+	skosxl:literalForm "subject-matter domains"@en .
+
+asset:t169-label-f13e9788a0df0de79cc00442eab7d422 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "sdmx " ;
+	skos:definition "The support for exchange of statistical data and related structural metadata has been expanded. Some support is provided  for qualitative data; data cube structures are described; hierarchical code  lists are supported; relationships between data structures can be expressed,  providing support for extensibility of data structures; and the description of  functional dependencies within cubes are supported."@en ;
+	foaf:page "https://sdmx.org/wp-content/uploads/SDMX_2-1_SECTION_1_Framework.pdf" ;
+	skosxl:literalForm "structural metadata"@en .
+
+asset:t17-label-66af6030d6a7800a044979d4cb96e49e a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:7 ;
+	skos:definition "A prescribed set of consistently used and carefully defined terms."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "controlled vocabulary"@en .
+
+asset:t170-label-99a49c85ce4c1ace3e29981035005aa9 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:4 ;
+	dct:source "sdmx " ;
+	skos:definition "Code list: Code lists enumerate a set of values to be used in the representation of dimensions, attributes, and other structural parts of SDMX. They can be supplemented by other structural metadata which indicates how codes are organized into hierarchies. "@en ;
+	foaf:page "https://sdmx.org/wp-content/uploads/SDMX_2-1_SECTION_1_Framework.pdf" ;
+	skosxl:literalForm "code list"@en .
+
+asset:t171-label-e89023f9be66600c079b26b8618cd5ca a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "sdmx " ;
+	skos:altLabel "organigram"@en ;
+	skos:definition "Organisations and organisation structure can be  defined in an Organisation Scheme. Specific Organisation Schemes exist for Maintenance Agency, Data Provider, Data Consumer, and Organisation Unit. "@en ;
+	foaf:page "https://sdmx.org/wp-content/uploads/SDMX_2-1_SECTION_1_Framework.pdf" ;
+	skosxl:literalForm "organisation scheme"@en .
+
+asset:t172-label-c1c0e1a1e9ddd7c25f58e5c3fd04f6b4 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "sdmx " ;
+	skos:definition "Category schemes are made up of a hierarchy of categories, which in SDMX may include any type of useful classification for the organization of data and metadata. A Categorisation links a category to an identifiable object. In this way sets of objects can be categorised. A statistical subject-matter domain scheme is implemented in  SDMX as a Category Scheme. "@en ;
+	foaf:page "https://sdmx.org/wp-content/uploads/SDMX_2-1_SECTION_1_Framework.pdf" ;
+	skosxl:literalForm "category scheme and categorisation"@en .
+
+asset:t173-label-9f3adeae84b4c877633811ba75f4f3ef a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "sdmx " ;
+	skos:definition "A concept scheme is a maintained list of concepts that are used in data structure definitions and metadata structure definitions. There can be many such concept schemes. A “core” representation of the  concept can be specified (e.g. a core code list, or other representation such  as “date”). Note that this core representation can be overridden in the data  structure definition or metadata structure definition that uses the concept. Indeed, organisations wishing to remain with version 1.0 key family schema specifications will continue to declare the representation in the key family  definition."@en ;
+	foaf:page "https://sdmx.org/wp-content/uploads/SDMX_2-1_SECTION_1_Framework.pdf" ;
+	skosxl:literalForm "concept scheme"@en .
+
+asset:t174-label-710587bc7579a720425041f117babf9d a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "sdmx " ;
+	skos:definition "A reference metadata set is a set of information pertaining to an object within the formal SDMX view of statistical exchange: they may describe the maintainers of data or structural definitions; they may describe  the schedule on which data is released; they may describe the flow of a single type of data over time; they may describe the quality of data, etc. In SDMX,  the creators of reference metadata may take whatever concepts they are concerned with, or obliged to report, and provide a reference metadata set containing that information."@en ;
+	foaf:page "https://sdmx.org/wp-content/uploads/SDMX_2-1_SECTION_1_Framework.pdf" ;
+	skosxl:literalForm "metadata set"@en .
+
+asset:t175-label-b411770153d0802bfa0aa1e2a26cc346 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:10 ;
+	dct:source "sdmx " ;
+	skos:definition " A reference metadata set also has a set of structural metadata which describes how it is organized. This metadata set identifies what reference metadata concepts are being reported, how these concepts relate to each other (typically as hierarchies), what their presentational structure is, how they may be represented (as free text, as coded values, etc.), and with which formal SDMX object types they are associated."@en ;
+	foaf:page "https://sdmx.org/wp-content/uploads/SDMX_2-1_SECTION_1_Framework.pdf" ;
+	skosxl:literalForm "metadata structure definition"@en .
+
+asset:t176-label-24186a3c3f11cbb2f25f0925e27744e5 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:10 ;
+	dct:source "sdmx " ;
+	skos:definition "Structure Set: Structure sets provide a mechanism for grouping structural  metadata together to form a complete description of the relationships between specific, related sets of data and metadata. They can be used to  map dimensions and attributes to one another, to map concepts, to map code lists, and to map category schemes. They can be used to describe “cubes” of data, even when the data within the cube does not share a single dimensionality. "@en ;
+	foaf:page "https://sdmx.org/wp-content/uploads/SDMX_2-1_SECTION_1_Framework.pdf" ;
+	skosxl:literalForm "structure set"@en .
+
+asset:t177-label-81bf520f70b135b927ba13e9f7b487f1 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "sdmx " ;
+	skos:definition "This supports the specification of code hierarchies. The codes themselves are referenced from the code lists in which they are maintained. The Hierarchical Code List thus specifies the organisation of the codes in one or more hierarchies, but does not define the codes themselves. "@en ;
+	foaf:page "https://sdmx.org/wp-content/uploads/SDMX_2-1_SECTION_1_Framework.pdf" ;
+	skosxl:literalForm "hierarchical code list"@en .
+
+asset:t178-label-661bb248812dcaa2c9ffc8c68bdc2d3b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "EDItEUR - ONIX" ;
+	skos:altLabel " controlled vocabulary"@en , "codelist"@en ;
+	skos:definition """They form part of the shared semantics of an ONIX message. The codelists contain a list of language-independent (often numerical) code values that are used in ONIX messages, plus for each code there is a short label and sometimes a longer note to define the meaning of the code. In principle, labels and notes may be in any language: although the meaning of almost all codes is originally defined in English, translation of labels and/or notes into another language does not alter the meaning of the code itself. Thus the meaning of an ONIX message using a particular code value is understandable and unambiguous, whatever the languages used by sender and recipient of the data.
+"""@en ;
+	foaf:page "https://www.editeur.org/14/Code-Lists/ " ;
+	skosxl:literalForm "code lists "@en .
+
+asset:t179-label-3f7400f57cbcc06f8febae5390cedbfc a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "w3c" ;
+	skos:altLabel " controlled vocabulary"@en , " concept vocabulary"@en , "content vocabulary"@en ;
+	skos:definition "Vocabularies used to express concepts or values in instance data. DCMI uses the term Vocabulary Encoding Scheme for these vocabularies, which assumes more internal structure than a term list in text. (Example: Getty Art & Architecture Thesaurus). A value vocabulary defines resources (such as instances of topics, art styles, or authors) that are used as values for elements in metadata records. Typically, a value vocabulary does not define bibliographic resources such as books but rather concepts related to bibliographic resources (persons, languages, countries, etc.). The resources in a value vocabulary are \"building blocks\" with which metadata records can be populated. Many libraries mandate specific vocabularies for selecting values for a particular metadata element. A value vocabulary thus represents a controlled list of allowed values for an element. Examples include: thesauri, code lists, term lists, classification schemes, subject heading lists, taxonomies, authority files, digital gazetteers, concept schemes, and other types of knowledge organization systems. To be useful for linking of data, value vocabularies should have Hypertext Transfer Protocol (HTTP)68 Uniform Resource Identifiers (URIs)69 assigned for each value; these URIs would then appear in a metadata record instead of or in addition to the literal value."@en ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025/#Value_vocabularies" ;
+	skosxl:literalForm "value vocabulary"@en .
+
+asset:t18-label-c5f10ae4f2f6ab551096a5ea3ffa7de9 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	dct:source "ISO 25964-2:2013" ;
+	skos:definition "Terms, notations, captions, cross-references and scope notes set out to exhibit the content and structure of a structured vocabulary."@en ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skosxl:literalForm "schedule"@en .
+
+asset:t180-label-9387f40390a187ff85a1cc11e4f9901d a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:1 ;
+	dct:source "Hedden 2010" ;
+	skos:altLabel "pick list"@en ;
+	skos:definition "The simplest kind of controlled vocabulary is a fl at term list, sometimes called a ‘ pick list"@en ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skosxl:literalForm "term list"@en .
+
+asset:t181-label-b75a5c236de42c472f6a9c0a8f5d7d03 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:3 ;
+	dct:source "Hedden 2010" ;
+	skos:altLabel " controlled vocabulary"@en , "named authority files"@en ;
+	skos:definition "An authority fi le is a controlled vocabulary which includes synonyms or variants for each term which function as cross-references to guide the user from an ‘ non-preferred term ’variant to the equivalent ‘ preferred term ’ . In addition, authority fi les may provide a note for each term as to the authoritative source for the preferred term as it is worded. The designation ‘ authority fi le ’is used more often with named entities (proper nouns) only, and often authority fi les are simply called ‘ controlled vocabularies"@en ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skosxl:literalForm "authority files"@en .
+
+asset:t182-label-8fd9395dac2ba5df9cadd6195cf225c8 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "Hedden 2010" ;
+	skos:altLabel "tree"@en ;
+	skos:definition "The word ‘ taxonomy ’means the science of classifying things, and traditionally the classifi cation of plants and animals, as in the Linnaean classifi cation system. It has become a popular term now for any hierarchical classifi cation or categorization system. Thus, a taxonomy is a controlled vocabulary in which all the terms belong to a single hierarchical structure and have parent / child or broader / narrower relationships to other terms. The structure is sometimes referred to as a ‘ tree ’ . The addition of non-preferred terms / synonyms may or may not be part of a taxonomy."@en ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skosxl:literalForm "taxonomy"@en .
+
+asset:t183-label-8f12a2d7147865b11d53e081950e774c a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "Hedden 2010" ;
+	skos:definition "The classic meaning of a thesaurus is a kind of dictionary, such as Roget ’ s thesaurus, which contains synonyms or alternate expressions for each term and possibly even antonyms."@en ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skosxl:literalForm "thesaurus"@en .
+
+asset:t184-label-26640285dcddfa2503609c50742d0372 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "Hedden 2010" ;
+	skos:definition "An information / content retrieval thesaurus shares this characteristic of listing similar terms at each controlled vocabulary term entry. The difference is that in a dictionary-thesaurus all the associated terms might be used in place of the term entry depending upon the specifi c context, which the user needs to consider in each case.the content retrieval  thesaurus, on the other hand, is designed for all contexts, regardless of a specifi c term usage or document. The synonyms or near-synonyms must therefore be suitably equivalent in all circumstances."@en ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skosxl:literalForm "thesaurus"@en .
+
+asset:t185-label-978d78a400b99280ce318edca1095337 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "Hedden 2010" ;
+	skos:definition "A taxonomy usually means a controlled vocabulary with a hierarchical structure"@en ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skosxl:literalForm "taxonomy "@en .
+
+asset:t186-label-1f0105c91e2762987c9f8c120c74ffbe a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "w3c" ;
+	skos:definition "Classification systems (Dewey Decimal Classification (DDC), Universal Decimal Classification (UDC) )  Subject headings/subject authority files ( Library of Congress Subject Headings (LCSH) , Répertoire d'Autorité-Matière Encyclopédique et Alphabétique Unifié (RAMEAU), Schlagwortnormdatei (SWD), National Diet Library List of Subject Headings (NDLSH) ) Name authority data (Virtual International Authority File (VIAF), Getty Union List of Artist Names (ULAN),  Library of Congress Name Authority File (LC/NAF), GeoNames) Thesauri (STW Thesaurus for Economics, AGROVOC, Eurovoc, Thesaurus for Graphic Materials (TGM) ) Other controlled vocabularies (DCMI Type Vocabulary, MARC Code List of Relators (also in element sets), PRONOM, Creative Commons (CC) License set, Preservation vocabularies from LoC) Additional sources (Wordnet, Freebase (also in datasets), DBpedia)"@en ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025" ;
+	skosxl:literalForm "value vocabulary"@en .
+
+asset:t187-label-06202c8839e2626358c7b8d04d4b733c a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "Harpring 2010" ;
+	skos:altLabel " format encoding scheme"@en , "grammar"@en ;
+	skos:definition "the term controlled format refers to rules concerning the allowable data types and formatting of information. Fields may have controlled format in addition to being linked to controlled vocabulary, or the controlled format may exist in the absence of any finite controlled list of acceptable values."@en ;
+	skosxl:literalForm "controlled format"@en .
+
+asset:t188-label-140d9a9526eed1cc8bc09625ece511d3 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:13 ;
+	dct:source "Danish gov digital data strategy 2016-2020" ;
+	skos:altLabel " core model"@en , "domain ontology"@en ;
+	skos:definition "vocabulary : core model, based on the RDF description framework, which ensures semantic unambiguity, coherence and machine accessibility"@en ;
+	foaf:page "https://arkitektur.digst.dk/sites/default/files/rules_for_concept_and_data_modelling_-_in_english.pdf" ;
+	skosxl:literalForm "vocabulary"@en .
+
+asset:t189-label-227929591d1787f857246192e1dcd227 a skosxl:Label ;
+	dct:source "Harpring 2012" ;
+	skos:definition "Subject headings, or simply headings, are uniform words or phrases intended to be assigned to books, articles, or other documents in order to describe the subject or topic of the texts and to group them with texts having similar subjects."@en ;
+	skosxl:literalForm "subject heading lists"@en .
+
+asset:t19-label-7080569caf453cf4f60b00065083cb68 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "ISO 25964-2:2013" ;
+	skos:altLabel "thesaurus"@en ;
+	skos:definition "Vocabulary intended to assist searching even though it has not been used to index the documents being searched. NOTE: Search thesauri are designed to facilitate choice of terms and/or expansion of search expressions to include terms for broader, narrower or related concepts, as well as synonyms."@en ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skosxl:literalForm "search thesaurus"@en .
+
+asset:t190-label-72bc90a0015f4d39e3d86b2030ce588b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	dct:source "Harpring 2010" ;
+	skos:altLabel " pick list"@en , "flat term list"@en ;
+	skos:definition "A controlled list is a simple list of terms used to control terminology. In a well-constructed controlled list, the following is true: each term is unique; terms are not overlapping in meaning; terms are all members of the same class (i.e., having the same level of rank in a classification system); terms are equal in granularity or specificity; and terms are arranged alphabetically or in another logical order."@en ;
+	skosxl:literalForm "controlled list"@en .
+
+asset:t191-label-95bddbe5095a3b7f288baaf579f8c45d a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "Harpring 2011" ;
+	skos:definition "A synonym ring is a simple set of terms that are considered equivalent for the purpose of retrieval. Equivalence relationships in most controlled vocabularies should be made only between terms and names that have genuine synonymy or identical meanings. However, synonym rings are different. Even though they are classified as controlled vocabularies, they are almost always used in retrieval rather than indexing."@en ;
+	skosxl:literalForm "synonym ring lists"@en .
+
+asset:t192-label-33800896ca5385f8fe99e7abf80107de a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:3 ;
+	dct:source "Harpring 2012" ;
+	skos:altLabel "authority list"@en ;
+	skos:definition """An authority file is a set of established names or headings and cross-references to the preferred form from variant or alternate forms. Common types of authority files are name authority files and
+subject heading authority files. However, any listing of terms, names, or
+headings that distinguishes between a preferred term, name, or heading
+and alternate or variant names may be used as an authority. In other
+words, almost any type of controlled vocabulary—with the exception of
+a synonym ring list—may be used as an authority."""@en ;
+	skosxl:literalForm "authority file"@en .
+
+asset:t193-label-55086a9a081bccf1f469c3b0857bbc66 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "Harpring 2013" ;
+	skos:definition "A taxonomy is an orderly classification for a defined domain. It may also be known as a faceted vocabulary. It comprises controlled vocabulary terms (generally only preferred terms) organized into a hierarchical structure. Each term in a taxonomy is in one or more parent/child (broader/ narrower) relationships to other terms in the taxonomy. There can be different types of parent/child relationships, such as whole/part, genus/ species, or instance relationships. However, in good practice, all children of a given parent share the same type of relationship."@en ;
+	skosxl:literalForm "taxonomy"@en .
+
+asset:t194-label-653ede8f7a21a2b1b3efe863ac7a5b9b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "Harpring 2014" ;
+	skos:definition "Alphanumeric classification schemes are controlled codes (letters or numbers, or both letters and numbers) that represent concepts or headings. They generally have an implied taxonomy that can be surmised from the codes."@en ;
+	skosxl:literalForm "alphanumeric classification schemes"@en .
+
+asset:t195-label-64087d11d183ba277cd1f0b5a682bbe5 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "Harpring 2015" ;
+	skos:definition "A thesaurus combines the characteristics of synonym ring lists and taxonomies, together with additional features. A thesaurus is a semantic network of unique concepts, including relationships between synonyms, broader and narrower (parent/child) contexts, and other related concepts. Thesauri may be monolingual or multilingual. Thesauri may contain three types of relationships: equivalence (synonym), hierarchical (whole/ part, genus/species, or instance), and associative."@en ;
+	skosxl:literalForm "thesauri"@en .
+
+asset:t196-label-ef7cc8be9c0f8d6f8b9ca76b06ea5bf6 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:14 ;
+	dct:source "Harpring 2016" ;
+	skos:definition "In common usage in computer science, an ontology is a formal, machine-readable specification of a conceptual model in which concepts, properties, relationships, functions, constraints, and axioms are all explicitly defined. Such an ontology is not a controlled vocabulary, but it uses one or more controlled vocabularies for a defined domain and expresses the vocabulary in a representative language that has a grammar for using vocabulary terms to express something meaningful."@en ;
+	skosxl:literalForm "ontology"@en .
+
+asset:t197-label-7296130eb60103a0eb2fbbf004872e90 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:4 ;
+	dct:source "Harpring 2017" ;
+	skos:altLabel " folk categorisation"@en , " mob indexing"@en , " social indexing"@en , " social tagging"@en , "social classification"@en ;
+	skos:definition "Folksonomy is a neologism referring to an assemblage of concepts represented by terms and names (called tags) that are compiled through social tagging. Social tagging is the decentralized practice and method by which individuals and groups create, manage, and share tags (terms, names, etc.) to annotate and categorize digital resources in an online social environment. This method is also referred to as social classification, social indexing, mob indexing, and folk categorization"@en ;
+	skosxl:literalForm "folksonomy"@en .
+
+asset:t198-label-4ba4f9bfb7b7f86ebb762a03ac951d1d a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "dlese" ;
+	skos:definition "A flat term list controlled vocabulary is a list of terms with no ordering implied. Good vocabularies include definitions and attribution if necessary. Each term is easily differentiated from each other term (no overlap). Terms are on the same scale, that is one term won't encompass other terms."@en ;
+	foaf:page "http://www.dlese.org/Metadata/vocabularies/term_expln.php" ;
+	skosxl:literalForm "flat term list"@en .
+
+asset:t199-label-f805df9716496a395e59e315dffa588c a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "dlese" ;
+	skos:definition "A hierarchal term list controlled vocabulary is a list of terms that are grouped to imply a certain order or method of organization. There are parent and child relationships between terms. Terms within each group are differentiated from each other and all child terms across group are generally on the same scale. Again, good vocabularies include definitions and attribution if necessary."@en ;
+	foaf:page "http://www.dlese.org/Metadata/vocabularies/term_expln.php" ;
+	skosxl:literalForm "hierarchal term list"@en .
+
+asset:t2-label-16e8b5c3513747e8665fbfe40eaf051b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "wikipedia" ;
+	skos:altLabel "api"@en ;
+	skos:definition "An Application Programming Interface (API) is a machine endpoint designed to provide programmatic, often high-level, access to data and/or virtual machines via a standardized protocol."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Application_programming_interface" ;
+	skosxl:literalForm "application programming interface"@en .
+
+asset:t20-label-502eca3906bd5b588028fa3fab41f4ce a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:6 ;
+	dct:source "wikipedia" ;
+	skos:definition "A simple list of terms, definitions and naming conventions. A controlled vocabulary frequently has some type of oversight process associated with adding or removing data element definitions to ensure consistency. Terms are often defined in relationship to each other."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Semantic_spectrum" ;
+	skosxl:literalForm "controlled vocabulary"@en .
+
+asset:t200-label-a1d455003a583ef2891b8a928a79b43c a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "dlese" ;
+	skos:definition "A synonym ring extends controlled vocabulary term lists by providing additional terms that are equivalent to a term in the list."@en ;
+	foaf:page "http://www.dlese.org/Metadata/vocabularies/term_expln.php" ;
+	skosxl:literalForm "synonym ring "@en .
+
+asset:t201-label-3e3f0bdc77b8994ceed9ec336fb0b16c a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "dlese" ;
+	skos:definition "An authority file is similar to the synonym ring, with the addition of one type of term relationship. Instead of all of the terms being equal, one term is identified as the preferred term and the others are considered variant terms."@en ;
+	foaf:page "http://www.dlese.org/Metadata/vocabularies/term_expln.php" ;
+	skosxl:literalForm "authority file"@en .
+
+asset:t202-label-4af18b6ec8a1a69f734304c9999cc3a6 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:source "dlese" ;
+	skos:definition "Classification systems are codes (letters and/or numbers) that represent controlled vocabulary terms."@en ;
+	foaf:page "http://www.dlese.org/Metadata/vocabularies/term_expln.php" ;
+	skosxl:literalForm "classification schemes"@en .
+
+asset:t203-label-c4dd6738fef31d74078dd239f7b64c10 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	dct:source "dlese" ;
+	skos:definition "Faceted controlled vocabularies are generally mutually exclusive concept bins that capture an essential characteristic about a resource."@en ;
+	foaf:page "http://www.dlese.org/Metadata/vocabularies/term_expln.php" ;
+	skosxl:literalForm "faceted controlled vocabularies"@en .
+
+asset:t204-label-3f22d7eb016b053980a2b86e3bd91588 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "dlese" ;
+	skos:definition "Thesauri are controlled vocabularies networked together by relationships between terms and often indicate preferred and variant terms. Relationships are defined as follows:  Equivalence: synonym of terms and the ability to suggest which term is the preferred term Hierarchy: reflect hierarchy (spatial, conceptual or terminological) of terms by showing how terms are linked to other terms. These links are often shown by the items belonging to a broad class (CL) and defining broad and narrow terms for the item (abbreviated as BT and NT). Associative: a method to indicate relationships across hierarchies. This is expressed as related terms (abbreviated as RT). Scope Notes: defines term or breadth of term and its usage (abbreviated as SN)."@en ;
+	foaf:page "http://www.dlese.org/Metadata/vocabularies/term_expln.php" ;
+	skosxl:literalForm "thesauri"@en .
+
+asset:t205-label-f1ac361e1c9205a191d0a80d08afec06 a skosxl:Label ;
+	dct:coverage expr:14 ;
+	dct:source "dlese" ;
+	skos:definition "Ontologies describe concepts and relationships in programmatic ways and enable arbitrary relationships. Because ontologies describe concepts and relationships, they are somewhat like thesauri but different because there are often no preferred terms and the concepts and relationships are described in machine readable ways."@en ;
+	foaf:page "http://www.dlese.org/Metadata/vocabularies/term_expln.php" ;
+	skosxl:literalForm "ontology"@en .
+
+asset:t206-label-17ffd830fd01a13fc0ad7365163063d3 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:8 ;
+	dct:source "Dublin Core" ;
+	skos:altLabel " "@en , "concept scheme"@en ;
+	skos:definition "A Vocabulary Encoding Scheme (VES) resp. Concept Scheme identifies controlled vocabularies - such as thesauri, classifications, subject headings, taxonomies, etc. - whose terms may be used as values. The relationship between Dublin Core vocabulary encoding schemes and properties is as follows: Certain properties - e.g. subject, coverage, etc. - may be constrained by a Vocabulary Encodings Scheme, where the Vocabulary Encodings Scheme dictates what values may be used with that property."@en ;
+	skos:editorialNote "sub type of controlled vocabulary"@en ;
+	skosxl:literalForm "vocabulary encoding scheme"@en .
+
+asset:t207-label-db875dc2930b050ecc51a5a521278c60 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:2 ;
+	dct:source "odlis" ;
+	skos:definition "A list of the authoritative forms of the headings used in a library catalog or file of bibliographic records, maintained to ensure that headings are applied consistently as new items are added to the collection. Separate authority files are usually maintained for names, uniform titles, series titles, and subjects. All the references made to and from a given heading are also included in the file. See also: authority control. "@en ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skosxl:literalForm "authority file"@en .
+
+asset:t208-label-2e317ab12d323a4301f098c0c0cb30ff a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "odlis" ;
+	skos:altLabel "analytic classification"@en ;
+	skos:definition "A classification system in which the classes are subdivided on the principle of logical subordination, from the most general subjects to the most specific. Hierarchical classification can be broad or close."@en ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skosxl:literalForm "hierarchical classification"@en .
+
+asset:t209-label-4a7b89a599b59a3d437cb180e0766c34 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	dct:source "odlis" ;
+	skos:definition "A classification system in which each subject is developed to the point of indivisibility and a notation assigned for every subdivision (example: Library of Congress Classification). "@en ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skosxl:literalForm "enumerative classification"@en .
+
+asset:t21-label-75754f8ce9c9c78cd86e274cba7d2260 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "w3c" ;
+	skos:definition "interest. In Linked Data terminology, such element sets are generally made concrete through RDF Schemas or OWL Web Ontology Language67 ontologies, the term \"RDF vocabulary\" often being used as an umbrella for these. Usually a metadata element set does not describe bibliographic entities, rather it provides elements to be used by others to describe such entities."@en ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025/#Metadata_Element_Sets" ;
+	skosxl:literalForm "metadata element sets"@en .
+
+asset:t210-label-dd07bc5e128caf86c20c35fc625daf36 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	dct:source "odlis" ;
+	skos:definition "A classification system in which the classes are formed by combining characteristics or facets of subjects according to a pre-established set of rules (example: Colon Classificationdeveloped by S.R. Ranganathan)."@en ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skosxl:literalForm "synthetic classification"@en .
+
+asset:t211-label-476db6ac199a59100ccfb4bbd42a24aa a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "odlis" ;
+	skos:definition "The arrangement of classes in a classification system, from the most general to the most specific. In a classification schedule, hierarchy is usually indicated by length of notation and depth of indention, as in the following example from Dewey Decimal Classification"@en ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skosxl:literalForm "hierarchy "@en .
+
+asset:t212-label-335e85bd56a37f9179060dad38c1ac02 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "odlis" ;
+	skos:definition "The science of classification, including the general principles by which objects and phenomena are divided into classes, which are subdivided into subclasses, then into sub-subclasses, and so on."@en ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skosxl:literalForm "taxonomy"@en .
+
+asset:t213-label-a55acd9063e10ed71f1affce2fe861ca a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:8 ;
+	dct:source "Dublin Core" ;
+	skos:altLabel " "@en , "concept scheme"@en ;
+	skos:definition "Concept Scheme identifies controlled vocabularies—such as thesauri, classifications, subject headings, taxonomies, etc.—whose terms may be used as values."@en ;
+	foaf:page "https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide.md" ;
+	skos:editorialNote """subclasses: thesauri, classifications,
+subject headings, taxonomies"""@en ;
+	skosxl:literalForm "vocabulary encoding scheme (ves)"@en .
+
+asset:t214-label-beb41f48b55c9a2cf2348dd6c39621d1 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "odlis" ;
+	skos:definition "In library cataloging, a data element in the MARC record whose content is determined by a list maintained by a designated agency, for example, the MARC Code List for Geographic Areas in the case of field 043 (Geographic Area Code) of the bibliographic format, a list controlled by the Library of Congress. This type of data element is indicated at the field or subfield level in MARC 21, and only values from the designated list may be used. If a change or addition is desired in a list, the maintenance agency must be consulted. (MARC 21 Concise Formats)"@en ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skosxl:literalForm "controlled-list data element"@en .
+
+asset:t215-label-7f0af318cc701529049d0f8671ad14af a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "odlis" ;
+	skos:altLabel "mapping"@en ;
+	skos:definition "A function built into the search software of some bibliographic databases that allows the user to relate a specific search term to the appropriate subject heading(s) or descriptor(s), read a scope note explaining how the heading is used, view the hierarchical tree of headings to which it belongs, and select broader headings or narrower terms or subheadings to include in the search."@en ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skosxl:literalForm "vocabulary mapping"@en .
+
+asset:t216-label-465b1a11bee0352b94037b20721eefc5 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "canadian gov" ;
+	skos:definition "A thesaurus is a tool used for vocabulary control. Using a thesaurus improves search results. A thesaurus is a sub-set of the language we use in daily life. It includes information about the relationships of words and phrases (i.e. broader terms, narrower terms, preferred terms, non-preferred, or related terms). A thesaurus is normally restricted to a specific subject field (e.g. health, education, government documents). It allows searchers to use terminology they are familiar with to find the most relevant information."@en ;
+	foaf:page "http://www.bac-lac.gc.ca/eng/services/government-information-resources/controlled-vocabularies/Pages/how-to-register-controlled-vocabulary.aspx" ;
+	skosxl:literalForm "thesaurus"@en .
+
+asset:t217-label-4758de673fb2874431a1c7ddaefa358b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:1 ;
+	dct:source "canadian gov" ;
+	skos:definition "A flat list of preferred terms is an established list of standardized terminology for use in indexing and retrieval of information. It may or may not be arranged in alphabetical order and it does not display relationships between terms. A flat list is normally restricted to a specific kind of information (e.g. types of documents, categories of users). It is usually relatively short."@en ;
+	foaf:page "http://www.bac-lac.gc.ca/eng/services/government-information-resources/controlled-vocabularies/Pages/how-to-register-controlled-vocabulary.aspx" ;
+	skosxl:literalForm " flat list of preferred terms"@en .
+
+asset:t218-label-554b6f2545e53600d763045688a3c382 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:11 ;
+	dct:source "OECD" ;
+	skos:definition "A model is a formalised expression of a theory or the causal situation which is regarded as having generated observed data. In statistical analysis the model is generally expressed in symbols, that is to say in a mathematical form, but diagrammatic models are also found. The word has recently become very popular and possibly somewhat over-worked."@en ;
+	foaf:page "https://stats.oecd.org/glossary/search.asp" ;
+	skosxl:literalForm "model"@en .
+
+asset:t22-label-8b2e7ba7bed2303621db586830986fb4 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:4 ;
+	dct:source "ISO 25964-2:2013" ;
+	skos:altLabel "subject heading list"@en ;
+	skos:definition "Structured vocabulary comprising terms available for subject indexing, plus rules for combining them into pre-coordinated strings of terms where necessary."@en ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skosxl:literalForm "subject heading scheme"@en .
+
+asset:t23-label-8cf4f18b5a5408dec13f0c6b5c3eb11d a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:4 ;
+	dct:source "w3c" ;
+	skos:altLabel "subject authority files"@en ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025/#Classification_systems" ;
+	skos:editorialNote "Library of Congress Subject Headings (LCSH), Répertoire d'Autorité-Matière Encyclopédique et Alphabétique Unifié (RAMEAU), Schlagwortnormdatei (SWD), National Diet Library List of Subject Headings (NDLSH), "@en ;
+	skosxl:literalForm "subject headings"@en .
+
+asset:t24-label-7883e9f3118ce9e8818830e5598b2a59 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "ANSI/NISO Z39 R2010" ;
+	skos:definition "A group of terms that are considered equivalent for the purposes of retrieval."@en ;
+	foaf:page "https://groups.niso.org/apps/group_public/download.php/12591/z39-19-2005r2010.pdf" ;
+	skosxl:literalForm "synonym ring"@en .
+
+asset:t25-label-1b31534bb0750a698341ef3ee9b87cb6 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:6 ;
+	dct:source "ANSI/NISO Z39 R2010" ;
+	skos:definition "A collection of controlled vocabulary terms organized into a hierarchical structure. Each term in a taxonomy is in one or more parent/child (broader/narrower) relationships to other terms in the taxonomy."@en ;
+	foaf:page "https://groups.niso.org/apps/group_public/download.php/12591/z39-19-2005r2010.pdf" ;
+	skosxl:literalForm "taxonomy"@en .
+
+asset:t26-label-49208a1184a0caa48b9033b22a7b7d18 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:1 ;
+	dct:source "ISO 25964-2:2013" ;
+	skos:definition "Set of designations belonging to one special language."@en ;
+	foaf:page "https://www.iso.org/standard/53658.html" ;
+	skosxl:literalForm "terminology"@en .
+
+asset:t27-label-921bdec03cdfafd1a463e97a4b7d2795 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "oxford dictionary" ;
+	skos:definition "A book that lists words in groups of synonyms and related concepts."@en ;
+	skosxl:literalForm "thesaurus"@en .
+
+asset:t28-label-8724cf253115c0f3729a0d1140e9e02d a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "wikipedia" ;
+	skos:definition "a thesaurus is a reference work that lists words grouped together according to similarity of meaning (containing synonyms and sometimes antonyms), in contrast to a dictionary, which provides definitions for words, and generally lists them in alphabetical order"@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Thesaurus" ;
+	skosxl:literalForm "thesaurus"@en .
+
+asset:t29-label-a49bc303bed1a758352c19361990c977 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:7 ;
+	dct:source "OECD" ;
+	skos:definition "A controlled vocabulary is an established list of standardized terminology for use in indexing and retrieval of information. An example of a controlled vocabulary is subject headings used to describe library resources."@en ;
+	foaf:page "https://stats.oecd.org/glossary/detail.asp?ID=6260" ;
+	skosxl:literalForm "controlled vocabulary"@en .
+
+asset:t3-label-6c31ed24a5543e2b0f8254b563a8018d a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:3 ;
+	dct:source "ANSI/NISO Z39 R2010" ;
+	skos:altLabel "value vocabulary"@en ;
+	skos:definition "A set of established headings and the cross-references to be made to and from each heading, often citing the authority for the preferred form or variants. Types of authority file include name authority files and subject authority files."@en ;
+	foaf:page "https://groups.niso.org/apps/group_public/download.php/12591/z39-19-2005r2010.pdf" ;
+	skosxl:literalForm "authority file"@en .
+
+asset:t30-label-259d88258a3378ece62f816d1fea006b a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:7 ;
+	dct:source "UNSD - United Nations Statistics Division" ;
+	skos:definition "Refers to the vocabulary to be used for specific classifications which have specific meaning as given by the author or agreed by experts. 'Commodity', 'product' and 'service' would be examples of terms in controlled vocabulary used in industry and product classifications."@en ;
+	foaf:page "https://unstats.un.org/unsd/classifications/bestpractices/glossary_short.pdf" ;
+	skosxl:literalForm "controlled vocabulary"@en .
+
+asset:t31-label-904bcc46b340fcb1ab55998d56975054 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "join up" ;
+	skos:definition "Core Vocabularies are simplified, re-usable and extensible data models that capture the fundamental characteristics of an entity in a context-neutralfashion."@en ;
+	skosxl:literalForm "core vocabularies"@en .
+
+asset:t32-label-07566c0433c548207d02ed8381493e64 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:14 ;
+	dct:source "gruber" ;
+	skos:definition "a common ontology defines the vocabulary with which queries and assertions are exchanged among agents” based on “ontological commitments to use the shared vocabulary in a coherent and consistent manner."@en ;
+	skosxl:literalForm "ontology"@en .
+
+asset:t33-label-0eee8013d9b8482f856f35ef3fb9105f a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "Dublin Core" ;
+	skos:definition "A logical scheme for arrangement of knowledge, usually by subject. Classification schema are alpha and/or numeric; for example, Library of Congress Classification, Dewey Classification, Universal Decimal Classification."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "classification"@en .
+
+asset:t34-label-f5bb60b57a812cd0b1d40168880efeba a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:1 ;
+	dct:source "Dublin Core" ;
+	skos:definition "A collection of authority records that shows the preferred form of a personal or corporate name, geographic region or subjects. Records indicates variant forms of the established heading."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "authority file"@en .
+
+asset:t35-label-0535ddd4d8e625b0dcc9d9d68eeb8aa1 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:14 ;
+	dct:source "Hedden 2010" ;
+	skos:definition "A controlled vocabulary is a restricted list of words or terms typically used for descriptive cataloging, tagging or indexing. It is controlled because users (catalogers, taggers, indexers) may only apply terms from the list for its scoped area (its metadata value or fi eld). The term ‘ controlled vocabulary ’is broad and covers the full range of different kinds of structures for term management."@en ;
+	foaf:page "https://link.springer.com/content/pdf/10.1057%2Fdam.2010.29.pdf" ;
+	skosxl:literalForm "controlled vocabulary"@en .
+
+asset:t36-label-4dc1474c6fad5097c254727ad612d3a3 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "Dublin Core" ;
+	skos:altLabel "mapping"@en ;
+	skos:definition "A table that maps the relationships and equivalencies between two or more metadata formats. Crosswalks or metadata mapping support the ability of search engines to search effectively across heterogeneous databases, i.e. crosswalks help promote interoperability."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "crosswalk "@en .
+
+asset:t37-label-430e62d12bb209e5eb1da32389ebd0d4 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "Dublin Core" ;
+	skos:definition "A discrete unit of data or metadata. An element may contain subelements that are called qualifiers in Dublin Core."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "element"@en .
+
+asset:t38-label-c8f9949c042a56f8674f4dabd54807a7 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:8 ;
+	dct:source "Dublin Core" ;
+	skos:definition "A scheme that aids in the interpretation of an element value. These schemes include controlled vocabularies and formal notations or parsing rules. A value expressed using an encoding scheme will thus be a token selected from a controlled vocabulary (e.g., a term from a classification system or set of subject headings) or a string formatted in accordance with a formal notation."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "encoding scheme"@en .
+
+asset:t39-label-fb95a4fc254dafb0785f07f53dc7361b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "Dublin Core" ;
+	skos:definition "The Dublin Core element used to designate the physical or digital manifestation of the resource. See also section 4 of the Dublin Core Users Guide."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "format"@en .
+
+asset:t4-label-6ded7ae3d87e42b33e3a277994a8cdd8 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "ANSI/NISO Z39 R2010" ;
+	skos:definition "A method of organization according to a set of pre-established principles, usually characterized by a notation system and a hierarchical structure of relationships among the entities. NOTE: A classification scheme often also includes an index."@en ;
+	foaf:page "https://groups.niso.org/apps/group_public/download.php/12591/z39-19-2005r2010.pdf" ;
+	skosxl:literalForm "classification scheme"@en .
+
+asset:t40-label-1c7b4cf2a0e58e5f2500d7527fa48968 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "Dublin Core" ;
+	skos:definition "An alphabetized list of terms with definitions often created by an organization to reflect its needs. Normally lacks hierarchical arrangement or cross references. Also known as a term list."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "glossary"@en .
+
+asset:t41-label-13ad1cebed43734c980b769eebfedd0d a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "Dublin Core" ;
+	skos:definition "Any entity, electronic or otherwise, capable of conveying or supporting intelligence or knowledge; e.g. a book, a letter, a picture, a sculpture, a database, a person."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "information resource"@en .
+
+asset:t42-label-2ff02c8fb5b6ae4725873b9b2cd8bc16 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "Dublin Core" ;
+	skos:definition "In general, \"data about data;\" functionally, \"structured data about data.\" Information about an information resource. In the case of Dublin Core, information that expresses the intellectual content, intellectual property and/or instantiation characteristics of an information resource. See Section 1.1 of this guide."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "metadata"@en .
+
+asset:t43-label-f0be5f800d6671cb90fdcfd3d1816c7d a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "Dublin Core" ;
+	skos:definition "A publicly accessible system that records the semantics, structure and interchange formats of any type of metadata. A formal authority, or agency, maintains and manages the development and evolution of a metadata registry. The authority is responsible for policies pertaining to registry contents and operation."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "metadata registry"@en .
+
+asset:t44-label-0ed22f4ce7c76d29ee2e10e87c1b63c7 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "Dublin Core" ;
+	skos:definition "A property is a specific aspect, characteristic, attribute, or relation used to describe a resource. Dublin Core metadata elements are propertieshttp://dublincore.org/documents/2002/04/14/dc-xml-guidelines/"@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "property"@en .
+
+asset:t45-label-d6ae2733475d4dbd4b5b48a1f891d8fe a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "Dublin Core" ;
+	skos:definition "A record is some structured metadata about a resource, comprising one or more properties and their associated values.http://dublincore.org/documents/2002/04/14/dc-xml-guidelines/"@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "record"@en .
+
+asset:t46-label-c979c1f1e744a8442e008a67bfe1b662 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "Dublin Core" ;
+	skos:definition "A system to provide management of metadata elements. Metadata registries are formal systems that provide authoritative information about the semantics and structure of data elements. Each element will include the definition of the element, the qualifiers associated with it, mappings to multilingual versions and elements in other schema."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "registry"@en .
+
+asset:t47-label-fccaf028fd93dc1209e88012db88a376 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "Dublin Core" ;
+	skos:definition "The Dublin Core element used to designate A reference to a related resource. Recommended best practice is to reference the resource by means of a string or number conforming to a formal identification system. See section 4 of the Dublin Core Users Guide."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "relation"@en .
+
+asset:t48-label-7f53bcd6c1457480b5672652b3585b90 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:source "Dublin Core" ;
+	skos:definition "A resource is anything that has identity. Familiar examples include an electronic document, an image, a service (e.g., \"today's weather report for Los Angeles\"), and a collection of other resources. Not all resources are network \"retrievable\"; e.g., human beings, corporations, and bound books in a library can also be considered resources. http://dublincore.org/documents/2002/04/14/dc-xml-guidelines/"@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "resource"@en .
+
+asset:t49-label-7e59dc4fa7841cce46abf73843ca52ec a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:14 ;
+	dct:source "Dublin Core" ;
+	skos:definition "The basic language for writing metadata; a foundation which provides a robust flexible architecture for processing metadata on the Internet. RDF will retain the capability to exchange metadata between application communities, while allowing each community to define and use the metadata that best serves their needs. For more information see http://www.w3.org/RDF/"@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "resource description framework (rdf)"@en .
+
+asset:t5-label-29f497a3e63068488552928b78930e90 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	skos:altLabel "alphanumeric classification scheme"@en ;
+	skos:definition "a way to classify based on coding schemew"@en ;
+	skos:editorialNote "Dewey Decimal Classification (DDC),  Universal Decimal Classification (UDC)"@en ;
+	skosxl:literalForm "classification system"@en .
+
+asset:t50-label-f178c958860fc6b112286770a71d0004 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:8 ;
+	dct:source "Dublin Core" ;
+	skos:definition "A scheme, or schema, is a systematic, orderly combination of elements. A set of rules for encoding information that supports a specific community of users."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "scheme"@en .
+
+asset:t51-label-9797e2e50086215dd999c2ff3e3ec078 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "Dublin Core" ;
+	skos:altLabel "dublin core structured values"@en ;
+	skos:definition "DCSV recognizes two types of substrings: labels and values. A label is the name of the type of a value, and a value is the data itself. A value that is comprised of components, i.e. a value which has its own label and value, is called a structured value. Punctuation supports the parsing of the DCSV."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "structured values"@en .
+
+asset:t52-label-54ab15cba5b73ffdf1a8e21922b46ff8 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:10 ;
+	dct:source "Dublin Core" ;
+	skos:definition "Structural metadata defines the digital object's internal organization and is needed for display and navigation of that object."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "structural metadata"@en .
+
+asset:t53-label-40c97937e7600aab9a93bfb43b407d33 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:1 ;
+	dct:source "Dublin Core" ;
+	skos:definition "The Dublin Core element used to designate the topic of the resource. The element may use controlled vocabularies or keywords or phrases that describe the subject or content of the resource. See also section 4 of the Dublin Core Users Guide."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "subject"@en .
+
+asset:t54-label-57ed272d126fd8ca0fde1f4fd670df14 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:1 ;
+	dct:source "Dublin Core" ;
+	skos:definition "An alphabetical list of words or phrases that represent a concept that is under authority control, e.g., the Library of Congress Subject Headings."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "subject headings"@en .
+
+asset:t55-label-539ce8d36dcbac8fd7d2625eeb010f0c a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "Dublin Core" ;
+	skos:definition "The form and structure with which metadata elements are combined. In the case of Dublin Core, the form and structure of how metadata elements and their components are combined to form a metadata record."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "syntax"@en .
+
+asset:t56-label-256c43efb066485f550561fccd773944 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "Dublin Core" ;
+	skos:definition "A controlled vocabulary of terms or concepts that are structured hierarchically (parent/child relationships) or as equivalences (synonyms), and related terms (associative). See also Subject headings and glossary."@en ;
+	foaf:page "http://www.dublincore.org/documents/2001/04/12/usageguide/glossary/" ;
+	skosxl:literalForm "thesaurus"@en .
+
+asset:t57-label-496a3d2d2d12e3030b1ed653df4e29d8 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:3 ;
+	skos:definition "Lists (pick lists): limited sets of terms in some sequential order. - Dictionaries: alphabetical lists of terms and their definitions that provide variant senses for each term, where applicable. - Glossaries: alphabetical lists of terms, usually with definitions. - Synonym Rings: sets of terms that are considered equivalent for the purpose of retrieval."@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "term list"@en .
+
+asset:t58-label-d2578cf0aa102385d4efe34f6031e0d9 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:1 ;
+	skos:altLabel "pick list"@en ;
+	skos:definition "Lists (pick lists): limited sets of terms in some sequential order"@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "term list"@en .
+
+asset:t59-label-6b374be65e087edbf9c6f8684f938b73 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skos:definition "Dictionaries: alphabetical lists of terms and their definitions that provide variant senses for each term, where applicable."@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "dictionary"@en .
+
+asset:t6-label-724da10887bf64acf567c73260ab4d50 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "ANSI/NISO Z39 R2010" ;
+	skos:definition "A list of terms that have been enumerated explicitly. This list is controlled by and is available from a controlled vocabulary registration authority. All terms in a controlled vocabulary must have an unambiguous, non-redundant definition. NOTE: This is a design goal that may not be true in practice; it depends on how strict the controlled vocabulary registration authority is regarding registration of terms into the controlled vocabulary."@en ;
+	foaf:page "https://groups.niso.org/apps/group_public/download.php/12591/z39-19-2005r2010.pdf" ;
+	skosxl:literalForm "controlled vocabulary"@en .
+
+asset:t60-label-a63f88a2b0029bfebeec201565898ec7 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skos:definition "Glossaries: alphabetical lists of terms, usually with definitions."@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "glosary"@en .
+
+asset:t61-label-2f693f33b997c37a95ca5ee9686461aa a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skos:definition "Synonym Rings: sets of terms that are considered equivalent for the purpose of retrieval."@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "synonym ring"@en .
+
+asset:t62-label-1d77736c44932b8ad3a5e9b618b152d3 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:5 ;
+	skos:definition "authority files, directories, gazetters"@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "metadata-like models"@en .
+
+asset:t63-label-2a1fafa1cc1059d16677be24e9299a9b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:1 ;
+	skos:definition ": lists of terms that are used to control the variant names for an entity or the domain value for a particular field."@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "authority files"@en .
+
+asset:t64-label-48ec7695a0ffc4404f2a6ec346549194 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skos:definition ": lists of names and their associated contact information."@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "directories"@en .
+
+asset:t65-label-044e569f5f9f3fd8cac15a226c3dfc1d a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skos:definition "geospatial dictionaries of named and typed places."@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "gazetteers"@en .
+
+asset:t66-label-8f7c15657e942426a8d7868a1136d877 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:6 ;
+	skos:definition "Subject Headings, categorization scheme, taxonomies, classifiecation schemes"@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "classification and categorization"@en .
+
+asset:t67-label-daab61a369ec565bdd0a96add4c980e6 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	skos:definition ": schemes that provide a set of controlled terms to represent the subjects of items in a collection and sets of rules for combining terms into compound headings."@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "subject headings"@en .
+
+asset:t68-label-b86d61f07f714db1e0cb18bb109da0ed a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	skos:definition ": loosely formed grouping schemes. "@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "categorization schemes"@en .
+
+asset:t69-label-4932c97a9a050df251d712f743ceb16b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	skos:definition """ divisions of items into ordered groups or categories based on particular characteristics.
+"""@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "taxonomies"@en .
+
+asset:t7-label-fd8f548ff37c105cc9a419c13d5d2d13 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:7 ;
+	dct:source "wikipedia" ;
+	skos:definition "Controlled vocabularies provide a way to organize knowledge for subsequent retrieval. They are used in subject indexingschemes, subject headings, thesauri,[1][2] taxonomies and other forms of knowledge organization systems. Controlled vocabulary schemes mandate the use of predefined, authorised terms that have been preselected by the designers of the schemes, in contrast to natural language vocabularies, which have no such restriction. There are two main kinds of controlled vocabulary tools used in libraries: subject headings and thesauri."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Controlled_vocabulary" ;
+	skos:editorialNote "thesauri and subject headings are subtypes of controlled vocabularies"@en ;
+	skosxl:literalForm "controlled vocabulary"@en .
+
+asset:t70-label-934383041121d9007db33a55ca04cd1b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	skos:definition ": hierarchical and faceted arrangements of numerical or alphabetical notations to represent broad topics."@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "classification schemes"@en .
+
+asset:t71-label-5d53c7e366b2fe074c2034f144d467a1 a skosxl:Label ;
+	dct:abstract "1" ;
+	skos:definition "Thesauri,  Semantic Networks, Ontologies"@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "relationship models"@en .
+
+asset:t72-label-72d83ecc47005334a590caaad5aa2a52 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	skos:definition ": sets of terms representing concepts and the hierarchical, equivalence, and associative relationships among them. Thesaurus structures of this type are based on NISO Z39.19-2005 and ISO 2788 -1986 standards.  Another type of thesaurus (e.g., Roget’s Thesaurus) represents only the equivalence (synonymy) of terms with the addition of classification categories. "@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "thesauri"@en .
+
+asset:t73-label-a644187bb1c57ede1537ed8fa1712b04 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:12 ;
+	skos:definition " sets of terms representing concepts, modeled as the nodes in a network of variable relationship types. "@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "semantic networks"@en .
+
+asset:t74-label-0c9deb7fdbe544b66e891c3e348ab18e a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:14 ;
+	skos:definition " specific concept models representing complex relationships between objects, including the rules and axioms that are missing in semantic networks."@en ;
+	foaf:page "https://www.researchgate.net/publication/297530633_Knowledge_organization_systems_KOS" ;
+	skosxl:literalForm "ontologies"@en .
+
+asset:t75-label-1502b1608491799bcc4dd0fa229f5d72 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	skos:definition "Subject-based classification is any form of content classification that groups objects by the subjects they are about. "@en ;
+	foaf:page "https://web.archive.org/web/20081017174807/http://www.ontopia.net/topicmaps/materials/tm-vs-thesauri.html" ;
+	skos:editorialNote "taxonomy, thesauri, Faceted classification ,Ontology"@en ;
+	skosxl:literalForm "subject-based classification"@en .
+
+asset:t76-label-a5d5703d3aa2f91382cd72a844e08efd a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:4 ;
+	skos:definition " here we mean by it a closed list of named subjects, which can be used for classification. In library science this is sometimes known as an indexing language. The constituents of a controlled vocabulary are usually known as terms, where a term is a particular name for a particular concept. (This is pretty much the same as the common-sense notion of a keyword.)"@en ;
+	foaf:page "https://web.archive.org/web/20081017174807/http://www.ontopia.net/topicmaps/materials/tm-vs-thesauri.html" ;
+	skosxl:literalForm "controlled vocabularies"@en .
+
+asset:t77-label-5ee0a74fd0b384b9a1e0e5c23d7888c5 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	skos:definition "a hierarchical classification system. In this paper we will use taxonomy to mean a subject-based classification that arranges the terms in the controlled vocabulary into a hierarchy without doing anything further, though in real life you will find the term \"taxonomy\" applied to more complex structures as well."@en ;
+	foaf:page "https://web.archive.org/web/20081017174807/http://www.ontopia.net/topicmaps/materials/tm-vs-thesauri.html" ;
+	skosxl:literalForm "taxonomy "@en .
+
+asset:t78-label-a754e1ee45edf86489f2959e6918cca4 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	skos:altLabel "thesaurus"@en ;
+	skos:definition "Thesauri basically take taxonomies as described above and extend them to make them better able to describe the world by not only allowing subjects to be arranged in a hierarchy, but also allowing other statements to be made about the subjects. "@en ;
+	foaf:page "https://web.archive.org/web/20081017174807/http://www.ontopia.net/topicmaps/materials/tm-vs-thesauri.html" ;
+	skosxl:literalForm "thesauri "@en .
+
+asset:t79-label-3a88daa7d7778977d78b3fc9ca4267ae a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:5 ;
+	skos:definition "The term faceted classification has (you saw this coming, right?) been used to mean many different things. It was originally proposed by S.R. Ranganathan in the 1930s[Ranganathan], and works by identifying a number of facets into which the terms are divided. The facets can be thought of as different axes along which documents can be classified, and each facet contains a number of terms. How the terms within each facet are described varies, though in general a thesaurus-like structure is used, and usually a term is only allowed to belong to a single facet [Svenonius]. In faceted classification the idea is to classify documents by picking one term from each facet to describe the document along all the different axes."@en ;
+	foaf:page "https://web.archive.org/web/20081017174807/http://www.ontopia.net/topicmaps/materials/tm-vs-thesauri.html" ;
+	skosxl:literalForm "faceted classification"@en .
+
+asset:t8-label-a48d8d689e6e16cd9bdedee1fa37ce0b a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "dublin core" ;
+	skos:altLabel " metadata element set"@en , "properties"@en , " elements"@en ;
+	skos:definition "DCMES/ Dublin core element set"@en ;
+	foaf:page "https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide.md" ;
+	skosxl:literalForm "element set"@en .
+
+asset:t80-label-060a0bd986c6b28ece0f41ea71129cd4 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:14 ;
+	skos:definition "a model for describing the world that consists of a set of types, properties, and relationship types"@en ;
+	foaf:page "https://web.archive.org/web/20081017174807/http://www.ontopia.net/topicmaps/materials/tm-vs-thesauri.html" ;
+	skosxl:literalForm "ontology"@en .
+
+asset:t81-label-5096a2c1cd4965c746d4572acc8009c6 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skos:definition "ynonym rings, which connect together a set of terms as being equivalent for search purposes. (That is, if you search for \"topic navigation maps\" you should also find \"topic maps\", for example.) Essentially synonym rings express a synonym relationship between a set of terms, and so is similar to the UF/USE relationship of thesauri, except that there is no indication of one term being preferred above the others."@en ;
+	foaf:page "https://web.archive.org/web/20081017174807/http://www.ontopia.net/topicmaps/materials/tm-vs-thesauri.html" ;
+	skosxl:literalForm "synonym ring"@en .
+
+asset:t82-label-d589682fd12b62903c8d54632c9639ca a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skos:definition "authority file is similar to a synonym ring, the only difference being that it consists of UF/USE relationships instead of synonym relationships. So in an authority file one term in each synonym ring is indicated as being the preferred term for that subject."@en ;
+	foaf:page "https://web.archive.org/web/20081017174807/http://www.ontopia.net/topicmaps/materials/tm-vs-thesauri.html" ;
+	skosxl:literalForm "authority file"@en .
+
+asset:t83-label-9846ef7d40306ab60d5009bb56ef53c8 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	skos:definition "Topic maps originated in work on the merging of electronic indexes and so are very much a subject-based classification technique. In fact, topic maps are organized around topics, and each topic is used to represent some real-world thing. In the terminology we used above, topics represent concepts, the same way terms in an indexing language refer to concepts. In topic maps the concepts are called subjects, and the standard emphatically states that a subject can be \"anything whatsoever\". We will return to the consequences of this later on."@en ;
+	foaf:page "https://web.archive.org/web/20081017174807/http://www.ontopia.net/topicmaps/materials/tm-vs-thesauri.html" ;
+	skosxl:literalForm "topic maps"@en .
+
+asset:t84-label-e7a8547b2ce21af89bff748e388ab7f9 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "w3c" ;
+	skos:altLabel "metadata element sets"@en ;
+	skos:definition "A metadata element set defines classes and attributes used to describe entities of interest. In Linked Data terminology, such element sets are generally made concrete through RDF Schemas or OWL Web Ontology Language ontologies, the term \"RDF vocabulary\" often being used as an umbrella for these. Usually a metadata element set does not describe bibliographic entities, rather it provides elements to be used by others to describe such entities."@en ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025" ;
+	skosxl:literalForm "element set "@en .
+
+asset:t85-label-ef3bd692b6867db8d263c01b19585183 a skosxl:Label ;
+	dct:source "w3c" ;
+	skos:definition "The equivalent of a dataset in the library world is a collection of library records. Library records consist of statements about things, where each statement consists of an element (\"attribute\" or \"relationship\") of the entity, and a \"value\" for that element. The elements that are used are usually selected from a set of standard elements, such as MARC21 or Dublin Core (DC). The values for the elements are either taken from value vocabularies such as the Library of Congress Subject Headings (LCSH), or are free text values. Similar concepts to \"dataset\" include \"collection\" or \"metadata record set\""@en ;
+	foaf:page "https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025" ;
+	skosxl:literalForm "dataset"@en .
+
+asset:t86-label-6e6ed33296dc14dd3f97b0730820e6aa a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	dct:source "Harpring 2010" ;
+	skos:definition "A controlled vocabulary is an organized arrangement of words and phrases used to index content and/or to retrieve content through browsing or searching. It typically includes preferred and variant terms and has a defined scope or describes a specific domain. "@en ;
+	skosxl:literalForm "controlled vocabulary"@en .
+
+asset:t87-label-a68b9781fbe465d33b76f40f0c0a7231 a skosxl:Label ;
+	dct:coverage expr:10 ;
+	dct:source "wikipedia" ;
+	skos:altLabel "classification scheme"@en ;
+	skos:definition "A classification scheme is the product of arranging things into kinds of things (classes) or into groups of classes. In the abstract, the resulting structures are a crucial aspect of metadata, often represented as a hierarchical structure and accompanied by descriptive information of the classes or groups. Such a classification scheme is intended to be used for an arrangement or division of individual objects into the classes or groups, and the classes or groups are based on characteristics which the objects (members) have in common."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Comparison_and_contrast_of_classification_schemes_in_linguistics_and_metadata" ;
+	skosxl:literalForm "classification system"@en .
+
+asset:t88-label-f6f5d0a6abc209f838aa5b9924cae2c3 a skosxl:Label ;
+	dct:abstract "1" ;
+	dct:coverage expr:11 ;
+	skos:definition "thesaurus, taxonomy, data model, ontology "@en ;
+	skosxl:literalForm "classification scheme"@en .
+
+asset:t89-label-b88c640bc59ac968fc5aa3cc22ad966c a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:1 ;
+	dct:source "joinup" ;
+	skos:definition "The NALs are harmonised codes and multilingual labels used to facilitate data exchange."@en ;
+	foaf:page "https://joinup.ec.europa.eu/news/reusable-named-authority-list" ;
+	skosxl:literalForm "named authority list"@en .
+
+asset:t9-label-1a6514e16741dab677c36e7100a9feb1 a skosxl:Label ;
+	dct:coverage expr:8 ;
+	dct:source "ISO 25964" ;
+	skos:definition "Exchange formatA machine-readable format for representing information, which is intended to facilitate exchange of the information between applications."@en ;
+	foaf:page "https://www.niso.org/schemas/iso25964" ;
+	skosxl:literalForm "exchange format"@en .
+
+asset:t90-label-0a59783783041a0293ed97081c5a4d0c a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:2 ;
+	skosxl:literalForm "subject headings"@en .
+
+asset:t91-label-9363922a6d87cc73050a887b74da3224 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:7 ;
+	dct:source "wikipedia" ;
+	skos:definition "a collection of categorized concepts, denoted by words or phrases, that are related to each other by narrower term, wider term and related term relations."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Comparison_and_contrast_of_classification_schemes_in_linguistics_and_metadata" ;
+	skosxl:literalForm "thesaurus"@en .
+
+asset:t92-label-bf9afcc71a011fb4859ffa478f6c30ad a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "wikipedia" ;
+	skos:definition "a formal list of concepts, denoted by controlled words or phrases, arranged from abstract to specific, related by subtype-supertype relations or by superset-subset relations."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Comparison_and_contrast_of_classification_schemes_in_linguistics_and_metadata" ;
+	skosxl:literalForm "taxonomy "@en .
+
+asset:t93-label-9e18f56e19c4d5b9399591edc51c74a7 a skosxl:Label ;
+	dct:source "wikipedia" ;
+	skos:definition "The semantic spectrum (sometimes referred to as the ontology spectrum or the smart data continuum or semantic precision) is a series of increasingly precise or rather semantically expressive definitions for data elements in knowledge representations, especially for machine use."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Semantic_spectrum" ;
+	skosxl:literalForm "semantic spectrum"@en .
+
+asset:t94-label-5f79996fabc6c08694fa98b7e0b4b4e7 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "wikipedia" ;
+	skos:definition "A simple list of terms and their definitions. A glossary focuses on creating a complete list of the terminology of domain-specific terms and acronyms. It is useful for creating clear and unambiguous definitions for terms and because it can be created with simple word processing tools, few technical tools are necessary."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Semantic_spectrum" ;
+	skosxl:literalForm "glossary"@en .
+
+asset:t95-label-1875c6e106e2cf263c91fcb71552b594 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:3 ;
+	dct:source "odlis" ;
+	skos:definition "An established list of preferred terms from which a cataloger or indexer must select when assigning subject headings or descriptors in a bibliographic record, to indicate the content of the work in a library catalog, index, or bibliographic database. Synonyms are included as lead-in vocabulary, with instructions to see or USE the authorized heading."@en ;
+	foaf:page "https://www.abc-clio.com/ODLIS/odlis_c.aspx" ;
+	skosxl:literalForm "controlled vocabulary"@en .
+
+asset:t96-label-99fb6bf381f7059200db57d7922291cf a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:8 ;
+	dct:source "wikipedia" ;
+	skos:definition "Terms, definitions, naming conventions and one or more representations of the data elements in a computer system. Data dictionaries often define data types, validation checks such as enumerated values and the formal definitions of each of the enumerated values."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Semantic_spectrum" ;
+	skosxl:literalForm "data dictionary"@en .
+
+asset:t97-label-e4828ccd9aa0ae13dad5488fb141449a a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:11 ;
+	dct:source "wikipedia" ;
+	skos:definition "Terms, definitions, naming conventions, representations and one or more representations of the data elements as well as the beginning of specification of the relationships between data elements including abstractions and containers."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Semantic_spectrum" ;
+	skosxl:literalForm "data model"@en .
+
+asset:t98-label-ff6e43a617954d81d5f1670f6c3702a3 a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:6 ;
+	dct:source "wikipedia" ;
+	skos:definition "A complete data model in an inheritance hierarchy where all data elements inherit their behaviors from a single \"super data element\". The difference between a data model and a formal taxonomy is the arrangement of data elements into a formal tree structure where each element in the tree is a formally defined concept with associated properties."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Semantic_spectrum" ;
+	skosxl:literalForm "taxonomy"@en .
+
+asset:t99-label-c8b20df2a9b306450fa119eca1447bae a skosxl:Label ;
+	dct:abstract "0" ;
+	dct:coverage expr:14 ;
+	dct:source "wikipedia" ;
+	skos:definition "A complete, machine-readable specification of a conceptualization using URIs (and then IRIs) for all data elements, properties and relationship types. The W3C standard language for representing ontologies is the Web Ontology Language (OWL). Ontologies frequently contain formal business rules formed in discrete logic statements that relate data elements to each another."@en ;
+	foaf:page "https://en.wikipedia.org/wiki/Semantic_spectrum" ;
+	skosxl:literalForm "ontology"@en .

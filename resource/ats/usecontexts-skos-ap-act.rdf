@@ -1,0 +1,1022 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:geowgs84="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns="http://publications.europa.eu/resource/authority/use-context#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:lexvo="http://lexvo.org/ontology#"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:cdm="http://publications.europa.eu/ontology/cdm#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+    xmlns:core="http://www.w3.org/2004/02/skos/core#"
+    xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:at="http://publications.europa.eu/ontology/authority/"
+    xmlns:atold="http://publications.europa.eu/resource/authority/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:euvoc="http://publications.europa.eu/ontology/euvoc#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:eli-o="http://data.europa.eu/eli/ontology#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:geosparql="http://www.opengis.net/ont/geosparql#"
+    xmlns:lemon="http://lemon-model.net/lemon#"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xml:base="http://publications.europa.eu/resource/authority/use-context">
+  <core:ConceptScheme rdf:about="">
+    <core:prefLabel xml:lang="en">Use context Named Authority List</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <rdfs:label xml:lang="en">Use context Named Authority List</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">Use context Named Authority List</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/LONGLABEL"/>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <dct:identifier>http://publications.europa.eu/resource/authority/use-context</dct:identifier>
+    <owl:versionIRI rdf:resource="http://publications.europa.eu/resource/authority/use-context/20161214-0"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"
+    >Use context Named Authority List</rdfs:comment>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <rdfs:label xml:lang="en">Use context Named Authority List</rdfs:label>
+  </core:ConceptScheme>
+  <lemon:LexicalContext rdf:about="http://publications.europa.eu/resource/authority/use-context/PLANPUBLI">
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <core:inScheme rdf:resource=""/>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">PlanPubli</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">PlanPubli</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <dc:identifier>PLANPUBLI</dc:identifier>
+    <atold:op-code>PLANPUBLI</atold:op-code>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <at:authority-code>PLANPUBLI</at:authority-code>
+    <at:op-code>PLANPUBLI</at:op-code>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <core:topConceptOf rdf:resource=""/>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <core:prefLabel xml:lang="en">PlanPubli</core:prefLabel>
+  </lemon:LexicalContext>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/OP_DATPRO">
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="da">Midlertidige data</rdfs:label>
+        <skos-xl:literalForm xml:lang="da">Midlertidige data</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="mt">Dejta provviżorja</rdfs:label>
+        <skos-xl:literalForm xml:lang="mt">Dejta provviżorja</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="hr">Privremeni podaci</rdfs:label>
+        <skos-xl:literalForm xml:lang="hr">Privremeni podaci</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="el">Προσωρινά δεδομένα</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="fi">Alustavat tiedot</rdfs:label>
+        <skos-xl:literalForm xml:lang="fi">Alustavat tiedot</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="fi">Alustavat tiedot</core:prefLabel>
+    <core:prefLabel xml:lang="en">Provisional data</core:prefLabel>
+    <core:prefLabel xml:lang="pl">Dane tymczasowe</core:prefLabel>
+    <core:prefLabel xml:lang="sk">Predbežné údaje</core:prefLabel>
+    <core:prefLabel xml:lang="lt">Laikinieji duomenys</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="fr">Données provisoires</rdfs:label>
+        <skos-xl:literalForm xml:lang="fr">Données provisoires</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="ro">Date provizorii</rdfs:label>
+        <skos-xl:literalForm xml:lang="ro">Date provizorii</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="pt">Dados provisórios</rdfs:label>
+        <skos-xl:literalForm xml:lang="pt">Dados provisórios</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <core:prefLabel xml:lang="ga">Sonraí sealadacha</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="sk">Predbežné údaje</rdfs:label>
+        <skos-xl:literalForm xml:lang="sk">Predbežné údaje</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="et">Esialgsed andmed</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="de">Vorläufige Daten</rdfs:label>
+        <skos-xl:literalForm xml:lang="de">Vorläufige Daten</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="ro">Date provizorii</core:prefLabel>
+    <core:prefLabel xml:lang="sv">Tillfälliga uppgifter</core:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <atold:op-code>OP_DATPRO</atold:op-code>
+    <dc:identifier>OP_DATPRO</dc:identifier>
+    <core:prefLabel xml:lang="it">Dati provvisori</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="lv">Provizoriski dati</rdfs:label>
+        <skos-xl:literalForm xml:lang="lv">Provizoriski dati</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="pt">Dados provisórios</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="hu">Ideiglenes adatok</rdfs:label>
+        <skos-xl:literalForm xml:lang="hu">Ideiglenes adatok</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">Provisional data</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">Provisional data</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="es">Datos provisionales</core:prefLabel>
+    <core:prefLabel xml:lang="lv">Provizoriski dati</core:prefLabel>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <core:prefLabel xml:lang="da">Midlertidige data</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="bg">НЕОКОНЧАТЕЛНИ ДАННИ</rdfs:label>
+        <skos-xl:literalForm xml:lang="bg">НЕОКОНЧАТЕЛНИ ДАННИ</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="et">Esialgsed andmed</rdfs:label>
+        <skos-xl:literalForm xml:lang="et">Esialgsed andmed</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="fr">Données provisoires</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="pl">Dane tymczasowe</rdfs:label>
+        <skos-xl:literalForm xml:lang="pl">Dane tymczasowe</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="mt">Dejta provviżorja</core:prefLabel>
+    <core:inScheme rdf:resource=""/>
+    <core:prefLabel xml:lang="sl">Začasni podatki</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="ga">Sonraí sealadacha</rdfs:label>
+        <skos-xl:literalForm xml:lang="ga">Sonraí sealadacha</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="hr">Privremeni podaci</core:prefLabel>
+    <core:prefLabel xml:lang="hu">Ideiglenes adatok</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="cs">Předběžné údaje</rdfs:label>
+        <skos-xl:literalForm xml:lang="cs">Předběžné údaje</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="es">Datos provisionales</rdfs:label>
+        <skos-xl:literalForm xml:lang="es">Datos provisionales</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <core:prefLabel xml:lang="bg">НЕОКОНЧАТЕЛНИ ДАННИ</core:prefLabel>
+    <core:prefLabel xml:lang="cs">Předběžné údaje</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="sv">Tillfälliga uppgifter</rdfs:label>
+        <skos-xl:literalForm xml:lang="sv">Tillfälliga uppgifter</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="de">Vorläufige Daten</core:prefLabel>
+    <at:op-code>OP_DATPRO</at:op-code>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="it">Dati provvisori</rdfs:label>
+        <skos-xl:literalForm xml:lang="it">Dati provvisori</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="lt">Laikinieji duomenys</rdfs:label>
+        <skos-xl:literalForm xml:lang="lt">Laikinieji duomenys</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="sl">Začasni podatki</rdfs:label>
+        <skos-xl:literalForm xml:lang="sl">Začasni podatki</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="el">Προσωρινά δεδομένα</rdfs:label>
+        <skos-xl:literalForm xml:lang="el">Προσωρινά δεδομένα</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="nl">Voorlopige gegevens</rdfs:label>
+        <skos-xl:literalForm xml:lang="nl">Voorlopige gegevens</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="nl">Voorlopige gegevens</core:prefLabel>
+  </core:Concept>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/MNEMONIC">
+    <atold:op-code>MNEMONIC</atold:op-code>
+    <dc:identifier>MNEMONIC</dc:identifier>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <core:inScheme rdf:resource=""/>
+    <at:op-code>MNEMONIC</at:op-code>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <core:prefLabel xml:lang="en">WHOISWHO_mnemonic</core:prefLabel>
+    <core:topConceptOf rdf:resource=""/>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-11-09</dct:dateAccepted>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-10-01</dct:created>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-11-09</dct:dateSubmitted>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">WHOISWHO_mnemonic</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">WHOISWHO_mnemonic</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-10-01</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <at:authority-code>MNEMONIC</at:authority-code>
+  </core:Concept>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/TED">
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <core:topConceptOf rdf:resource=""/>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <at:op-code>TED</at:op-code>
+    <core:inScheme rdf:resource=""/>
+    <atold:op-code>TED</atold:op-code>
+    <dc:identifier>TED</dc:identifier>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">TED</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">TED</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <core:prefLabel xml:lang="en">TED</core:prefLabel>
+    <at:authority-code>TED</at:authority-code>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+  </core:Concept>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/OJ">
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <dc:identifier>OJ</dc:identifier>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">OJ</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">OJ</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:inScheme rdf:resource=""/>
+    <at:authority-code>OJ</at:authority-code>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <core:prefLabel xml:lang="en">OJ</core:prefLabel>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <at:op-code>OJ</at:op-code>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <atold:op-code>OJ</atold:op-code>
+    <core:topConceptOf rdf:resource=""/>
+  </core:Concept>
+  <lemon:LexicalContext rdf:about="http://publications.europa.eu/resource/authority/use-context/OJEEP">
+    <at:op-code>OJEEP</at:op-code>
+    <core:inScheme rdf:resource=""/>
+    <at:authority-code>OJEEP</at:authority-code>
+    <dc:identifier>OJEEP</dc:identifier>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2016-10-31</dct:created>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <core:prefLabel xml:lang="en">OJEEP</core:prefLabel>
+    <core:topConceptOf rdf:resource=""/>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">OJEEP</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">OJEEP</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2012-12-12</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2016-10-31</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2016-11-15</dct:dateSubmitted>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2012-12-12</euvoc:startDate>
+    <core:definition xml:lang="en">Use_context used in file-type table. OJEEP is Offical Journal Electronic Exchange Protocol: A protocol used for exchange of information between the Contractor and the Publications Office. The protocol is based on an XML schema and defines naming conventions and content of the packages exchanged between the systems.</core:definition>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <euvoc:xlDefinition>
+      <euvoc:XlNote>
+        <dct:source xml:lang="en">OP</dct:source>
+        <euvoc:xlNote rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        >Use_context used in file-type table. OJEEP is Offical Journal Electronic Exchange Protocol: A protocol used for exchange of information between the Contractor and the Publications Office. The protocol is based on an XML schema and defines naming conventions and content of the packages exchanged between the systems.</euvoc:xlNote>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2016-10-31</euvoc:startDate>
+      </euvoc:XlNote>
+    </euvoc:xlDefinition>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2016-11-29</dct:dateAccepted>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <atold:op-code>OJEEP</atold:op-code>
+  </lemon:LexicalContext>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/EUBOOKSHOP">
+    <at:authority-code>EUBOOKSHOP</at:authority-code>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <dc:identifier>EUBOOKSHOP</dc:identifier>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <core:inScheme rdf:resource=""/>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">EU Bookshop</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">EU Bookshop</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <at:op-code>EUBOOKSHOP</at:op-code>
+    <core:prefLabel xml:lang="en">EU Bookshop</core:prefLabel>
+    <core:topConceptOf rdf:resource=""/>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <atold:op-code>EUBOOKSHOP</atold:op-code>
+  </core:Concept>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/ID_INSTITUTION">
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">WHOISWHO_institution_id</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">WHOISWHO_institution_id</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-10-01</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <core:inScheme rdf:resource=""/>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-10-01</dct:created>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <core:topConceptOf rdf:resource=""/>
+    <dc:identifier>ID_INSTITUTION</dc:identifier>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-11-09</dct:dateAccepted>
+    <at:authority-code>ID_INSTITUTION</at:authority-code>
+    <atold:op-code>ID_INSTITUTION</atold:op-code>
+    <core:prefLabel xml:lang="en">WHOISWHO_institution_id</core:prefLabel>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-11-09</dct:dateSubmitted>
+    <at:op-code>ID_INSTITUTION</at:op-code>
+  </core:Concept>
+  <lemon:LexicalContext rdf:about="http://publications.europa.eu/resource/authority/use-context/WHOISWHO">
+    <core:topConceptOf rdf:resource=""/>
+    <at:authority-code>WHOISWHO</at:authority-code>
+    <dc:identifier>WHOISWHO</dc:identifier>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <core:inScheme rdf:resource=""/>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <at:op-code>WHOISWHO</at:op-code>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <core:prefLabel xml:lang="en">WHOISWHO</core:prefLabel>
+    <atold:op-code>WHOISWHO</atold:op-code>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">WHOISWHO</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">WHOISWHO</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+  </lemon:LexicalContext>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/IMMC">
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <dc:identifier>IMMC</dc:identifier>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <core:topConceptOf rdf:resource=""/>
+    <core:inScheme rdf:resource=""/>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <at:authority-code>IMMC</at:authority-code>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <at:op-code>IMMC</at:op-code>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <core:prefLabel xml:lang="en">IMMC</core:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <atold:op-code>IMMC</atold:op-code>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">IMMC</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">IMMC</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+  </core:Concept>
+  <lemon:LexicalContext rdf:about="http://publications.europa.eu/resource/authority/use-context/PUB">
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <core:inScheme rdf:resource=""/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <atold:op-code>PUB</atold:op-code>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <at:authority-code>PUB</at:authority-code>
+    <dc:identifier>PUB</dc:identifier>
+    <at:op-code>PUB</at:op-code>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">PUB</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">PUB</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:prefLabel xml:lang="en">PUB</core:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <core:topConceptOf rdf:resource=""/>
+  </lemon:LexicalContext>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/ODP">
+    <atold:op-code>ODP</atold:op-code>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <core:inScheme rdf:resource=""/>
+    <at:op-code>ODP</at:op-code>
+    <core:topConceptOf rdf:resource=""/>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <at:authority-code>ODP</at:authority-code>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <core:prefLabel xml:lang="en">ODP</core:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">ODP</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">ODP</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <dc:identifier>ODP</dc:identifier>
+  </core:Concept>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/EU_REC">
+    <core:inScheme rdf:resource=""/>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">EU_REC</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">EU_REC</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2016-05-25</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2016-10-31</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <core:prefLabel xml:lang="en">EU_REC</core:prefLabel>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2016-11-15</dct:dateSubmitted>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2016-10-31</dct:created>
+    <atold:op-code>EU_REC</atold:op-code>
+    <dc:identifier>EU_REC</dc:identifier>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2016-11-29</dct:dateAccepted>
+    <at:authority-code>EU_REC</at:authority-code>
+    <at:op-code>EU_REC</at:op-code>
+    <euvoc:xlDefinition>
+      <euvoc:XlNote>
+        <dct:source xml:lang="en">OP</dct:source>
+        <euvoc:xlNote rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        >Use_context used in country table to distinguish countries which exist and are recognized by EU Member States from territories or from countries which do not exist any more.</euvoc:xlNote>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2016-10-31</euvoc:startDate>
+      </euvoc:XlNote>
+    </euvoc:xlDefinition>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2016-05-25</euvoc:startDate>
+    <core:topConceptOf rdf:resource=""/>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <core:definition xml:lang="en">Use_context used in country table to distinguish countries which exist and are recognized by EU Member States from territories or from countries which do not exist any more.</core:definition>
+  </core:Concept>
+  <lemon:LexicalContext rdf:about="http://publications.europa.eu/resource/authority/use-context/EURLEX">
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <atold:op-code>EURLEX</atold:op-code>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <core:inScheme rdf:resource=""/>
+    <at:op-code>EURLEX</at:op-code>
+    <core:prefLabel xml:lang="en">EurLex</core:prefLabel>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <at:authority-code>EURLEX</at:authority-code>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">EurLex</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">EurLex</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <core:topConceptOf rdf:resource=""/>
+    <dc:identifier>EURLEX</dc:identifier>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+  </lemon:LexicalContext>
+  <lemon:LexicalContext rdf:about="http://publications.europa.eu/resource/authority/use-context/COMREF">
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <at:op-code>COMREF</at:op-code>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">COMREF</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">COMREF</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <dc:identifier>COMREF</dc:identifier>
+    <atold:op-code>COMREF</atold:op-code>
+    <core:topConceptOf rdf:resource=""/>
+    <at:authority-code>COMREF</at:authority-code>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <core:inScheme rdf:resource=""/>
+    <core:prefLabel xml:lang="en">COMREF</core:prefLabel>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+  </lemon:LexicalContext>
+  <euvoc:UseContext rdf:about="http://publications.europa.eu/resource/authority/use-context/EUDOR">
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <atold:op-code>EUDOR</atold:op-code>
+    <dc:identifier>EUDOR</dc:identifier>
+    <core:inScheme rdf:resource=""/>
+    <at:authority-code>EUDOR</at:authority-code>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">EUDOR</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">EUDOR</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <at:op-code>EUDOR</at:op-code>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <core:topConceptOf rdf:resource=""/>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <core:prefLabel xml:lang="en">EUDOR</core:prefLabel>
+  </euvoc:UseContext>
+  <euvoc:UseContext rdf:about="http://publications.europa.eu/resource/authority/use-context/ID_ENTITY">
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <core:topConceptOf rdf:resource=""/>
+    <dc:identifier>ID_ENTITY</dc:identifier>
+    <at:authority-code>ID_ENTITY</at:authority-code>
+    <core:inScheme rdf:resource=""/>
+    <core:prefLabel xml:lang="en">WHOISWHO_entity_id</core:prefLabel>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-11-09</dct:dateSubmitted>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-10-01</dct:created>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">WHOISWHO_entity_id</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">WHOISWHO_entity_id</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-10-01</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <atold:op-code>ID_ENTITY</atold:op-code>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-11-09</dct:dateAccepted>
+    <at:op-code>ID_ENTITY</at:op-code>
+  </euvoc:UseContext>
+  <euvoc:UseContext rdf:about="http://publications.europa.eu/resource/authority/use-context/DEMED">
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">DEMED</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">DEMED</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <at:op-code>DEMED</at:op-code>
+    <core:prefLabel xml:lang="en">DEMED</core:prefLabel>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <dc:identifier>DEMED</dc:identifier>
+    <at:authority-code>DEMED</at:authority-code>
+    <core:inScheme rdf:resource=""/>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <core:topConceptOf rdf:resource=""/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <atold:op-code>DEMED</atold:op-code>
+  </euvoc:UseContext>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/DCAT_AP">
+    <at:authority-code>DCAT_AP</at:authority-code>
+    <core:inScheme rdf:resource=""/>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <atold:op-code>DCAT_AP</atold:op-code>
+    <core:prefLabel xml:lang="en">DCAT_AP</core:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <at:op-code>DCAT_AP</at:op-code>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <core:topConceptOf rdf:resource=""/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#UseContext"/>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">DCAT_AP</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">DCAT_AP</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <rdf:type rdf:resource="http://lemon-model.net/lemon#LexicalContext"/>
+    <dc:identifier>DCAT_AP</dc:identifier>
+  </core:Concept>
+  <core:Concept rdf:about="http://publications.europa.eu/resource/authority/use-context/CELLAR">
+    <atold:op-code>CELLAR</atold:op-code>
+    <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-01-20</dct:created>
+    <core:inScheme rdf:resource=""/>
+    <core:topConceptOf rdf:resource=""/>
+    <dct:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateSubmitted>
+    <dct:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-02-09</dct:dateAccepted>
+    <owl:versionInfo>20161214-0</owl:versionInfo>
+    <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2009-12-01</euvoc:startDate>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdfs:label xml:lang="en">CELLAR</rdfs:label>
+        <skos-xl:literalForm xml:lang="en">CELLAR</skos-xl:literalForm>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL"/>
+        <euvoc:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <euvoc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2009-12-01</euvoc:startDate>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-01-20</dct:created>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <at:authority-code>CELLAR</at:authority-code>
+    <at:op-code>CELLAR</at:op-code>
+    <core:prefLabel xml:lang="en">CELLAR</core:prefLabel>
+    <dc:identifier>CELLAR</dc:identifier>
+  </core:Concept>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->

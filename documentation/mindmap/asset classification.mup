@@ -1,0 +1,271 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "knowledge organisation resource ",
+      "id": 1,
+      "attr": {
+        "position": [
+          -279,
+          -31.399993896484375,
+          1
+        ]
+      },
+      "ideas": {
+        "8": {
+          "title": "unstructured controlled/ controlled vocabulary / concept vocabulary / value vocabulary",
+          "id": 24,
+          "ideas": {
+            "13": {
+              "title": "terminology / glossary",
+              "id": 23,
+              "attr": {}
+            },
+            "14": {
+              "title": "authority list",
+              "id": 13,
+              "attr": {},
+              "ideas": {
+                "1": {
+                  "title": "named authority list",
+                  "id": 17,
+                  "attr": {
+                    "position": [
+                      106,
+                      -83.0999984741211,
+                      1
+                    ]
+                  }
+                },
+                "2": {
+                  "title": "subject authority list",
+                  "id": 26
+                },
+                "3": {
+                  "title": "code list",
+                  "id": 3,
+                  "ideas": {
+                    "1": {
+                      "title": "atto",
+                      "id": 4,
+                      "ideas": {
+                        "1": {
+                          "title": "atto-lex",
+                          "id": 5
+                        },
+                        "2": {
+                          "title": "atto-pub",
+                          "id": 6
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "width": 50
+                        }
+                      }
+                    }
+                  },
+                  "attr": {}
+                },
+                "13": {
+                  "title": "subject heading scheme",
+                  "id": 25,
+                  "attr": {
+                    "position": [
+                      109,
+                      93.5,
+                      2
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "attr": {}
+        },
+        "-10": {
+          "title": "structured",
+          "id": 35,
+          "ideas": {
+            "1": {
+              "title": "formal structured defintion",
+              "id": 29,
+              "ideas": {
+                "17": {
+                  "title": "syntactic",
+                  "id": 38,
+                  "ideas": {
+                    "14": {
+                      "title": "exchange format",
+                      "id": 15
+                    },
+                    "24": {
+                      "title": "style sheets",
+                      "id": 37
+                    },
+                    "34": {
+                      "title": "XSD schema",
+                      "id": 34
+                    },
+                    "35": {
+                      "title": "syntax encoding scheme (grammar)",
+                      "id": 36,
+                      "attr": {}
+                    }
+                  }
+                },
+                "18": {
+                  "title": "semantic",
+                  "id": 39,
+                  "ideas": {
+                    "2": {
+                      "title": "ontology",
+                      "id": 9,
+                      "attr": {}
+                    },
+                    "3": {
+                      "title": "model",
+                      "id": 7,
+                      "ideas": {},
+                      "attr": {}
+                    },
+                    "13": {
+                      "title": "application profile",
+                      "id": 11,
+                      "attr": {
+                        "note": {
+                          "index": 6,
+                          "text": "In the computer information sciences, an application profile consists of a set of metadata\nelements, policies, and guidelines defined for a particular application."
+                        }
+                      }
+                    },
+                    "0.5": {
+                      "title": "mapping",
+                      "id": 27,
+                      "attr": {
+                        "position": [
+                          48.400001525878906,
+                          -85.30000305175781,
+                          1
+                        ]
+                      },
+                      "ideas": {}
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "position": [
+                  186.4000015258789,
+                  -275.8999938964844,
+                  3
+                ]
+              }
+            },
+            "2": {
+              "title": "informal structured vocabulary",
+              "id": 30,
+              "ideas": {
+                "2": {
+                  "title": "taxonomy",
+                  "id": 20,
+                  "ideas": {},
+                  "attr": {
+                    "position": [
+                      223.5999984741211,
+                      -26.5,
+                      4
+                    ]
+                  }
+                },
+                "13": {
+                  "title": "thesaurus",
+                  "id": 21,
+                  "ideas": {},
+                  "attr": {
+                    "position": [
+                      227.5999984741211,
+                      76.5,
+                      3
+                    ]
+                  }
+                },
+                "23": {
+                  "title": "classification scheme",
+                  "id": 10,
+                  "ideas": {}
+                }
+              },
+              "attr": {
+                "position": [
+                  117,
+                  66.10000610351562,
+                  4
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "knowledge organisation resource ",
+  "links": [
+    {
+      "ideaIdFrom": 11,
+      "ideaIdTo": 30,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 21,
+      "ideaIdTo": 20,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 27,
+      "ideaIdTo": 38,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 7,
+      "ideaIdTo": 30,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 25,
+      "ideaIdTo": 36,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    }
+  ]
+}

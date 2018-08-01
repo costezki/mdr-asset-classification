@@ -1,0 +1,97 @@
+# baseURI: http://publications.europa.eu/ontology/euvoc/unnamed1
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix : <http://publications.europa.eu/ontology/euvoc/unnamed1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://publications.europa.eu/ontology/euvoc/unnamed1>
+  rdf:type owl:Ontology ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+:Asset
+  rdf:type owl:Class ;
+  rdfs:comment "Asset" ;
+  rdfs:label "Asset" ;
+  rdfs:subClassOf skos:Concept ;
+  owl:versionInfo "1" ;
+.
+:ControlledList
+  rdf:type owl:Class ;
+  rdfs:comment "Controlled list" ;
+  rdfs:label "Controlled list" ;
+  rdfs:subClassOf :Asset ;
+  owl:versionInfo "1" ;
+.
+:Domain
+  rdf:type owl:Class ;
+  rdfs:comment "Domain" ;
+  rdfs:label "Domain" ;
+  rdfs:subClassOf skos:Concept ;
+  owl:versionInfo "1" ;
+.
+:EurLex
+  rdf:type :Domain ;
+  rdfs:comment "Eur lex" ;
+  rdfs:label "Eur lex" ;
+  owl:versionInfo "1" ;
+  skos:inScheme :UseContext ;
+.
+:IMMC
+  rdf:type :Domain ;
+  rdfs:comment "IMMC" ;
+  rdfs:label "IMMC" ;
+  owl:versionInfo "1" ;
+  skos:inScheme :UseContext ;
+.
+:InfomationSystem
+  rdf:type owl:Class ;
+  rdfs:comment "Infomation system" ;
+  rdfs:label "Infomation system" ;
+  rdfs:subClassOf skos:Concept ;
+  owl:versionInfo "1" ;
+.
+:ModelOrSchema
+  rdf:type owl:Class ;
+  rdfs:comment "Model or schema" ;
+  rdfs:label "Model or schema" ;
+  rdfs:subClassOf :Asset ;
+  owl:versionInfo "1" ;
+.
+:NotationType
+  rdf:type skos:ConceptScheme ;
+  rdfs:comment "Notation type" ;
+  rdfs:label "Notation type" ;
+  owl:versionInfo "1" ;
+.
+:UseContext
+  rdf:type skos:ConceptScheme ;
+  rdfs:comment "Use context" ;
+  rdfs:label "Use context" ;
+  owl:versionInfo "1" ;
+.
+:pub
+  rdf:type :Domain ;
+  rdfs:comment "pub" ;
+  rdfs:label "pub" ;
+  owl:versionInfo "1" ;
+  skos:inScheme :UseContext ;
+.
+:subDomainOf
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "sub domain of" ;
+  rdfs:label "sub domain of" ;
+  rdfs:subPropertyOf skos:broader ;
+  owl:versionInfo "1" ;
+.
+:usedIn
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "used in" ;
+  rdfs:label "used in" ;
+  rdfs:subPropertyOf skos:broader ;
+  owl:versionInfo "1" ;
+.

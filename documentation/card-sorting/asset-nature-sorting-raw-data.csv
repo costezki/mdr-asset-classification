@@ -1,0 +1,219 @@
+Id;;parent-class-id;grandparent-class-id;grand-grandparent-class-id;parent-class-id;grandparent-class-id;grand-grandparent-class-id
+t1; application profile ;application model ; logical model ;model ;t269;t256;t250
+t10; knowledge organization systems (kos) ;controlled resource ;;;t251;;
+t100; data element ;data model (format) ;model ;;t257;t250;
+t101; conceptual model ;conceptual model ;model ;;t258;t250;
+t102; concept system ;conceptual model ;model ;;t258;t250;
+t103; data model ;data model (format) ;model ;;t257;t250;
+t104; terminological system ;code list ;term list ;;t259;t252;
+t105; classification scheme ;classification ;;;t253;;
+t106; named authority list ;NAL ;term list ;;t260;t252;
+t107; controlled vocabulary ;controlled resource ;;;t251;;
+t108; mapping ;mapping ;;;t254;;
+t109; reference asset ;term list ;;;t252;;
+t11; linked open data ;data model (format) ;model ;;t257;t250;
+t110; code list ;code list ;term list ;;t259;t252;
+t111; classification ;statistical classification ; classification (broad) ;classification ;t270;t261;t253
+t112; taxonomy ;taxonomy ; classification (broad) ;classification ;t271;t261;t253
+t113; code list ;code list ;term list ;;t259;t252;
+t114; structured vocabulary ;conceptual model ;model ;;t258;t250;
+t115; code list ;code list ;term list ;;t259;t252;
+t116; data dictionary ;data model (format) ;model ;;t257;t250;
+t117; value domain ;data model (format) ;model ;;t257;t250;
+t118; data element dictionary ;data model (format) ;model ;;t257;t250;
+t119; code space ;data model (format) ;model ;;t257;t250;
+t12; mapping ;mapping ;;;t254;;
+t120; concept model ;conceptual model ;model ;;t258;t250;
+t121; concept list ;conceptual model ;model ;;t258;t250;
+t122; concept model ;conceptual model ;model ;;t258;t250;
+t123; logical model ;logical model ;model ;;t256;t250;
+t124; core model ;core model ; logical model ;model ;t272;t256;t250
+t125; application model ;application model ; logical model ;model ;t269;t256;t250
+t126; logical model in rdf ;logical model ;model ;;t256;t250;
+t127; structured vocabulary ;conceptual model ;model ;;t258;t250;
+t128; application profile ;application model ; logical model ;model ;t269;t256;t250
+t129; code list ;code list ;term list ;;t259;t252;
+t13; metadata ;metadata model ; data model (format) ;model ;t273;t257;t250
+t130; application shema ;data model (format) ;model ;;t257;t250;
+t131; feature concept dictionary  ;dictionary ;term list ;;t262;t252;
+t132; glossary ;glossary ;term list ;;t263;t252;
+t133; theme register ;subject list ;term list ;;t264;t252;
+t134; reference document register ;controlled resource ;;;t251;;
+t135; code list register  ;code list ;term list ;;t259;t252;
+t136; metadata code list ;metadata model ; data model (format) ;model ;t273;t257;t250
+t137; register ;code list ;term list ;;t259;t252;
+t138; metadata element  ;metadata model ; data model (format) ;model ;t273;t257;t250
+t139; value domain ;data model (format) ;model ;;t257;t250;
+t14; name authority list ;NAL ;term list ;;t260;t252;
+t140; classification ;classification ;;;t253;;
+t141; code ;alphanumeric classification ; classification (broad) ;classification ;t274;t261;t253
+t142; coding structure ;alphanumeric classification ; classification (broad) ;classification ;t274;t261;t253
+t143; concept ;conceptual model ;model ;;t258;t250;
+t144; structured vocabulary  ;conceptual model ;model ;;t258;t250;
+t145; correspondance table ;mapping ;;;t254;;
+t146; category ;classification ;;;t253;;
+t147; format ;format / combination rules ; data model (format) ;model ;t275;t257;t250
+t148; framework ;thesauri ;classification ;;t265;t253;
+t149; hierarchy ;taxonomy ; classification (broad) ;classification ;t271;t261;t253
+t15; ontology ;logical model ;model ;;t256;t250;
+t150; nomemclature ;classification (broad) ;classification ;;t261;t253;
+t151; reference classification ;classification ;;;t253;;
+t152; standard classification ;classification ;;;t253;;
+t153; statistical classification ;statistical classification ; classification (broad) ;classification ;t270;t261;t253
+t154; structural links ;mapping ;;;t254;;
+t155; term ;term list ;;;t252;;
+t156; terminology ;taxonomy ; classification (broad) ;classification ;t271;t261;t253
+t157; hierarchical code list ;alphanumeric classification ; classification (broad) ;classification ;t274;t261;t253
+t158; thesaurus ;thesauri ;classification ;;t265;t253;
+t159; subject headings ;subject list ;term list ;;t264;t252;
+t16; properties ;data model (format) ;model ;;t257;t250;
+t160; name authority file ;NAL ;term list ;;t260;t252;
+t161; classification ;alphanumeric classification ; classification (broad) ;classification ;t274;t261;t253
+t162; classification scheme ;data model (format) ;model ;;t257;t250;
+t163; linked data service ;data model (format) ;model ;;t257;t250;
+t164; authority headings ;term list ;;;t252;;
+t165; heading list type ;subject list ;term list ;;t264;t252;
+t166; code list ;code list ;term list ;;t259;t252;
+t167; code list ;code list ;term list ;;t259;t252;
+t168; subject-matter domains ;enumerative classification ; classification (broad) ;classification ;t276;t261;t253
+t169; structural metadata ;internal structure ; data model (format) ;model ;t277;t257;t250
+t17; controlled vocabulary ;controlled resource ;;;t251;;
+t170; code list ;code list ;term list ;;t259;t252;
+t171; organisation scheme ;data model (format) ;model ;;t257;t250;
+t172; category scheme and categorisation ;classification ;;;t253;;
+t173; concept scheme ;code list ;term list ;;t259;t252;
+t174; metadata set ;metadata model ; data model (format) ;model ;t273;t257;t250
+t175; metadata structure definition ;internal structure ; data model (format) ;model ;t277;t257;t250
+t176; structure set ;metadata model ; data model (format) ;model ;t273;t257;t250
+t177; hierarchical code list ;alphanumeric classification ; classification (broad) ;classification ;t274;t261;t253
+t178; code lists  ;code list ;term list ;;t259;t252;
+t179; value vocabulary ;controlled resource ;;;t251;;
+t18; schedule ;glossary ;term list ;;t263;t252;
+t180; term list ;flat term list ;term list ;;t266;t252;
+t181; authority files ;glossary ;term list ;;t263;t252;
+t182; taxonomy ;taxonomy ; classification (broad) ;classification ;t271;t261;t253
+t183; thesaurus ;thesauri ;classification ;;t265;t253;
+t184; thesaurus ;thesauri ;classification ;;t265;t253;
+t185; taxonomy  ;taxonomy ; classification (broad) ;classification ;t271;t261;t253
+t186; value vocabulary ;controlled resource ;;;t251;;
+t187; controlled format ;data model (format) ;model ;;t257;t250;
+t188; vocabulary ;core model ; logical model ;model ;t272;t256;t250
+t189; subject heading lists ;subject list ;term list ;;t264;t252;
+t19; search thesaurus ;thesauri ;classification ;;t265;t253;
+t190; controlled list ;classification ;;;t253;;
+t191; synonym ring lists ;synonym ring ;term list ;;t267;t252;
+t192; authority file ;term list ;;;t252;;
+t193; taxonomy ;taxonomy ; classification (broad) ;classification ;t271;t261;t253
+t194; alphanumeric classification schemes ;alphanumeric classification ; classification (broad) ;classification ;t274;t261;t253
+t195; thesauri ;thesauri ;classification ;;t265;t253;
+t196; ontology ;logical model ;model ;;t256;t250;
+t197; folksonomy ;conceptual model ;model ;;t258;t250;
+t198; flat term list ;flat term list ;term list ;;t266;t252;
+t199; hierarchal term list ;taxonomy ; classification (broad) ;classification ;t271;t261;t253
+t2; application programming interface ;interface ; data model (format) ;model ;t278;t257;t250
+t20; controlled vocabulary ;data model (format) ;model ;;t257;t250;
+t200; synonym ring  ;synonym ring ;term list ;;t267;t252;
+t201; authority file ;glossary ;term list ;;t263;t252;
+t202; classification schemes ;alphanumeric classification ; classification (broad) ;classification ;t274;t261;t253
+t203; faceted controlled vocabularies ;faceted classification ; classification (broad) ;classification ;t279;t261;t253
+t204; thesauri ;thesauri ;classification ;;t265;t253;
+t205; ontology ;logical model ;model ;;t256;t250;
+t206; vocabulary encoding scheme ;classification ;;;t253;;
+t207; authority file ;term list ;;;t252;;
+t208; hierarchical classification ;classification (broad) ;classification ;;t261;t253;
+t209; enumerative classification ;enumerative classification ; classification (broad) ;classification ;t276;t261;t253
+t21; metadata element sets ;metadata model ; data model (format) ;model ;t273;t257;t250
+t210; synthetic classification ;faceted classification ; classification (broad) ;classification ;t279;t261;t253
+t211; hierarchy  ;classification (broad) ;classification ;;t261;t253;
+t212; taxonomy ;classification (broad) ;classification ;;t261;t253;
+t213; vocabulary encoding scheme (ves) ;classification ;;;t253;;
+t214; controlled-list data element ;data model (format) ;model ;;t257;t250;
+t215; vocabulary mapping ;mapping ;;;t254;;
+t216; thesaurus ;thesauri ;classification ;;t265;t253;
+t217;  flat list of preferred terms ;flat term list ;term list ;;t266;t252;
+t218; model ;logical model ;model ;;t256;t250;
+t22; subject heading scheme ;format / combination rules ; data model (format) ;model ;t275;t257;t250
+t23; subject headings ;subject list ;term list ;;t264;t252;
+t24; synonym ring ;synonym ring ;term list ;;t267;t252;
+t25; taxonomy ;taxonomy ; classification (broad) ;classification ;t271;t261;t253
+t26; terminology ;flat term list ;term list ;;t266;t252;
+t27; thesaurus ;thesauri ;classification ;;t265;t253;
+t28; thesaurus ;thesauri ;classification ;;t265;t253;
+t29; controlled vocabulary ;controlled resource ;;;t251;;
+t3; authority file ;term list ;;;t252;;
+t30; controlled vocabulary ;classification ;;;t253;;
+t31; core vocabularies ;data model (format) ;model ;;t257;t250;
+t32; ontology ;logical model ;model ;;t256;t250;
+t33; classification ;alphanumeric classification ; classification (broad) ;classification ;t274;t261;t253
+t34; authority file ;term list ;;;t252;;
+t35; controlled vocabulary ;controlled resource ;;;t251;;
+t36; crosswalk  ;mapping ;;;t254;;
+t37; element ;data model (format) ;model ;;t257;t250;
+t38; encoding scheme ;format / combination rules ; data model (format) ;model ;t275;t257;t250
+t39; format ;format / combination rules ; data model (format) ;model ;t275;t257;t250
+t4; classification scheme ;alphanumeric classification ; classification (broad) ;classification ;t274;t261;t253
+t40; glossary ;glossary ;term list ;;t263;t252;
+t41; information resource ;logical model ;model ;;t256;t250;
+t42; metadata ;term list ;;;t252;;
+t43; metadata registry ;registry ;;;t255;;
+t44; property ;data model (format) ;model ;;t257;t250;
+t45; record ;data model (format) ;model ;;t257;t250;
+t46; registry ;registry ;;;t255;;
+t47; relation ;data model (format) ;model ;;t257;t250;
+t48; resource ;controlled resource ;;;t251;;
+t49; resource description framework (rdf) ;logical model ;model ;;t256;t250;
+t5; classification system ;alphanumeric classification ; classification (broad) ;classification ;t274;t261;t253
+t50; scheme ;format / combination rules ; data model (format) ;model ;t275;t257;t250
+t51; structured values ;internal structure ; data model (format) ;model ;t277;t257;t250
+t52; structural metadata ;internal structure ; data model (format) ;model ;t277;t257;t250
+t53; subject ;data model (format) ;model ;;t257;t250;
+t54; subject headings ;subject list ;term list ;;t264;t252;
+t55; syntax ;internal structure ; data model (format) ;model ;t277;t257;t250
+t56; thesaurus ;thesauri ;classification ;;t265;t253;
+t57; term list ;term list ;;;t252;;
+t58; term list ;flat term list ;term list ;;t266;t252;
+t59; dictionary ;dictionary ;term list ;;t262;t252;
+t6; controlled vocabulary ;glossary ;term list ;;t263;t252;
+t60; glosary ;glossary ;term list ;;t263;t252;
+t61; synonym ring ;synonym ring ;term list ;;t267;t252;
+t62; metadata-like models ;term list ;;;t252;;
+t63; authority files ;NAL ;term list ;;t260;t252;
+t64; directories ;NAL ;term list ;;t260;t252;
+t65; gazetteers ;NAL ;term list ;;t260;t252;
+t66; classification and categorization ;classification ;;;t253;;
+t67; subject headings ;data model (format) ;model ;;t257;t250;
+t68; categorization schemes ;categorisation ;classification ;;t268;t253;
+t69; taxonomies ;classification (broad) ;classification ;;t261;t253;
+t7; controlled vocabulary ;controlled resource ;;;t251;;
+t70; classification schemes ;classification (broad) ;classification ;;t261;t253;
+t71; relationship models ;conceptual model ;model ;;t258;t250;
+t72; thesauri ;thesauri ;classification ;;t265;t253;
+t73; semantic networks ;logical model ;model ;;t256;t250;
+t74; ontologies ;logical model ;model ;;t256;t250;
+t75; subject-based classification ;subject based classification ; classification (broad) ;classification ;t280;t261;t253
+t76; controlled vocabularies ;term list ;;;t252;;
+t77; taxonomy  ;taxonomy ; classification (broad) ;classification ;t271;t261;t253
+t78; thesauri  ;thesauri ;classification ;;t265;t253;
+t79; faceted classification ;faceted classification ; classification (broad) ;classification ;t279;t261;t253
+t8; element set ;metadata model ; data model (format) ;model ;t273;t257;t250
+t80; ontology ;logical model ;model ;;t256;t250;
+t81; synonym ring ;synonym ring ;term list ;;t267;t252;
+t82; authority file ;glossary ;term list ;;t263;t252;
+t83; topic maps ;conceptual model ;model ;;t258;t250;
+t84; element set  ;metadata model ; data model (format) ;model ;t273;t257;t250
+t85; dataset ;data model (format) ;model ;;t257;t250;
+t86; controlled vocabulary ;glossary ;term list ;;t263;t252;
+t87; classification system ;classification ;;;t253;;
+t88; classification scheme ;classification ;;;t253;;
+t89; named authority list ;NAL ;term list ;;t260;t252;
+t9; exchange format ;interface ; data model (format) ;model ;t278;t257;t250
+t90; subject headings ;subject list ;term list ;;t264;t252;
+t91; thesaurus ;thesauri ;classification ;;t265;t253;
+t92; formal taxonomy  ;logical model ;model ;;t256;t250;
+t93; semantic spectrum ;logical model ;model ;;t256;t250;
+t94; glossary ;glossary ;term list ;;t263;t252;
+t95; controlled vocabulary ;glossary ;term list ;;t263;t252;
+t96; data dictionary ;glossary ;term list ;;t263;t252;
+t97; data model ;internal structure ; data model (format) ;model ;t277;t257;t250
+t98; taxonomy ;logical model ;model ;;t256;t250;
+t99; ontology ;logical model ;model ;;t256;t250;
